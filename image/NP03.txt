@@ -1,0 +1,25 @@
+[variables]
+Case ONP: to operate nuclear power plants
+Case DOE: to despoil our environment with long-lived radioactive materials
+Case ICR: to increase cancer risk
+Proposition RRT: The radiation from a reactor is tiny: about as much as that from our own bodies.
+Case MME: mining, milling, and enriching uranium for fuel to create nuclear energy
+Case RSA: to release significant amounts of radiation into the air and water
+Case UMI: uranium mining
+Case SHP: serious health problems to uranium miners
+Case PEQ: to produce enormous quantities of radioactive waste
+Concept SPR: a serious problem
+Proposition CPP: There currently is no permanent repository for the waste.
+Case OCP: to operate a coal-fired power plant
+Proposition RNR: Risks from nuclear reactor accidents are much less than those from air pollution caused by coal burning.
+[instances]
+red: I02 from consequence
+blue: I02 from consequence
+green: I02 from consequence
+orange: I02 from consequence
+darkgreen: I02 from consequence
+purple: I02 from consequence
+lightgreen: I02 from consequence
+cyan: I16b verbal evaluation
+magenta: I11b either constraint
+navy: I14b comparative constraint

@@ -1,0 +1,9 @@
+[variables]
+Proposition RMO: the right of militias to own guns, not the right of individuals, is protected. 
+Proposition WRM: A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.
+Proposition RIG: The right of individual gun ownership is protected. 
+Case EGC: to enact more gun control laws
+[instances]
+red: I07 rule or principle
+blue: I07 rule or principle
+green: I08 interpretation

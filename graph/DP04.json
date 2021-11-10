@@ -1,0 +1,316 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["DCR"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["IDP", "DCR"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["IDP", "DCR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["PFD"]
+        },
+        {
+            "id": "n6",
+            "predicate": "correlate",
+            "args": ["IDP", "DCR"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["DPC"]
+        },
+        {
+            "id": "n8",
+            "predicate": "assert",
+            "args": ["RIN", "DPC"]
+        },
+        {
+            "id": "n9",
+            "predicate": "familiar_with",
+            "args": ["RIN", "DPC"]
+        },
+        {
+            "id": "n10",
+            "predicate": "honest",
+            "args": ["RIN"]
+        },
+        {
+            "id": "n11",
+            "predicate": "acceptable",
+            "args": ["DPD"]
+        },
+        {
+            "id": "n12",
+            "predicate": "assert",
+            "args": ["RST", "DPD"]
+        },
+        {
+            "id": "n13",
+            "predicate": "familiar_with",
+            "args": ["RST", "DPD"]
+        },
+        {
+            "id": "n14",
+            "predicate": "honest",
+            "args": ["RST"]
+        },
+        {
+            "id": "n15",
+            "predicate": "acceptable",
+            "args": ["RSC"]
+        },
+        {
+            "id": "n16",
+            "predicate": "contradict",
+            "args": ["DPD", "DPN"]
+        },
+        {
+            "id": "n17",
+            "predicate": "acceptable",
+            "args": ["DPN"]
+        },
+        {
+            "id": "n18",
+            "predicate": "assert",
+            "args": ["CRM", "DPN"]
+        },
+        {
+            "id": "n19",
+            "predicate": "familiar_with",
+            "args": ["CRM", "DPN"]
+        },
+        {
+            "id": "n20",
+            "predicate": "honest",
+            "args": ["CRM"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n4",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n7",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n8"
+        },
+        {
+            "id": "e9",
+            "from": "n10",
+            "to": "n8"
+        },
+        {
+            "id": "e10",
+            "from": "n11",
+            "to": "n4"
+        },
+        {
+            "id": "e11",
+            "from": "n11",
+            "to": "n12"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "n12"
+        },
+        {
+            "id": "e13",
+            "from": "n14",
+            "to": "n12"
+        },
+        {
+            "id": "e14",
+            "from": "n15",
+            "to": "n13"
+        },
+        {
+            "id": "e15",
+            "from": "n11",
+            "to": "n16"
+        },
+        {
+            "id": "e16",
+            "from": "n17",
+            "to": "n16"
+        },
+        {
+            "id": "e17",
+            "from": "n17",
+            "to": "n18"
+        },
+        {
+            "id": "e18",
+            "from": "n19",
+            "to": "n18"
+        },
+        {
+            "id": "e19",
+            "from": "n20",
+            "to": "n18"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "DCR": {
+            "type": "Case",
+            "text": "to deter crime"
+        },
+        "PFD": {
+            "type": "Proposition",
+            "text": "People fear nothing more than death and nothing will deter a criminal more than the fear of death."
+        },
+        "DPC": {
+            "type": "Proposition",
+            "text": "Whether to introduce the death penalty correlates with a murder rate."
+        },
+        "RIN": {
+            "type": "Thing(s)",
+            "text": "recent investigations"
+        },
+        "DPD": {
+            "type": "Proposition",
+            "text": "The death penalty deters crime."
+        },
+        "RST": {
+            "type": "Thing(s)",
+            "text": "recent studies"
+        },
+        "RSC": {
+            "type": "Proposition",
+            "text": "Recent studies contain numerous technical and conceptual errors."
+        },
+        "DPN": {
+            "type": "Proposition",
+            "text": "the death penalty does not deter crime."
+        },
+        "CRM": {
+            "type": "Person(s)",
+            "text": "Criminologists"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I17",
+            "node_map": {
+                "C": "n4",
+                "P": "n6"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n7",
+                "P1": "n9",
+                "P2": "n10",
+                "P3": "n8"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n11",
+                "P1": "n13",
+                "P2": "n14",
+                "P3": "n12"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I12a",
+            "node_map": {
+                "C": "n11",
+                "P1": "n17",
+                "P2": "n16"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n17",
+                "P1": "n19",
+                "P2": "n20",
+                "P3": "n18"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e4",
+        "e6",
+        "e10",
+        "e14"
+    ]
+}

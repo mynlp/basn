@@ -1,0 +1,36 @@
+{
+    "id": "I16b",
+    "name": "verbal evaluation",
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "is",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "negative",
+            "args": ["V"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P1",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "C"
+        }
+    ]
+}

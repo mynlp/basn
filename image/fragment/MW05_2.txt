@@ -1,0 +1,5 @@
+[variables]
+Case REL: to reduce the employment of low-skilled workers
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence

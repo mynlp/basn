@@ -1,0 +1,6 @@
+[variables]
+Proposition PDG: Many people would no longer be dependent on government assistance programs.
+Case RGW: to reduce government welfare spending
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence

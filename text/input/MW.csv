@@ -1,0 +1,53 @@
+fragment_id,premises,conclusion
+MW01_1,"Increasing the minimum wage stimulates the economy.
+Stimulating the economy leads to job growth.
+Job growth is desirable.",We should increase the minimum wage.
+MW01_2,"Increasing the minimum wage raises the unemployment rate.
+Raising the unemployment rate is not desirable.",We should not increase the minimum wage.
+MW01_3,"Increasing the minimum wage raises the unemployment rate because companies may use more robots and automated processes to replace service employees.
+Raising the unemployment rate is not desirable.",We should not increase the minimum wage.
+MW01_4,"Increasing the minimum wage raises the unemployment rate because companies may outsource jobs to countries where costs would be lower.
+Raising the unemployment rate is not desirable.",We should not increase the minimum wage.
+MW02_1,"Increasing the minimum wage raises the unemployment rate.
+Raising the unemployment rate leads to increasing poverty.
+Increasing poverty is not desirable.",We should not increase the minimum wage.
+MW02_2,"Increasing the minimum wage reduces poverty.
+Reducing poverty is desirable.",We should increase the minimum wage.
+MW02_3,"The current minimum wage is not high enough to allow people to afford housing.
+Increasing the minimum wage solves the above problem.",We should increase the minimum wage.
+MW02_4,"The current minimum wage is not high enough to allow people to afford everyday essentials.
+Increasing the minimum wage solves the above problem.",We should increase the minimum wage.
+MW02_5,"Increasing the minimum wage leads to a healthier population.
+A healthier population is desirable.",We should increase the minimum wage.
+MW03_1,"The minimum wage should keep up with inflation.
+Increasing the minimum wage follows the above idea.",Increasing the minimum wage is acceptable.
+MW03_2,"The minimum wage should keep up with rising productivity and incomes.
+Increasing the minimum wage follows the above idea.",Increasing the minimum wage is acceptable.
+MW03_3,"The free market should determine minimum wages.
+Increasing the minimum wage does not follow the above idea.",Increasing the minimum wage is not acceptable.
+MW04_1,"Increasing the minimum wage reduces crime.
+Reducing crime is desirable.",We should increase the minimum wage.
+MW04_2,"Increasing the minimum wage raises the unemployment rate.
+Raising the unemployment rate leads to increasing crime.
+Increasing crime is not desirable.",We should not increase the minimum wage.
+MW05_1,"Increasing the minimum wage reduces teenage employment because 24% of minimum wage workers are teenagers.
+Reducing teenage employment is not desirable.",We should not increase the minimum wage.
+MW05_2,"Increasing the minimum wage reduces the employment of low-skilled workers.
+It is not desirable to reduce the employment of low-skilled workers.",We should not increase the minimum wage.
+MW05_3,"Increasing the minimum wage reduces the employment of low-skilled workers.
+Reducing the employment of low-skilled workers decreases opportunities for them to learn the skills needed to gain a promotion.
+It is not desirable to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion.",We should not increase the minimum wage.
+MW06_1,"Increasing the minimum wage reduces government welfare spending because many people would  no longer be dependent on government assistance programs.
+Reducing government welfare spending is desirable.",We should increase the minimum wage.
+MW07_1,"Increasing the minimum wage reduces race and gender inequality.
+Reducing race and gender inequality is desirable.",We should increase the minimum wage.
+MW07_2,"Increasing the minimum wage reduces income inequality.
+Reducing income inequality is desirable.",We should increase the minimum wage.
+MW08_1,"Increasing the minimum wage increases worker productivity and reduces employee turnover.
+It is desirable to increase worker productivity and reduce employee turnover.",We should increase the minimum wage.
+MW09_1,"Raising the minimum wage decreases employee benefits.
+Decreasing employee benefits is not desirable.",We should not increase the minimum wage.
+MW10_1,"Increasing the minimum wage leads to the closure of stores and companies.
+The closure of stores and companies is not desirable.",We should not increase the minimum wage.
+MW11_1,"Increasing the minimum wage harms the poorest areas.
+It is not desirable to harm the poorest areas.",We should not increase the minimum wage.

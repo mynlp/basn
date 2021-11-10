@@ -1,0 +1,6 @@
+[variables]
+Proposition MAP: Modern abortion procedures are safe.
+Case HAB: to have an abortion
+Case LHI: lasting health issues such as cancer and infertility
+[instances]
+red: I02 from consequence

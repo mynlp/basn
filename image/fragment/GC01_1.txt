@@ -1,0 +1,7 @@
+[variables]
+Proposition WRM: A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.
+Thing(s) SAU: the Second Amendment of the US Constitution states
+Case EGC: to enact more gun control laws
+[instances]
+red: I07 rule or principle
+blue: I06 from source authority

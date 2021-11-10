@@ -1,0 +1,5 @@
+[variables]
+Case DPR: to deny the possibility of redemption
+Case ILP: to introduce life in prison without parole
+[instances]
+red: I02 from consequence

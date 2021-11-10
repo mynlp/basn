@@ -1,0 +1,5 @@
+[variables]
+Case SAB: selective abortion based on genetic abnormalities
+Proposition PLM: Physical limitations don’t make those with disabilities less than humans.
+[instances]
+red: I07 rule or principle

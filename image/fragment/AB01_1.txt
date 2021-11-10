@@ -1,0 +1,5 @@
+[variables]
+Person(s) USC: the US Supreme Court
+Proposition AFR: Abortion is a fundamental right guaranteed by the US Constitution.
+[instances]
+red: I06 from source authority

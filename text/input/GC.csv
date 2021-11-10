@@ -1,0 +1,63 @@
+fragment_id,premises,conclusion
+GC01_1,"The Second Amendment of the US Constitution states, “A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.”
+(We should obey the constitution.)
+More gun control laws violate the above.",More gun control laws are not acceptable.
+GC01_2,"The Second Amendment of the US Constitution states, “A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.”
+(We should obey the constitution.)
+It means that the right of individual gun ownership is protected. 
+More gun control laws violate the above.",More gun control laws are not acceptable.
+GC01_3,"The Second Amendment of the US Constitution states, “A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.”
+(We should obey the constitution.)
+It means that the right of militias to own guns, not the right of individuals, is protected. 
+More gun control laws do not violate the above.",More gun control laws are acceptable.
+GC02_1,"A high-capacity magazine ban is a means to prevent mass-shootings.
+Preventing mass-shootings is desirable.",A high-capacity magazine ban is necessary.
+GC02_2,"Civilians, including hunters, should not own military-grade firearms or firearm accessories.
+Bans on assault weapons follow the above idea.",Bans on assault weapons are acceptable.
+GC02_3,"Bans on assault weapons infringe upon the right to own guns for hunting and sport.
+It is not desirable to infringe upon the right to own guns for hunting and sport.",Bans on assault weapons are not acceptable.
+GC03_1,"Possessing a gun makes a conflict more likely to become violent.
+Making a conflict more likely to become violent is not desirable.",We should not possess a gun.
+GC03_2,"Possessing a gun increases a woman’s risk of being murdered.
+Increasing a woman’s risk of being murdered is not desirable.",We should not possess a gun.
+GC03_3,"Possessing a gun makes a conflict more likely to become violent.
+It is not desirable to make a conflict more likely to become violent.
+More gun control laws are means to prohibit possessing a gun.",More gun control laws are necessary.
+GC04_1,"More gun control laws infringe upon the right to self-defense.
+Infringing upon the right to self-defense is not desirable.",More gun control laws are not acceptable.
+GC04_2,"Gun ownership is a means to enable self-defense.
+Enabling self-defense is desirable.
+More gun control laws prevent gun ownership.",More gun control laws are not acceptable.
+GC04_3,"Gun ownership is a means to enable self-defense because criminals avoid attacking a person who possesses a gun.
+Enabling self-defense is desirable.
+More gun control laws prevent gun ownership.",More gun control laws are not acceptable.
+GC04_4,"Some may argue that gun ownership is a means to enable self-defense.
+It is not true because guns are rarely used in self-defense.",Gun ownership is not necessary.
+GC04_5,"Some may argue that gun ownership is a means to enable self-defense.
+It is questionable because the average gun owner is not trained in law enforcement or on how to handle life-threatening situations.",Gun ownership is not necessary.
+GC05_1,"More gun control laws reduce gun crime.
+Reducing gun crime is desirable.",More gun control laws are necessary.
+GC05_2,"More gun control laws reduce gun crime because legally owned guns are frequently stolen and used by criminals.
+Reducing gun crime is desirable.",More gun control laws are necessary.
+GC05_3,"Some may argue that more gun control laws reduce gun crime.
+It is not true because criminals don’t obey the law.",More gun control laws are not necessary.
+GC05_4,"Countries with restrictive gun control laws have lower gun homicide and suicide rates than the United States.
+The above is evidence that the strictness of gun laws correlates with the gun murder rate.",More gun control laws reduce gun crime.
+GC05_5,"Most state-level gun control laws do not reduce the firearm death rate.
+The above is evidence that more gun control laws do not reduce gun murder.",More gun control laws do not reduce gun murder.
+GC06_1,"Gun ownership causes an accidental gun death.
+Accidental gun death is not desirable.",Gun ownership is not necessary.
+GC06_2,"Gun ownership causes an accidental gun death.
+Accidental gun death is not desirable.
+More gun control laws are means to prevent gun ownership.",More gun control laws are necessary.
+GC06_3,"Some may argue more gun control laws are means to prevent accidental gun deaths.
+Education about guns and gun safety is also a means to prevent accidental gun deaths.
+Education about guns and gun safety is better because children taught about firearms and their legitimate uses by family members have much lower rates of delinquency than children in households without guns.",More gun control laws are not necessary.
+GC07_1,"Background checks for guns reduce gun crime.
+Reducing gun crime is desirable.",Background checks for guns are necessary.
+GC07_2,"Background checks for guns invade our privacy.
+Invading our privacy is not desirable.",Background checks for guns are not acceptable.
+GC08_1,"More gun control laws reduce the societal costs associated with gun violence.
+It is desirable to reduce the societal costs associated with gun violence.",More gun control laws are necessary.
+GC09_1,"A majority of adults support common-sense gun control such as background checks, bans on assault weapons, and bans on high-capacity magazines.
+We should respect popular opinion.",Common-sense gun control is acceptable.

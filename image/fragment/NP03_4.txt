@@ -1,0 +1,7 @@
+[variables]
+Case ONP: to operate nuclear power plants
+Case UMI: uranium mining
+Case SHP: serious health problems to uranium miners
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

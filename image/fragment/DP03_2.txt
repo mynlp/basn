@@ -1,0 +1,5 @@
+[variables]
+Action DTC: DNA testing in criminal cases
+Case AJU: accurate judgment
+[instances]
+red: I04 means for goal

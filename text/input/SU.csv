@@ -1,0 +1,49 @@
+fragment_id,premises,conclusion
+SU01_1,"School uniforms deter crime because an intruder can easily be recognized.
+Deterring crime is desirable.",School uniforms are necessary.
+SU01_2,"Some may argue that school uniforms deter crime.
+It is questionable because there may be other factors like the introduction of new school security measures made at the same time.",School uniforms are not necessary.
+SU02_1,"School uniforms help students focus on learning.
+It is desirable to help students focus on learning.",School uniforms are necessary.
+SU02_2,"School uniforms help students focus on learning because students are less concerned about how they look and how they fit in with their peers.
+It is desirable to help students focus on learning.",School uniforms are necessary.
+SU02_3,"School uniforms improve attendance and discipline.
+improving attendance and discipline is desirable.",School uniforms are necessary.
+SU02_4,"Some may argue that school uniforms help students focus on learning.
+It is not true because a peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations.",School uniforms are not necessary.
+SU02_5,"Focusing on school uniforms takes attention away from finding genuine solutions to problems in education.
+It is not desirable to take attention away from finding genuine solutions to problems in education.",We should not focus on school uniforms.
+SU03_1,"School uniforms create a level playing field among students.
+It is desirable to create a level playing field among students.",School uniforms are necessary.
+SU03_2,"School uniforms emphasize the socio-economic divisions they are supposed to eliminate because most public schools with uniform policies are in poor neighborhoods.
+Emphasizing the socio-economic divisions is not desirable.",School uniforms are not necessary.
+SU04_1,"School uniforms enhance school pride, unity, and community spirit.
+It is desirable to enhance school pride, unity, and community spirit.",School uniforms are necessary.
+SU04_2,"School uniforms promote conformity over individuality.
+Promoting conformity over individuality is not desirable.",School uniforms are not necessary.
+SU04_3,"School uniforms may delay the transition into adulthood.
+It is not desirable to delay the transition into adulthood.",School uniforms are not necessary.
+SU05_1,"Either school uniforms or dress codes are necessary.
+School uniforms are better because they are easier to enforce.",School uniforms are necessary.
+SU06_1,"School uniforms save parents money.
+Saving parents money is desirable.",School uniforms are necessary.
+SU06_2,"School uniforms in public schools undermine the promise of free education by imposing an extra expense on families.
+It is not desirable to undermine the promise of free education.",School uniforms in public schools are not necessary
+SU07_1,"Most parents and educators assert school uniforms are necessary.
+We should respect the opinion of the persons concerned.",School uniforms are necessary.
+SU07_2,"Most parents and educators assert school uniforms are necessary.
+Parents and educators are familiar with this topic.",School uniforms are necessary.
+SU07_3,"Most students assert school uniforms are not necessary.
+We should respect the opinion of the persons concerned.",School uniforms are not necessary.
+SU07_4,"Most students assert school uniforms are not necessary.
+Students are familiar with this topic.",School uniforms are not necessary.
+SU08_1,"School uniforms restrict students’ freedom of expression.
+It is not desirable to restrict students’ freedom of expression.",School uniforms are not necessary.
+SU08_2,"Some may argue school uniforms restrict students’ freedom of expression.
+It is not true because students’ constitutional right to free speech does not relate to the regulation of the length of skirts or the type of clothing.",School uniforms are acceptable.
+SU08_3,"Some may argue school uniforms stop students from being themselves.
+It is not true because students can express their individuality in school uniforms by introducing variations and adding accessories.",School uniforms are acceptable.
+SU09_1,"School uniforms improve punctuality because they make getting ready for school easier.
+Improving punctuality is desirable.",School uniforms are necessary.
+SU10_1,"School uniforms make transgendered, gender-fluid, and gender-nonconforming students uncomfortable.
+It is not desirable to make them uncomfortable.",School uniforms are not necessary.

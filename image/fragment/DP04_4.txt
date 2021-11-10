@@ -1,0 +1,8 @@
+[variables]
+Thing(s) RIN: recent investigations
+Proposition DPC: Whether to introduce the death penalty correlates with a murder rate.
+Case IDP: to introduce the death penalty
+Case DCR: to deter crime
+[instances]
+red: I17 correlation to cause
+blue: I05 from source knowledge

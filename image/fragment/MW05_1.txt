@@ -1,0 +1,6 @@
+[variables]
+Case RTE: to reduce teenage employment
+Proposition TMW: 24% of minimum wage workers are teenagers.
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence

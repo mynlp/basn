@@ -1,0 +1,5 @@
+[variables]
+Case IDP: to introduce the death penalty
+Proposition SDL: A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+[instances]
+red: I07 rule or principle

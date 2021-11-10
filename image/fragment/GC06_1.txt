@@ -1,0 +1,5 @@
+[variables]
+Case AGD: an accidental gun death
+Case GOW: gun ownership
+[instances]
+red: I02 from consequence

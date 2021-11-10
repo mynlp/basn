@@ -1,0 +1,9 @@
+[variables]
+Case CDP: The death penalty is racially biased.
+Case HPR: the high poverty rate of a particular race
+Case DSR: The death sentence rate of a particular race is high compared to the population.
+Case HCR: the high crime rate of a particular race
+[instances]
+red: I02 from consequence
+blue: I02 from consequence
+green: I02 from consequence

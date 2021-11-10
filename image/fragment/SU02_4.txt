@@ -1,0 +1,6 @@
+[variables]
+Case HSF: to help students focus on learning
+Case ASU: to adopt school uniforms
+Proposition PSF: A peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations.
+[instances]
+red: I02 from consequence

@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["CPF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["HAB", "CPF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["FIF"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "CPF": {
+            "type": "Case",
+            "text": "to cause pain to a fetus"
+        },
+        "FIF": {
+            "type": "Proposition",
+            "text": "Fetuses are incapable of feeling pain when most abortions are performed."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3"
+    ]
+}

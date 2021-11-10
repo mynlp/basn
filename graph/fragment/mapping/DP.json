@@ -1,0 +1,177 @@
+{
+    "DP01_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "DP01_2": {
+        "nodes": ["n1", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "DP01_3": {
+        "nodes": ["n1", "n4", "n5", "n6", "n7"],
+        "instances": ["i2", "i3"],
+        "default_inferences": []
+    },
+    "DP01_4": {
+        "nodes": ["n9", "n10", "n11", "n12"],
+        "instances": ["i5"],
+        "default_inferences": []
+    },
+    "DP01_5": {
+        "nodes": ["n1", "n8", "n9"],
+        "instances": ["i4"],
+        "default_inferences": []
+    },
+    "DP01_6": {
+        "nodes": ["n13", "n14", "n15"],
+        "instances": ["i6"],
+        "default_inferences": []
+    },
+    "DP02_1": {
+        "nodes": ["n1", "n2", "n3", "n4", "n5", "n6", "n7"],
+        "instances": ["i1", "i2", "i3"],
+        "default_inferences": []
+    },
+    "DP02_2": {
+        "nodes": ["n1", "n2", "n3", "n4", "n8", "n9"],
+        "instances": ["i1", "i4"],
+        "default_inferences": ["e9"]
+    },
+    "DP02_3": {
+        "nodes": ["n1", "n10", "n11", "n12", "n13", "n14"],
+        "instances": ["i5", "i6"],
+        "default_inferences": ["e14"]
+    },
+    "DP02_4": {
+        "nodes": ["n1", "n10", "n11", "n12", "n13", "n15"],
+        "instances": ["i5", "i6"],
+        "default_inferences": ["e15"]
+    },
+    "DP03_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "DP03_2": {
+        "nodes": ["n1", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "DP03_3": {
+        "nodes": ["n1", "n4", "n5", "n6"],
+        "instances": ["i2"],
+        "default_inferences": ["e5"]
+    },
+    "DP03_4": {
+        "nodes": ["n1", "n4", "n5", "n7"],
+        "instances": ["i2"],
+        "default_inferences": ["e6"]
+    },
+    "DP04_1": {
+        "nodes": ["n1", "n2", "n4"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "DP04_2": {
+        "nodes": ["n1", "n2", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": ["e4"]
+    },
+    "DP04_3": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "DP04_4": {
+        "nodes": ["n4", "n6", "n7", "n8", "n9", "n10"],
+        "instances": ["i3", "i4"],
+        "default_inferences": ["e6"]
+    },
+    "DP04_5": {
+        "nodes": ["n11", "n12", "n13", "n14", "n15"],
+        "instances": ["i5"],
+        "default_inferences": ["e14"]
+    },
+    "DP04_6": {
+        "nodes": ["n17", "n18", "n19", "n20"],
+        "instances": ["i7"],
+        "default_inferences": []
+    },
+    "DP05_1": {
+        "nodes": ["n2", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "DP06_1": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "DP06_2": {
+        "nodes": ["n5", "n6", "n7"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "DP06_3": {
+        "nodes": ["n5", "n6", "n7", "n8", "n9", "n10", "n11"],
+        "instances": ["i2", "i3", "i4"],
+        "default_inferences": []
+    },
+    "DP07_1": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "DP07_2": {
+        "nodes": ["n1", "n2", "n3", "n5"],
+        "instances": ["i1"],
+        "default_inferences": ["e4"]
+    },
+    "DP07_3": {
+        "nodes": ["n1", "n2", "n3", "n6", "n7", "n8"],
+        "instances": ["i1", "i2"],
+        "default_inferences": ["e5"]
+    },
+    "DP07_4": {
+        "nodes": ["n3", "n4", "n9", "n10"],
+        "instances": ["i3"],
+        "default_inferences": ["e3"]
+    },
+    "DP07_5": {
+        "nodes": ["n3", "n9", "n11", "n12"],
+        "instances": ["i4"],
+        "default_inferences": ["e12"]
+    },
+    "DP07_6": {
+        "nodes": ["n1", "n2", "n3", "n13"],
+        "instances": ["i1"],
+        "default_inferences": ["e13"]
+    },
+    "DP08_1": {
+        "nodes": ["n1", "n2", "n3", "n4", "n5"],
+        "instances": ["i1", "i2"],
+        "default_inferences": ["e5"]
+    },
+    "DP08_2": {
+        "nodes": ["n1", "n2", "n3", "n4", "n6"],
+        "instances": ["i1", "i2"],
+        "default_inferences": ["e6"]
+    },
+    "DP08_3": {
+        "nodes": ["n4", "n7", "n8"],
+        "instances": ["i3"],
+        "default_inferences": []
+    },
+    "DP08_4": {
+        "nodes": ["n4", "n9", "n10", "n11", "n12"],
+        "instances": ["i4"],
+        "default_inferences": ["e9", "e12"]
+    },
+    "DP08_5": {
+        "nodes": ["n4", "n13", "n14"],
+        "instances": ["i5"],
+        "default_inferences": []
+    }
+}

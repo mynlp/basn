@@ -1,0 +1,5 @@
+[variables]
+Case IDP: to introduce the death penalty
+Case DCR: to deter crime
+[instances]
+red: I02 from consequence

@@ -1,0 +1,36 @@
+{
+    "id": "I02",
+    "name": "from consequence",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "bring_about",
+            "args": ["X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "bring_about",
+            "args": ["Y"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "P1"
+        }
+    ]
+}

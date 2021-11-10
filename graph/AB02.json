@@ -1,0 +1,84 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["KIH"]
+        },
+        {
+            "id": "n3",
+            "predicate": "follow",
+            "args": ["HAB", "KIH"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["LBC"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["WPU"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "KIH": {
+            "type": "Proposition",
+            "text": "We must not kill an innocent human being."
+        },
+        "LBC": {
+            "type": "Proposition",
+            "text": "Life begins at conception."
+        },
+        "WPU": {
+            "type": "Proposition",
+            "text": "The word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3",
+        "e4"
+    ]
+}

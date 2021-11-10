@@ -1,0 +1,8 @@
+[variables]
+Case PEG: to provide education about guns and gun safety
+Proposition CTF: Children taught about firearms and their legitimate uses by family members have much lower rates of delinquency than children in households without guns.
+Case EGC: to enact more gun control laws
+Case PAG: to prevent accidental gun deaths
+[instances]
+red: I04 means for goal
+blue: I14b comparative constraint

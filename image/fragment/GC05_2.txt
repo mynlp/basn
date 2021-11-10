@@ -1,0 +1,6 @@
+[variables]
+Case RGC: to reduce gun crime
+Proposition LOG: Legally owned guns are frequently stolen and used by criminals.
+Case EGC: to enact more gun control laws
+[instances]
+red: I02 from consequence

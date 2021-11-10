@@ -1,0 +1,5 @@
+[variables]
+Proposition NPS: Nuclear power is safe.
+Case HCN: After more than a half-century of commercial nuclear energy production in the United States, there have been no radiation-related health effects linked to their operation.
+[instances]
+red: I09 from evidence

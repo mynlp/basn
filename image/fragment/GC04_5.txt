@@ -1,0 +1,6 @@
+[variables]
+Proposition AGO: The average gun owner is not trained in law enforcement or on how to handle life-threatening situations.
+Case ESD: to enable self-defense
+Case GOW: gun ownership
+[instances]
+red: I04 means for goal

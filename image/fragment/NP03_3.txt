@@ -1,0 +1,7 @@
+[variables]
+Case RSA: to release significant amounts of radiation into the air and water
+Case ONP: to operate nuclear power plants
+Case MME: mining, milling, and enriching uranium for fuel to create nuclear energy
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

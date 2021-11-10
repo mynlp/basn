@@ -1,0 +1,6 @@
+[variables]
+Action DTC: DNA testing in criminal cases
+Proposition DRI: DNA is a reliable identifier.
+Case AJU: accurate judgment
+[instances]
+red: I04 means for goal

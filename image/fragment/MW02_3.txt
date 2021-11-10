@@ -1,0 +1,5 @@
+[variables]
+Case SAH: to solve the problem of the current minimum wage not being high enough to allow people to afford housing
+Case IMW: to increase the minimum wage
+[instances]
+red: I04 means for goal

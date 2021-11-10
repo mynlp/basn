@@ -1,0 +1,6 @@
+[variables]
+Case ONP: to operate nuclear power plants
+Proposition RRT: The radiation from a reactor is tiny: about as much as that from our own bodies.
+Case ICR: to increase cancer risk
+[instances]
+red: I02 from consequence

@@ -1,0 +1,6 @@
+[variables]
+Case HAB: to have an abortion
+Proposition LBC: Life begins at conception.
+Proposition KIH: We must not kill an innocent human being.
+[instances]
+red: I07 rule or principle

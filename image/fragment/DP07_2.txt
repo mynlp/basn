@@ -1,0 +1,6 @@
+[variables]
+Case KIP: to kill innocent people
+Case IDP: to introduce the death penalty
+Proposition PMO: Prosecutorial misconduct occurs.
+[instances]
+red: I02 from consequence

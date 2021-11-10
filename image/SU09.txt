@@ -1,0 +1,6 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case IPU: to improve punctuality
+Proposition MGR: School uniforms make getting ready for school easier.
+[instances]
+red: I02 from consequence

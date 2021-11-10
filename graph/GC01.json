@@ -1,0 +1,200 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["EGC"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["WRM"]
+        },
+        {
+            "id": "n3",
+            "predicate": "follow",
+            "args": ["EGC", "WRM"]
+        },
+        {
+            "id": "n4",
+            "predicate": "assert",
+            "args": ["SAU", "WRM"]
+        },
+        {
+            "id": "n5",
+            "predicate": "authority_over",
+            "args": ["SAU", "WRM"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["RIG"]
+        },
+        {
+            "id": "n7",
+            "predicate": "follow",
+            "args": ["EGC", "RIG"]
+        },
+        {
+            "id": "n8",
+            "predicate": "mean",
+            "args": ["WRM", "RIG"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["RMO"]
+        },
+        {
+            "id": "n10",
+            "predicate": "follow",
+            "args": ["EGC", "RMO"]
+        },
+        {
+            "id": "n11",
+            "predicate": "mean",
+            "args": ["WRM", "RMO"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n2"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n1"
+        },
+        {
+            "id": "e6",
+            "from": "n2",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n7",
+            "to": "n1"
+        },
+        {
+            "id": "e8",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e9",
+            "from": "n9",
+            "to": "n1"
+        },
+        {
+            "id": "e10",
+            "from": "n2",
+            "to": "n9"
+        },
+        {
+            "id": "e11",
+            "from": "n10",
+            "to": "n1"
+        },
+        {
+            "id": "e12",
+            "from": "n11",
+            "to": "n9"
+        }
+    ],
+    "variables": {
+        "EGC": {
+            "type": "Case",
+            "text": "to enact more gun control laws"
+        },
+        "SAU": {
+            "type": "Thing(s)",
+            "text": "the Second Amendment of the US Constitution states"
+        },
+        "WRM": {
+            "type": "Proposition",
+            "text": "A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed."
+        },
+        "RIG": {
+            "type": "Proposition",
+            "text": "The right of individual gun ownership is protected. "
+        },
+        "RMO": {
+            "type": "Proposition",
+            "text": "the right of militias to own guns, not the right of individuals, is protected. "
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n2",
+                "P1": "n5",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I07",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "n6",
+                "P1": "n2",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I07",
+            "node_map": {
+                "C": "n1",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "n9",
+                "P1": "n2",
+                "P2": "n11"
+            }
+        }
+    ],
+    "default_inferences": []
+}

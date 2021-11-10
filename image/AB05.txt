@@ -1,0 +1,15 @@
+[variables]
+Case HAB: to have an abortion
+Case FMP: future medical problems for the mother
+Case LHI: lasting health issues such as cancer and infertility
+Proposition MAP: Modern abortion procedures are safe.
+Case CPD: to cause psychological damage to a woman or her partner
+Case MHP: mental health problems
+Thing(s) RRE: recent research
+Proposition PLA: Purported links between abortion and mental health problems are unfounded.
+[instances]
+red: I02 from consequence
+blue: I02 from consequence
+green: I02 from consequence
+orange: I02 from consequence
+darkgreen: I05 from source knowledge

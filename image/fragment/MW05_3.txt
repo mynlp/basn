@@ -1,0 +1,7 @@
+[variables]
+Case REL: to reduce the employment of low-skilled workers
+Case DOL: to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

@@ -1,0 +1,9 @@
+[variables]
+Case PGO: to prevent gun ownership
+Case GOW: gun ownership
+Case ESD: to enable self-defense
+Case EGC: to enact more gun control laws
+[instances]
+red: I02 from consequence
+blue: I12b contradict constraint
+green: I04 means for goal

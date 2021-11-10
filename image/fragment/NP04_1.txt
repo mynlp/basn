@@ -1,0 +1,5 @@
+[variables]
+Case PCE: to provide carbonless energy
+Case INP: to introduce nuclear power plants
+[instances]
+red: I04 means for goal

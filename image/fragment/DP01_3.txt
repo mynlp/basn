@@ -1,0 +1,7 @@
+[variables]
+Proposition SPP: Those who commit serious crimes morally deserve to suffer a proportionate punishment.
+Concept BBR: barbaric
+Case IDP: to introduce the death penalty
+[instances]
+red: I07 rule or principle
+blue: I16b verbal evaluation

@@ -1,0 +1,5 @@
+[variables]
+Proposition CIH: Civilians, including hunters, should not own military-grade firearms or firearm accessories.
+Action BAW: bans on assault weapons
+[instances]
+red: I07 rule or principle

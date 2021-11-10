@@ -1,0 +1,8 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case CLP: to create a level playing field among students
+Case ESD: to emphasize the socio-economic divisions they are supposed to eliminate
+Proposition MPS: Most public schools with uniform policies are in poor neighborhoods.
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

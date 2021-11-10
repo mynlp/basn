@@ -1,0 +1,7 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case SPM: to save parents money
+Case UPF: to undermine the promise of free education by imposing an extra expense on families
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

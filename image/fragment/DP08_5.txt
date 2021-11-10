@@ -1,0 +1,5 @@
+[variables]
+Case CPS: to cause psychiatric symptoms to prisoners
+Case ILP: to introduce life in prison without parole
+[instances]
+red: I02 from consequence

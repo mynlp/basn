@@ -1,0 +1,135 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RTE"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IMW", "RTE"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["TMW"]
+        },
+        {
+            "id": "n5",
+            "predicate": "bring_about",
+            "args": ["REL"]
+        },
+        {
+            "id": "n6",
+            "predicate": "lead_to",
+            "args": ["IMW", "REL"]
+        },
+        {
+            "id": "n7",
+            "predicate": "bring_about",
+            "args": ["DOL"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["REL", "DOL"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n1",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e6",
+            "from": "n5",
+            "to": "n7"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n7"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RTE": {
+            "type": "Case",
+            "text": "to reduce teenage employment"
+        },
+        "TMW": {
+            "type": "Proposition",
+            "text": "24% of minimum wage workers are teenagers."
+        },
+        "REL": {
+            "type": "Case",
+            "text": "to reduce the employment of low-skilled workers"
+        },
+        "DOL": {
+            "type": "Case",
+            "text": "to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n5",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n5",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3"
+    ]
+}

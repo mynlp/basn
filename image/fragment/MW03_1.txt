@@ -1,0 +1,5 @@
+[variables]
+Proposition KIN: The minimum wage should keep up with inflation.
+Case IMW: to increase the minimum wage
+[instances]
+red: I07 rule or principle

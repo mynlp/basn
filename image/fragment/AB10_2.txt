@@ -1,0 +1,7 @@
+[variables]
+Case HAB: to have an abortion
+Case PWF: to protect women from financial disadvantage
+Case RWC: to reduce welfare costs
+[instances]
+red: I04 means for goal
+blue: I02 from consequence

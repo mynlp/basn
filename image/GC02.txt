@@ -1,0 +1,10 @@
+[variables]
+Action HCM: a high-capacity magazine ban
+Case PMS: to prevent mass-shootings
+Action BAW: bans on assault weapons
+Proposition CIH: Civilians, including hunters, should not own military-grade firearms or firearm accessories.
+Case IRO: to infringe upon the right to own guns for hunting and sport
+[instances]
+red: I04 means for goal
+blue: I07 rule or principle
+green: I02 from consequence

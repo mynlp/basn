@@ -1,0 +1,11 @@
+[variables]
+Proposition NPS: Nuclear power is safe.
+Case HCN: After more than a half-century of commercial nuclear energy production in the United States, there have been no radiation-related health effects linked to their operation.
+Case UNP: The U.S. nuclear power industry has not melted down a reactor since Three Mile Island.
+Proposition NPN: Nuclear power is not safe.
+Case LPJ: The lives of people in Japan are being endangered by nuclear radiation as a result of the breakdown at the Fukushima nuclear plant.
+[instances]
+red: I09 from evidence
+blue: I09 from evidence
+green: I12a contradict constraint
+orange: I10 from example

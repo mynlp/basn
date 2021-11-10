@@ -1,0 +1,5 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case SPM: to save parents money
+[instances]
+red: I02 from consequence

@@ -1,0 +1,6 @@
+[variables]
+Case KIP: to kill innocent people
+Case IDP: to introduce the death penalty
+Proposition DHS: The criminal justice system rightfully demands a higher standard for the death penalty cases.
+[instances]
+red: I02 from consequence

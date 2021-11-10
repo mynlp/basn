@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["SPM"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["ASU", "SPM"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["UPF"]
+        },
+        {
+            "id": "n5",
+            "predicate": "lead_to",
+            "args": ["ASU", "UPF"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "SPM": {
+            "type": "Case",
+            "text": "to save parents money"
+        },
+        "UPF": {
+            "type": "Case",
+            "text": "to undermine the promise of free education by imposing an extra expense on families"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        }
+    ],
+    "default_inferences": []
+}

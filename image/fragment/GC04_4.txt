@@ -1,0 +1,6 @@
+[variables]
+Case ESD: to enable self-defense
+Case GOW: gun ownership
+Proposition GRU: Guns are rarely used in self-defense.
+[instances]
+red: I04 means for goal

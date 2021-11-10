@@ -1,0 +1,5 @@
+[variables]
+Action BAW: bans on assault weapons
+Case IRO: to infringe upon the right to own guns for hunting and sport
+[instances]
+red: I02 from consequence

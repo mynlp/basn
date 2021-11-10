@@ -1,0 +1,6 @@
+[variables]
+Case HSF: to help students focus on learning
+Case ASU: to adopt school uniforms
+Proposition SLC: Students are less concerned about how they look and how they fit in with their peers.
+[instances]
+red: I02 from consequence

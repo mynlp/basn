@@ -1,0 +1,7 @@
+[variables]
+Proposition DPT: Each death penalty trial costs a country three times more than a trial seeking death in prison.
+Case IDP: to introduce the death penalty
+Case ILP: to introduce life in prison without parole
+[instances]
+red: I11b either constraint
+blue: I14b comparative constraint

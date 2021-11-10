@@ -1,0 +1,77 @@
+fragment_id,premises,conclusion
+DP01_1,"We should not violate the sanctity of life.
+The death penalty does not follow the above.",The death penalty is not acceptable.
+DP01_2,"Those who commit serious crimes morally deserve to suffer a proportionate punishment.
+The death penalty follows the above.",The death penalty is acceptable.
+DP01_3,"Some may argue those who commit serious crimes morally deserve to suffer a proportionate punishment.
+The above idea is barbaric.",The idea that those who commit serious crimes morally deserve to suffer a proportionate punishment is not acceptable.
+DP01_4,"Immanuel Kant asserted that a society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+Immanuel Kant is credible.",A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+DP01_5,"A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+The death penalty follows the above idea.",The death penalty is acceptable.
+DP01_6,"The death penalty promotes moral healing for criminals before their death.
+It is desirable to promote moral healing for criminals before their death.",The death penalty is necessary.
+DP02_1,"The Fifth Amendment to the United States Constitution states no one shall be deprived of life, liberty or property without due process of law.
+(We should obey the constitution.)
+It means that citizens might be denied their life, liberty, or property if certain procedural safeguards were in place.
+The death penalty follows the above.",The death penalty is acceptable.
+DP02_2,"The Fifth Amendment to the United States Constitution states no one shall be deprived of life, liberty or property without due process of law.
+(We should obey the constitution.)
+The death penalty does not follow the above because execution under the Federal Death Penalty Act cuts off the opportunity for exoneration.",The death penalty is not acceptable.
+DP02_3,"The Eighth Amendment to the United States Constitution states excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+(We should obey the constitution.)
+The death penalty does not follow the above because it is cruel and unusual.",The death penalty is not acceptable.
+DP02_4,"The Eighth Amendment to the United States Constitution states excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+(We should obey the constitution.)
+The death penalty does not violate the above because many states have adopted a method of execution believed to be the most humane available.",The death penalty is acceptable.
+DP03_1,"DNA testing in criminal cases costs a lot of money.
+Costing a lot of money is not desirable.",DNA testing in criminal cases is not always necessary.
+DP03_2,"DNA testing in criminal cases is a means for accurate judgment.
+Accurate judgment is desirable.",DNA testing in criminal cases is necessary.
+DP03_3,"DNA testing in criminal cases is a means for accurate judgment because DNA is a reliable identifier.
+Accurate judgment is desirable.",DNA testing in criminal cases is necessary.
+DP03_4,"Some may argue DNA testing in criminal cases is a means for accurate judgment.
+It is not always true because DNA evidence is not available in many cases.",DNA testing in criminal cases is not always necessary.
+DP04_1,"The death penalty deters crime.
+Deterring crime is desirable.",The death penalty is necessary.
+DP04_2,"The death penalty deters crime because people fear nothing more than death and nothing will deter a criminal more than the fear of death.
+Deterring crime is desirable.",The death penalty is necessary.
+DP04_3,"The death penalty is a means to deter crime.
+Deterring crime is desirable.",The death penalty is necessary.
+DP04_4,"Whether to introduce the death penalty correlates with a murder rate according to recent investigations.
+Recent investigations are credible.",The death penalty deters crime.
+DP04_5,"Recent studies assert that the death penalty deters crime.
+These studies are, however, not credible because they contain numerous technical and conceptual errors.",The death penalty does not deter crime.
+DP04_6,"Criminologists assert that the death penalty does not deter crime.
+Criminologists are familiar with this topic.",The death penalty does not deter crime.
+DP05_1,"The death penalty is a punishment in proportion to a serious crime.
+A punishment in proportion to a crime is a key property of retributive justice.",The death penalty is retributive justice (not vengeance).
+DP06_1,"The criminal justice system must be fair.
+The death penalty does not follow the above because it is racially biased.",The death penalty is not acceptable.
+DP06_2,"If the death penalty is racially biased, the death sentence rate of a particular race will become high compared to the population.
+Now the death sentence rate of a particular race is high compared to the population.",The death penalty is racially biased.
+DP06_3,"Some may argue that the high death sentence rate of a particular race compared to the population is caused by the racially biased death penalty.
+It is not true because there is another factor as follows.
+The high poverty rate of a particular race leads to the high crime rate of the race.
+The high crime rate of the race leads to the high death sentence rate of the race.",The death penalty is not racially biased.
+DP07_1,"The death penalty leads to killing innocent people because the criminal justice system may make a mistake.
+Killing innocent people is not desirable.",The death penalty is not acceptable.
+DP07_2,"The death penalty leads to killing innocent people due to prosecutorial misconduct.
+Killing innocent people is not desirable.",The death penalty is not acceptable.
+DP07_3,"The death penalty may lead to killing innocent people.
+Killing innocent people is irreversible and irreparable.",The death penalty is not acceptable.
+DP07_4,"Some on death row were found to be innocent due to DNA testing.
+It means that the criminal justice system makes a mistake.",The death penalty leads to killing innocent people.
+DP07_5,"Some on death row were found to be innocent due to DNA testing.
+It means that multiple assurances are applied before a death sentence. (It is not the failure of the system.)",The death penalty does not lead to killing innocent people.
+DP07_6,"Some may argue the death penalty leads to killing innocent people.
+However, the possibility is very low because the criminal justice system rightfully demands a higher standard for the death penalty cases.",The death penalty is acceptable.
+DP08_1,"Either the death penalty or life in prison without parole is necessary.
+Life in prison without parole is better than the death penalty because life in prison is as severe as the death penalty.",We should introduce life in prison without parole.
+DP08_2,"Either the death penalty or life in prison without parole is necessary.
+Life in prison without parole is better than the death penalty because each death penalty trial costs a country three times more than a trial seeking death in prison.",We should introduce life in prison without parole.
+DP08_3,"Life in prison without parole denies the possibility of redemption.
+It is not desirable to deny the possibility of redemption.",Life in prison without parole is not acceptable.
+DP08_4,Life in prison without parole is as cruel as the death penalty because life in prison prisoners are treated as dead men.,Life in prison without parole is not acceptable.
+DP08_5,"Life in prison without parole causes psychiatric symptoms to prisoners.
+It is not desirable to cause psychiatric symptoms to prisoners.",Life in prison without parole is not acceptable.

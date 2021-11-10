@@ -1,0 +1,6 @@
+[variables]
+Proposition MPS: Most public schools with uniform policies are in poor neighborhoods.
+Case ASU: to adopt school uniforms
+Case ESD: to emphasize the socio-economic divisions they are supposed to eliminate
+[instances]
+red: I02 from consequence

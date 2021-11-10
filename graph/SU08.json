@@ -1,0 +1,117 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RSF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["ASU", "RSF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["SCR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "bring_about",
+            "args": ["SSB"]
+        },
+        {
+            "id": "n6",
+            "predicate": "lead_to",
+            "args": ["ASU", "SSB"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["SET"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n1",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "RSF": {
+            "type": "Case",
+            "text": "to restrict students’ freedom of expression"
+        },
+        "SCR": {
+            "type": "Proposition",
+            "text": "Students’ constitutional right to free speech does not relate to the regulation of the length of skirts or the type of clothing."
+        },
+        "SSB": {
+            "type": "Case",
+            "text": "to stop students from being themselves"
+        },
+        "SET": {
+            "type": "Proposition",
+            "text": "Students can express their individuality in school uniforms by introducing variations and adding accessories."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n5",
+                "P2": "n6"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3",
+        "e6"
+    ]
+}

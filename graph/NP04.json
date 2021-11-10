@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["INP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["PCE"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["INP", "PCE"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["USR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "means_to",
+            "args": ["USR", "PCE"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n2"
+        }
+    ],
+    "variables": {
+        "INP": {
+            "type": "Case",
+            "text": "to introduce nuclear power plants"
+        },
+        "PCE": {
+            "type": "Case",
+            "text": "to provide carbonless energy"
+        },
+        "USR": {
+            "type": "Case",
+            "text": "to use safe renewable forms of energy such as wind, solar, and geothermal power"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n4",
+                "P1": "n2",
+                "P2": "n5"
+            }
+        }
+    ],
+    "default_inferences": []
+}

@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RGW"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IMW", "RGW"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["PDG"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RGW": {
+            "type": "Case",
+            "text": "to reduce government welfare spending"
+        },
+        "PDG": {
+            "type": "Proposition",
+            "text": "Many people would no longer be dependent on government assistance programs."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3"    
+    ]
+}

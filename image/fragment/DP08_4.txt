@@ -1,0 +1,6 @@
+[variables]
+Concept CDP: as cruel as the death penalty
+Proposition LPP: Life in prison prisoners are treated as dead men.
+Case ILP: to introduce life in prison without parole
+[instances]
+red: I16b verbal evaluation

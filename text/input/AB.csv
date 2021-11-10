@@ -1,0 +1,47 @@
+fragment_id,premises,conclusion
+AB01_1,"The US Supreme Court asserted that abortion is a fundamental right guaranteed by the US Constitution.
+We should respect the decision of the US Supreme Court.",Abortion is a fundamental right guaranteed by the US Constitution.
+AB01_2,"The decision of the US Supreme Court in Roe v. Wade stated that the Constitution gives “a guarantee of certain areas or zones of privacy,” and that “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy”.
+It means that abortion is a fundamental right guaranteed by the US Constitution.
+The decision of the US Supreme Court in Roe v. Wade is credible.",Abortion is a fundamental right guaranteed by the US Constitution.
+AB01_3,"The decision of the US Supreme Court in Roe v. Wade asserted that abortion is a fundamental right guaranteed by the US Constitution.
+However, the decision of the US Supreme Court in Roe v. Wade is wrong.",The idea that abortion is a fundamental right guaranteed by the US Constitution is not acceptable.
+AB02_1,"We must not kill an innocent human being.
+Abortion violates the above.",Abortion is not acceptable.
+AB02_2,"We must not kill an innocent human being.
+Abortion violates the above because life begins at conception.",Abortion is not acceptable.
+AB02_3,"We must not kill an innocent human being.
+Abortion does not violate the above because the word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn.",Abortion is acceptable.
+AB03_1,"Abortion causes pain to a fetus.
+Causing pain to a fetus is not desirable.",Abortion is not acceptable.
+AB03_2,"Some may argue that abortion causes pain to a fetus.
+It is not true because fetuses are incapable of feeling pain when most abortions are performed.",Abortion is acceptable.
+AB04_1,"Legal abortions reduce maternal injury and death caused by unsafe, illegal abortions.
+It is desirable to reduce maternal injury and death caused by unsafe, illegal abortions.",Legal abortions are necessary.
+AB05_1,"Abortion may lead to future medical problems for the mother.
+Future medical problems for the mother are not desirable.",Abortion is not acceptable.
+AB05_2,"Some may argue that abortion causes lasting health issues such as cancer and infertility.
+It is not true because modern abortion procedures are safe.",Abortion is acceptable.
+AB05_3,"Abortion causes psychological damage to a woman or her partner.
+Psychological damage to a woman or her partner is not desirable.",Abortion is not acceptable.
+AB05_4,"Some may argue that abortion causes mental health problems.
+It is not true because recent research concluded that purported links between abortion and mental health problems are unfounded.",Abortion is acceptable.
+AB06_1,"Abortion is a means to give pregnant women the option to choose not to bring fetuses with profound abnormalities to full term.
+It is desirable to give pregnant women the option to choose not to bring fetuses with profound abnormalities to full term.",Abortion is necessary.
+AB06_2,"Physical limitations don’t make those with disabilities less than humans.
+Selective abortion based on genetic abnormalities does not follow the above idea.",Selective abortion is not acceptable.
+AB07_1,"Legal abortion leads to using abortion as a form of contraception.
+Using abortion as a form of contraception is immoral (negative value).",Legal abortion is not acceptable.
+AB08_1,"Abortion eliminates the potential societal contributions of a future human being.
+It is not desirable to eliminate the potential societal contributions of a future human being.",Abortion is not acceptable.
+AB09_1,"Unintended pregnancies are associated with birth defects, increased risk of child abuse, and so on.
+Abortion is a means to prevent the above.",Abortion is necessary.
+AB10_1,"Abortion is a means to protect women from financial disadvantage.
+Protecting women from financial disadvantage is desirable.",Abortion is necessary.
+AB10_2,"Abortion is a means to protect women from financial disadvantage.
+Protecting women from financial disadvantage leads to reducing welfare costs.
+Reducing welfare costs is desirable.",Abortion is necessary.
+AB10_3,"Abortion is a means to give pregnant women the choice to avoid interference with their education and career goals.
+It is desirable to give pregnant women the choice to avoid interference with their education and career goals.",Abortion is necessary.
+AB11_1,"Abortion promotes a culture in which human life is disposable.
+It is not desirable to promote a culture in which human life is disposable.",Abortion is not acceptable.

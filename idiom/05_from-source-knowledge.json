@@ -1,0 +1,47 @@
+{
+    "id": "I05",
+    "name": "from source knowledge",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "familiar_with",
+            "args": ["S", "X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "honest",
+            "args": ["S"]
+        },
+        {
+            "id": "P3",
+            "type": "premise",
+            "predicate": "assert",
+            "args": ["S", "X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P3"
+        },
+        {
+            "id": "E2",
+            "from": "P1",
+            "to": "P3"
+        },
+        {
+            "id": "E3",
+            "from": "P2",
+            "to": "P3"
+        }
+    ]
+}

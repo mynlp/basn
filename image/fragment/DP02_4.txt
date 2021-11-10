@@ -1,0 +1,8 @@
+[variables]
+Proposition MSA: Many states have adopted a method of execution believed to be the most humane available.
+Thing(s) EAU: the Eighth Amendment to the United States Constitution
+Case IDP: to introduce the death penalty
+Proposition EBR: Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+[instances]
+red: I06 from source authority
+blue: I07 rule or principle

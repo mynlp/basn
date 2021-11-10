@@ -1,0 +1,5 @@
+[variables]
+Case DTA: to delay the transition into adulthood
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

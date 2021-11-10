@@ -1,0 +1,15 @@
+[variables]
+Case EGC: to enact more gun control laws
+Case GOW: gun ownership
+Case PGO: to prevent gun ownership
+Case AGD: an accidental gun death
+Case PAG: to prevent accidental gun deaths
+Case PEG: to provide education about guns and gun safety
+Proposition CTF: Children taught about firearms and their legitimate uses by family members have much lower rates of delinquency than children in households without guns.
+[instances]
+red: I04 means for goal
+blue: I12b contradict constraint
+green: I02 from consequence
+orange: I12b contradict constraint
+darkgreen: I04 means for goal
+purple: I14b comparative constraint

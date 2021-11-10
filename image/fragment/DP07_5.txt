@@ -1,0 +1,7 @@
+[variables]
+Case KIP: to kill innocent people
+Proposition SDR: Some on death row were found to be innocent due to DNA testing.
+Case IDP: to introduce the death penalty
+Proposition MAA: Multiple assurances are applied before a death sentence.
+[instances]
+red: I08 interpretation

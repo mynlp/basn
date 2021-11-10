@@ -1,0 +1,10 @@
+[variables]
+Case PGO: to prevent gun ownership
+Proposition CAA: Criminals avoid attacking a person who possesses a gun.
+Case EGC: to enact more gun control laws
+Case ESD: to enable self-defense
+Case GOW: gun ownership
+[instances]
+red: I02 from consequence
+blue: I12b contradict constraint
+green: I04 means for goal

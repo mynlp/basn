@@ -1,0 +1,15 @@
+[variables]
+Case IDP: to introduce the death penalty
+Case ILP: to introduce life in prison without parole
+Proposition LPS: Life in prison without parole is as severe as the death penalty.
+Proposition DPT: Each death penalty trial costs a country three times more than a trial seeking death in prison.
+Case DPR: to deny the possibility of redemption
+Concept CDP: as cruel as the death penalty
+Proposition LPP: Life in prison prisoners are treated as dead men.
+Case CPS: to cause psychiatric symptoms to prisoners
+[instances]
+red: I11b either constraint
+blue: I14b comparative constraint
+green: I02 from consequence
+orange: I16b verbal evaluation
+darkgreen: I02 from consequence

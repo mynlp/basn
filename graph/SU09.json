@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["IPU"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["ASU", "IPU"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["MGR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "IPU": {
+            "type": "Case",
+            "text": "to improve punctuality"
+        },
+        "MGR": {
+            "type": "Proposition",
+            "text": "School uniforms make getting ready for school easier."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3"
+    ]
+}

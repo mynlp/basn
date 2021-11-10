@@ -1,0 +1,122 @@
+{
+    "SU01_1": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "SU01_2": {
+        "nodes": ["n1", "n2", "n3", "n5", "n6"],
+        "instances": ["i1", "i2"],
+        "default_inferences": []
+    },
+    "SU02_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU02_2": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "SU02_3": {
+        "nodes": ["n1", "n6", "n7"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "SU02_4": {
+        "nodes": ["n1", "n2", "n3", "n5"],
+        "instances": ["i1"],
+        "default_inferences": ["e4"]
+    },
+    "SU02_5": {
+        "nodes": ["n1", "n8", "n9"],
+        "instances": ["i3"],
+        "default_inferences": []
+    },
+    "SU03_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU03_2": {
+        "nodes": ["n1", "n4", "n5", "n6"],
+        "instances": ["i2"],
+        "default_inferences": ["e5"]
+    },
+    "SU04_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU04_2": {
+        "nodes": ["n1", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "SU04_3": {
+        "nodes": ["n1", "n6", "n7"],
+        "instances": ["i3"],
+        "default_inferences": []
+    },
+    "SU05_1": {
+        "nodes": ["n1", "n2", "n3", "n4", "n5"],
+        "instances": ["i1", "i2"],
+        "default_inferences": ["e5"]
+    },
+    "SU06_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU06_2": {
+        "nodes": ["n1", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "SU07_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU07_2": {
+        "nodes": ["n1", "n4", "n5", "n6"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "SU07_3": {
+        "nodes": ["n7", "n8", "n9"],
+        "instances": ["i4"],
+        "default_inferences": []
+    },
+    "SU07_4": {
+        "nodes": ["n7", "n10", "n11", "n12"],
+        "instances": ["i5"],
+        "default_inferences": []
+    },
+    "SU08_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "SU08_2": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "SU08_3": {
+        "nodes": ["n1", "n5", "n6", "n7"],
+        "instances": ["i2"],
+        "default_inferences": ["e6"]
+    },
+    "SU09_1": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "SU10_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    }
+}

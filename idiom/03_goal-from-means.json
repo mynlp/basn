@@ -1,0 +1,36 @@
+{
+    "id": "I03",
+    "name": "goal from means",
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "bring_about",
+            "args": ["X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "means_to",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "bring_about",
+            "args": ["Y"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P1",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "C"
+        }
+    ]
+}

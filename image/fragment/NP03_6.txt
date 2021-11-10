@@ -1,0 +1,7 @@
+[variables]
+Case OCP: to operate a coal-fired power plant
+Case ONP: to operate nuclear power plants
+Proposition RNR: Risks from nuclear reactor accidents are much less than those from air pollution caused by coal burning.
+[instances]
+red: I11b either constraint
+blue: I14b comparative constraint

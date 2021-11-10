@@ -1,0 +1,152 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["EGC"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["NPG"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["EGC", "NPG"]
+        },
+        {
+            "id": "n4",
+            "predicate": "contradict",
+            "args": ["PGU", "NPG"]
+        },
+        {
+            "id": "n5",
+            "predicate": "bring_about",
+            "args": ["PGU"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["MCB"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["PGU", "MCB"]
+        },
+        {
+            "id": "n8",
+            "predicate": "bring_about",
+            "args": ["IWR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "lead_to",
+            "args": ["PGU", "IWR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n2",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n5",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n5",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n8"
+        }
+    ],
+    "variables": {
+        "EGC": {
+            "type": "Case",
+            "text": "to enact more gun control laws"
+        },
+        "PGU": {
+            "type": "Case",
+            "text": "to possess a gun"
+        },
+        "NPG": {
+            "type": "Case",
+            "text": "not to possess a gun"
+        },
+        "MCB": {
+            "type": "Case",
+            "text": "to make a conflict more likely to become violent"
+        },
+        "IWR": {
+            "type": "Case",
+            "text": "to increase a woman’s risk of being murdered"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I12b",
+            "node_map": {
+                "C": "n2",
+                "P1": "n5",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n5",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n5",
+                "P1": "n8",
+                "P2": "n9"
+            }
+        }
+    ],
+    "default_inferences": []
+}

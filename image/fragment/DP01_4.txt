@@ -1,0 +1,5 @@
+[variables]
+Proposition SDL: A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+Person(s) IKA: Immanuel Kant
+[instances]
+red: I05 from source knowledge

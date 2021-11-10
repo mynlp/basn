@@ -1,0 +1,5 @@
+[variables]
+Proposition FMD: The free market should determine minimum wages.
+Case IMW: to increase the minimum wage
+[instances]
+red: I07 rule or principle

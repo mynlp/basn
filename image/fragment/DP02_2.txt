@@ -1,0 +1,8 @@
+[variables]
+Thing(s) FAU: the Fifth Amendment to the United States Constitution
+Case IDP: to introduce the death penalty
+Proposition EFD: Execution under the Federal Death Penalty Act cuts off the opportunity for exoneration.
+Proposition NDL: No one shall be deprived of life, liberty or property without due process of law.
+[instances]
+red: I06 from source authority
+blue: I07 rule or principle

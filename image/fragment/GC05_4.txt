@@ -1,0 +1,8 @@
+[variables]
+Case RGC: to reduce gun crime
+Proposition CRG: Countries with restrictive gun control laws have lower gun homicide and suicide rates than the United States.
+Case EGC: to enact more gun control laws
+Proposition SGL: The strictness of gun laws correlates with the gun murder rate.
+[instances]
+red: I17 correlation to cause
+blue: I10 from example

@@ -1,0 +1,14 @@
+[variables]
+Case EGC: to enact more gun control laws
+Case RGC: to reduce gun crime
+Proposition LOG: Legally owned guns are frequently stolen and used by criminals.
+Proposition COL: Criminals don’t obey the law.
+Proposition CRG: Countries with restrictive gun control laws have lower gun homicide and suicide rates than the United States.
+Proposition SGL: The strictness of gun laws correlates with the gun murder rate.
+Proposition GCL: More gun control laws do not reduce gun murder.
+Proposition SLG: Most state-level gun control laws do not reduce the firearm death rate.
+[instances]
+red: I02 from consequence
+blue: I17 correlation to cause
+green: I10 from example
+orange: I09 from evidence

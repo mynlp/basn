@@ -1,0 +1,6 @@
+[variables]
+Proposition DPD: The death penalty deters crime.
+Thing(s) RST: recent studies
+Proposition RSC: Recent studies contain numerous technical and conceptual errors.
+[instances]
+red: I05 from source knowledge

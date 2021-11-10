@@ -1,0 +1,6 @@
+[variables]
+Case KIP: to kill innocent people
+Proposition CJS: The criminal justice system may make a mistake.
+Case IDP: to introduce the death penalty
+[instances]
+red: I02 from consequence

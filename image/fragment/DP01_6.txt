@@ -1,0 +1,5 @@
+[variables]
+Case PMH: promoting moral healing for criminals before their death
+Case IDP: to introduce the death penalty
+[instances]
+red: I02 from consequence

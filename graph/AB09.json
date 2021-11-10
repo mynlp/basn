@@ -1,0 +1,53 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["PUP"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["HAB", "PUP"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "PUP": {
+            "type": "Case",
+            "text": "to prevent the problem of unintended pregnancies which are associated with birth defects, increased risk of child abuse, and so on"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": []
+}

@@ -1,0 +1,5 @@
+[variables]
+Proposition SUN: School uniforms are necessary.
+Person(s) MPE: most parents and educators
+[instances]
+red: I06 from source authority

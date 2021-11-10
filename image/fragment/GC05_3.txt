@@ -1,0 +1,6 @@
+[variables]
+Case RGC: to reduce gun crime
+Case EGC: to enact more gun control laws
+Proposition COL: Criminals don’t obey the law.
+[instances]
+red: I02 from consequence

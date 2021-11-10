@@ -1,0 +1,6 @@
+[variables]
+Action DTC: DNA testing in criminal cases
+Proposition DEA: DNA evidence is not available in many cases.
+Case AJU: accurate judgment
+[instances]
+red: I04 means for goal

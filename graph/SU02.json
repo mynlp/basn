@@ -1,0 +1,150 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["HSF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["ASU", "HSF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["SLC"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["PSF"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["IAD"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["ASU", "IAD"]
+        },
+        {
+            "id": "n8",
+            "predicate": "bring_about",
+            "args": ["TAA"]
+        },
+        {
+            "id": "n9",
+            "predicate": "lead_to",
+            "args": ["ASU", "TAA"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n1",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n8"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "HSF": {
+            "type": "Case",
+            "text": "to help students focus on learning"
+        },
+        "SLC": {
+            "type": "Proposition",
+            "text": "Students are less concerned about how they look and how they fit in with their peers."
+        },
+        "IAD": {
+            "type": "Case",
+            "text": "to improve attendance and discipline"
+        },
+        "PSF": {
+            "type": "Proposition",
+            "text": "A peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations."
+        },
+        "TAA": {
+            "type": "Case",
+            "text": "to take attention away from finding genuine solutions to problems in education"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n8",
+                "P2": "n9"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3",
+        "e4"
+    ]
+}

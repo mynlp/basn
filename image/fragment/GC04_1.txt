@@ -1,0 +1,5 @@
+[variables]
+Case IRS: to infringe upon the right to self-defense
+Case EGC: to enact more gun control laws
+[instances]
+red: I02 from consequence

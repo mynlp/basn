@@ -1,0 +1,5 @@
+[variables]
+Case IAD: to improve attendance and discipline
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

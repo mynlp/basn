@@ -1,0 +1,9 @@
+[variables]
+Case IMW: to increase the minimum wage
+Proposition KIN: The minimum wage should keep up with inflation.
+Proposition KRP: The minimum wage should keep up with rising productivity and incomes.
+Proposition FMD: The free market should determine minimum wages.
+[instances]
+red: I07 rule or principle
+blue: I07 rule or principle
+green: I07 rule or principle

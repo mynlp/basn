@@ -1,0 +1,7 @@
+[variables]
+Case HAB: to have an abortion
+Proposition KIH: We must not kill an innocent human being.
+Proposition LBC: Life begins at conception.
+Proposition WPU: The word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn.
+[instances]
+red: I07 rule or principle

@@ -1,0 +1,5 @@
+[variables]
+Proposition NPN: Nuclear power is not safe.
+Case LPJ: The lives of people in Japan are being endangered by nuclear radiation as a result of the breakdown at the Fukushima nuclear plant.
+[instances]
+red: I10 from example

@@ -1,0 +1,7 @@
+[variables]
+Case KIP: to kill innocent people
+Proposition CJS: The criminal justice system may make a mistake.
+Case IDP: to introduce the death penalty
+Proposition SDR: Some on death row were found to be innocent due to DNA testing.
+[instances]
+red: I08 interpretation

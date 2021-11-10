@@ -1,0 +1,5 @@
+[variables]
+Case PMS: to prevent mass-shootings
+Action HCM: a high-capacity magazine ban
+[instances]
+red: I04 means for goal

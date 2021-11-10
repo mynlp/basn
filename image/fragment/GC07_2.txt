@@ -1,0 +1,5 @@
+[variables]
+Case BCG: background checks for guns
+Case IOP: to invade our privacy
+[instances]
+red: I02 from consequence

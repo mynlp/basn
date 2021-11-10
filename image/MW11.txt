@@ -1,0 +1,5 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case HPA: to harm the poorest areas
+[instances]
+red: I02 from consequence

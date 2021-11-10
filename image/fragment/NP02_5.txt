@@ -1,0 +1,6 @@
+[variables]
+Case MNP: to make nuclear power safe
+Proposition HSM: Hundreds of systems monitor, control, and support the safe operation of the reactor at each power plant.
+Case ISS: to introduce safety systems
+[instances]
+red: I03 goal from means

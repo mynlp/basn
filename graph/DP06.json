@@ -1,0 +1,183 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["CJS"]
+        },
+        {
+            "id": "n3",
+            "predicate": "follow",
+            "args": ["IDP", "CJS"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["PDP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "bring_about",
+            "args": ["CDP"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["DSR"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["CDP", "DSR"]
+        },
+        {
+            "id": "n8",
+            "predicate": "bring_about",
+            "args": ["HCR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "lead_to",
+            "args": ["DSR", "HCR"]
+        },
+        {
+            "id": "n10",
+            "predicate": "bring_about",
+            "args": ["HPR"]
+        },
+        {
+            "id": "n11",
+            "predicate": "lead_to",
+            "args": ["HCR", "HPR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n4",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n5",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n6"
+        },
+        {
+            "id": "e9",
+            "from": "n10",
+            "to": "n8"
+        },
+        {
+            "id": "e10",
+            "from": "n11",
+            "to": "n8"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "CJS": {
+            "type": "Proposition",
+            "text": "The criminal justice system must be fair."
+        },
+        "PDP": {
+            "type": "Proposition",
+            "text": "The death penalty is racially biased."
+        },
+        "CDP": {
+            "type": "Case",
+            "text": "The death penalty is racially biased."
+        },
+        "DSR": {
+            "type": "Case",
+            "text": "The death sentence rate of a particular race is high compared to the population."
+        },
+        "HCR": {
+            "type": "Case",
+            "text": "the high crime rate of a particular race"
+        },
+        "HPR": {
+            "type": "Case",
+            "text": "the high poverty rate of a particular race"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n5",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n8",
+                "P1": "n6",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n10",
+                "P1": "n8",
+                "P2": "n11"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3",
+        "e4"
+    ]
+}

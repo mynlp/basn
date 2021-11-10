@@ -1,0 +1,8 @@
+[variables]
+Case ONP: to operate nuclear power plants
+Concept SPR: a serious problem
+Case PEQ: to produce enormous quantities of radioactive waste
+Proposition CPP: There currently is no permanent repository for the waste.
+[instances]
+red: I02 from consequence
+blue: I16b verbal evaluation

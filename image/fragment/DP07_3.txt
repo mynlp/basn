@@ -1,0 +1,7 @@
+[variables]
+Case KIP: to kill innocent people
+Concept IIR: irreversible and irreparable
+Case IDP: to introduce the death penalty
+[instances]
+red: I02 from consequence
+blue: I16b verbal evaluation

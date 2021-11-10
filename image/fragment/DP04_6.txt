@@ -1,0 +1,5 @@
+[variables]
+Person(s) CRM: Criminologists
+Proposition DPN: the death penalty does not deter crime.
+[instances]
+red: I05 from source knowledge

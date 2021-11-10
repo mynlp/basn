@@ -1,0 +1,9 @@
+[variables]
+Action DTC: DNA testing in criminal cases
+Case CLM: to cost a lot of money
+Case AJU: accurate judgment
+Proposition DRI: DNA is a reliable identifier.
+Proposition DEA: DNA evidence is not available in many cases.
+[instances]
+red: I02 from consequence
+blue: I04 means for goal

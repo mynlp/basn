@@ -1,0 +1,35 @@
+fragment_id,premises,conclusion
+NP01_1,"After more than a half-century of commercial nuclear energy production in the United States, there have been no radiation-related health effects linked to their operation.
+The above is evidence that nuclear power is safe.",Nuclear power is safe.
+NP01_2,"The U.S. nuclear power industry has not melted down a reactor since Three Mile Island.
+The above is, however, not evidence that nuclear power is safe.",Nuclear power is not safe.
+NP01_3,"The lives of people in Japan are being endangered by nuclear radiation as a result of the breakdown at the Fukushima nuclear plant.
+The above is an example that shows nuclear power is not safe.",Nuclear power is not safe.
+NP02_1,"Regulating the uses of nuclear energy is a means to make nuclear power safe.
+The action is enough to achieve the goal as nuclear plants are designed, licensed, constructed, and operated to rigorous requirements established by the US Nuclear Regulatory Commission.",Nuclear power is safe.
+NP02_2,"Regulating the uses of nuclear energy is a means to make nuclear power safe.
+The action is enough to achieve the goal as the US Nuclear Regulatory Commission has a continuing inspection and oversight process with on-site resident inspectors and periodic inspection teams to ensure compliance with regulations and associated programs.",Nuclear power is safe.
+NP02_3,"Regulating the uses of nuclear energy is a means to make nuclear power safe.
+The action is not enough to achieve the goal as the US Nuclear Regulatory Commission does not adequately enforce safety standards.",Nuclear power is not safe.
+NP02_4,"Safety systems are means to make nuclear power safe.
+The action is enough to achieve the goal as modern nuclear technologies have multi-layered safety systems in place that offer a huge improvement on the older power plants.",Nuclear power is safe.
+NP02_5,"Safety systems are means to make nuclear power safe.
+The action is enough to achieve the goal as hundreds of systems monitor, control, and support the safe operation of the reactor at each power plant.",Nuclear power is safe.
+NP03_1,"Nuclear power plants despoil our environment with long-lived radioactive materials.
+It is not desirable to despoil our environment with long-lived radioactive materials.",Nuclear power plants are not acceptable.
+NP03_2,"Some may argue nuclear power plants increase cancer risk.
+It is not true because the radiation from a reactor is tiny: about as much as that from our own bodies.",Nuclear power plants are acceptable.
+NP03_3,"Operating nuclear power plants requires mining, milling, and enriching uranium for fuel to create nuclear energy.
+Mining, milling, and enriching uranium lead to releasing significant amounts of radiation into the air and water.
+It is not desirable to release significant amounts of radiation into the air and water.",We should not operate nuclear power plants.
+NP03_4,"Operating nuclear power plants requires uranium mining.
+Uranium mining causes serious health problems to uranium miners.
+Causing serious health problems to uranium miners is not desirable.",We should not operate nuclear power plants.
+NP03_5,"Operating nuclear power plants produce enormous quantities of radioactive waste.
+Producing enormous quantities of radioactive waste is a serious problem because there currently is no permanent repository for the waste.",We should not operate nuclear power plants.
+NP03_6,"Either a nuclear power plant or a coal-fired power plant is necessary.
+A nuclear power plant is better than a coal-fired power plant because risks from nuclear reactor accidents are much less than those from air pollution caused by coal burning.",A nuclear power plant is necessary.
+NP04_1,"Nuclear power plants are means to provide carbonless energy.
+Providing carbonless energy is desirable.",Nuclear power plants are necessary.
+NP04_2,"Some may argue nuclear power plants are means to provide carbonless energy.
+Safe renewable forms of energy such as wind, solar, and geothermal power are also means to provide carbonless energy.",Nuclear power plants are not necessary.

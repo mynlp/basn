@@ -1,0 +1,5 @@
+[variables]
+Case HAB: to have an abortion
+Case FMP: future medical problems for the mother
+[instances]
+red: I02 from consequence

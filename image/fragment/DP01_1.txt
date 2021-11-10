@@ -1,0 +1,5 @@
+[variables]
+Case IDP: to introduce the death penalty
+Proposition VSL: We should not violate the sancty of life.
+[instances]
+red: I07 rule or principle

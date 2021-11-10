@@ -1,0 +1,6 @@
+[variables]
+Case SSB: to stop students from being themselves
+Case ASU: to adopt school uniforms
+Proposition SET: Students can express their individuality in school uniforms by introducing variations and adding accessories.
+[instances]
+red: I02 from consequence

@@ -1,0 +1,5 @@
+[variables]
+Case UPF: to undermine the promise of free education by imposing an extra expense on families
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

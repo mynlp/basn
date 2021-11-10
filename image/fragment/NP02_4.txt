@@ -1,0 +1,6 @@
+[variables]
+Proposition MNT: Modern nuclear technologies have multi-layered safety systems in place that offer a huge improvement on the older power plants.
+Case MNP: to make nuclear power safe
+Case ISS: to introduce safety systems
+[instances]
+red: I03 goal from means

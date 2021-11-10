@@ -1,0 +1,5 @@
+[variables]
+Case PGU: to possess a gun
+Case MCB: to make a conflict more likely to become violent
+[instances]
+red: I02 from consequence

@@ -1,0 +1,6 @@
+[variables]
+Proposition CJS: The criminal justice system must be fair.
+Case IDP: to introduce the death penalty
+Proposition PDP: The death penalty is racially biased.
+[instances]
+red: I07 rule or principle

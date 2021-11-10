@@ -1,0 +1,17 @@
+[variables]
+Case IDP: to introduce the death penalty
+Thing(s) FAU: the Fifth Amendment to the United States Constitution
+Proposition NDL: No one shall be deprived of life, liberty or property without due process of law.
+Proposition CDL: Citizens might be denied their life, liberty, or property if certain procedural safeguards were in place.
+Proposition EFD: Execution under the Federal Death Penalty Act cuts off the opportunity for exoneration.
+Thing(s) EAU: the Eighth Amendment to the United States Constitution
+Proposition EBR: Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+Proposition DPC: The death penalty is cruel and unusual.
+Proposition MSA: Many states have adopted a method of execution believed to be the most humane available.
+[instances]
+red: I06 from source authority
+blue: I08 interpretation
+green: I07 rule or principle
+orange: I07 rule or principle
+darkgreen: I06 from source authority
+purple: I07 rule or principle

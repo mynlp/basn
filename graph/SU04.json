@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["ESP"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["ASU", "ESP"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["PCI"]
+        },
+        {
+            "id": "n5",
+            "predicate": "lead_to",
+            "args": ["ASU", "PCI"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["DTA"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["ASU", "DTA"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "ESP": {
+            "type": "Case",
+            "text": "to enhance school pride, unity, and community spirit"
+        },
+        "PCI": {
+            "type": "Case",
+            "text": "to promote conformity over individuality"
+        },
+        "DTA": {
+            "type": "Case",
+            "text": "to delay the transition into adulthood"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        }
+    ],
+    "default_inferences": []
+}

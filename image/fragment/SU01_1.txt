@@ -1,0 +1,6 @@
+[variables]
+Proposition IER: An intruder can easily be recognized.
+Case ASU: to adopt school uniforms
+Case DCR: to deter crime
+[instances]
+red: I02 from consequence

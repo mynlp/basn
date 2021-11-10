@@ -1,0 +1,7 @@
+[variables]
+Proposition LPS: Life in prison without parole is as severe as the death penalty.
+Case IDP: to introduce the death penalty
+Case ILP: to introduce life in prison without parole
+[instances]
+red: I11b either constraint
+blue: I14b comparative constraint

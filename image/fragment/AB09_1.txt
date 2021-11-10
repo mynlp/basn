@@ -1,0 +1,5 @@
+[variables]
+Case HAB: to have an abortion
+Case PUP: to prevent the problem of unintended pregnancies which are associated with birth defects, increased risk of child abuse, and so on
+[instances]
+red: I04 means for goal

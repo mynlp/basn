@@ -1,0 +1,5 @@
+[variables]
+Case RSF: to restrict students’ freedom of expression
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

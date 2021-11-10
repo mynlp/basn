@@ -1,0 +1,5 @@
+[variables]
+Case ESP: to enhance school pride, unity, and community spirit
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

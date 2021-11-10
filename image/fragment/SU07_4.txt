@@ -1,0 +1,5 @@
+[variables]
+Proposition NSU: School uniforms are not necessary.
+Person(s) MST: most students
+[instances]
+red: I05 from source knowledge

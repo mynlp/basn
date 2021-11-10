@@ -1,0 +1,5 @@
+[variables]
+Case PGU: to possess a gun
+Case IWR: to increase a woman’s risk of being murdered
+[instances]
+red: I02 from consequence

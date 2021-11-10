@@ -1,0 +1,7 @@
+[variables]
+Proposition CGG: The Constitution gives “a guarantee of certain areas or zones of privacy,” and that “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy”.
+Person(s) DRW: the decision of the US Supreme Court in Roe v. Wade
+Proposition AFR: Abortion is a fundamental right guaranteed by the US Constitution.
+[instances]
+red: I08 interpretation
+blue: I06 from source authority

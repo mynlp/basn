@@ -1,0 +1,5 @@
+[variables]
+Case CLP: to create a level playing field among students
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

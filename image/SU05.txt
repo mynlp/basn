@@ -1,0 +1,7 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case ADC: to adopt dress codes
+Proposition SUE: School uniforms are easier to enforce than dress codes.
+[instances]
+red: I11b either constraint
+blue: I14b comparative constraint

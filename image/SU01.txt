@@ -1,0 +1,8 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case DCR: to deter crime
+Proposition IER: An intruder can easily be recognized.
+Case INS: the introduction of new school security measures
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

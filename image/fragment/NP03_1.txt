@@ -1,0 +1,5 @@
+[variables]
+Case ONP: to operate nuclear power plants
+Case DOE: to despoil our environment with long-lived radioactive materials
+[instances]
+red: I02 from consequence

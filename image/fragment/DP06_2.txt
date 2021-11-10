@@ -1,0 +1,5 @@
+[variables]
+Case CDP: The death penalty is racially biased.
+Case DSR: The death sentence rate of a particular race is high compared to the population.
+[instances]
+red: I02 from consequence

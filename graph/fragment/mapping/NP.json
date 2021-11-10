@@ -1,0 +1,82 @@
+{
+    "NP01_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "NP01_2": {
+        "nodes": ["n1", "n4", "n5"],
+        "instances": ["i2"],
+        "default_inferences": []
+    },
+    "NP01_3": {
+        "nodes": ["n7", "n8", "n9"],
+        "instances": ["i4"],
+        "default_inferences": []
+    },
+    "NP02_1": {
+        "nodes": ["n1", "n2", "n3", "n4"],
+        "instances": ["i1"],
+        "default_inferences": ["e3"]
+    },
+    "NP02_2": {
+        "nodes": ["n1", "n2", "n3", "n5"],
+        "instances": ["i1"],
+        "default_inferences": ["e4"]
+    },
+    "NP02_3": {
+        "nodes": ["n1", "n2", "n3", "n6"],
+        "instances": ["i1"],
+        "default_inferences": ["e5"]
+    },
+    "NP02_4": {
+        "nodes": ["n1", "n7", "n8", "n9"],
+        "instances": ["i2"],
+        "default_inferences": ["e8"]
+    },
+    "NP02_5": {
+        "nodes": ["n1", "n7", "n8", "n10"],
+        "instances": ["i2"],
+        "default_inferences": ["e9"]
+    },
+    "NP03_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "NP03_2": {
+        "nodes": ["n1", "n4", "n5", "n6"],
+        "instances": ["i2"],
+        "default_inferences": ["e5"]
+    },
+    "NP03_3": {
+        "nodes": ["n1", "n7", "n8", "n9", "n10"],
+        "instances": ["i3", "i4"],
+        "default_inferences": []
+    },
+    "NP03_4": {
+        "nodes": ["n1", "n11", "n12", "n13", "n14"],
+        "instances": ["i5", "i6"],
+        "default_inferences": []
+    },
+    "NP03_5": {
+        "nodes": ["n1", "n15", "n16", "n17", "n18", "n19", "n20"],
+        "instances": ["i7", "i8"],
+        "default_inferences": ["e16", "e19"]
+    },
+    "NP03_6": {
+        "nodes": ["n1", "n21", "n22", "n23", "n24"],
+        "instances": ["i9", "i10"],
+        "default_inferences": ["e24"]
+    },
+    "NP04_1": {
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
+        "default_inferences": []
+    },
+    "NP04_2": {
+        "nodes": ["n1", "n2", "n3", "n4", "n5"],
+        "instances": ["i1", "i2"],
+        "default_inferences": []
+    }
+}

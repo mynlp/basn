@@ -1,0 +1,11 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case HSF: to help students focus on learning
+Proposition SLC: Students are less concerned about how they look and how they fit in with their peers.
+Case IAD: to improve attendance and discipline
+Proposition PSF: A peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations.
+Case TAA: to take attention away from finding genuine solutions to problems in education
+[instances]
+red: I02 from consequence
+blue: I02 from consequence
+green: I02 from consequence

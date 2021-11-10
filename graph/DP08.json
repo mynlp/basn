@@ -1,0 +1,233 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "either",
+            "args": ["IDP", "ILP"]
+        },
+        {
+            "id": "n3",
+            "predicate": "better_than",
+            "args": ["IDP", "ILP"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["LPS"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["DPT"]
+        },
+        {
+            "id": "n7",
+            "predicate": "bring_about",
+            "args": ["DPR"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["ILP", "DPR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n10",
+            "predicate": "is",
+            "args": ["ILP", "CDP"]
+        },
+        {
+            "id": "n11",
+            "predicate": "negative",
+            "args": ["CDP"]
+        },
+        {
+            "id": "n12",
+            "predicate": "acceptable",
+            "args": ["LPP"]
+        },
+        {
+            "id": "n13",
+            "predicate": "bring_about",
+            "args": ["CPS"]
+        },
+        {
+            "id": "n14",
+            "predicate": "lead_to",
+            "args": ["ILP", "CPS"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n1",
+            "to": "n3"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e6",
+            "from": "n6",
+            "to": "n3"
+        },
+        {
+            "id": "e7",
+            "from": "n4",
+            "to": "n7"
+        },
+        {
+            "id": "e8",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e9",
+            "from": "n9",
+            "to": "n4"
+        },
+        {
+            "id": "e10",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "e11",
+            "from": "n11",
+            "to": "n9"
+        },
+        {
+            "id": "e12",
+            "from": "n12",
+            "to": "n10"
+        },
+        {
+            "id": "e13",
+            "from": "n4",
+            "to": "n13"
+        },
+        {
+            "id": "e14",
+            "from": "n14",
+            "to": "n13"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "ILP": {
+            "type": "Case",
+            "text": "to introduce life in prison without parole"
+        },
+        "LPS": {
+            "type": "Proposition",
+            "text": "Life in prison without parole is as severe as the death penalty."
+        },
+        "DPT": {
+            "type": "Proposition",
+            "text": "Each death penalty trial costs a country three times more than a trial seeking death in prison."
+        },
+        "DPR": {
+            "type": "Case",
+            "text": "to deny the possibility of redemption"
+        },
+        "CDP": {
+            "type": "Concept",
+            "text": "as cruel as the death penalty"
+        },
+        "LPP": {
+            "type": "Proposition",
+            "text": "Life in prison prisoners are treated as dead men."
+        },
+        "CPS": {
+            "type": "Case",
+            "text": "to cause psychiatric symptoms to prisoners"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I11b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I14b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n4",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I16b",
+            "node_map": {
+                "C": "n9",
+                "P1": "n10",
+                "P2": "n11"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n4",
+                "P1": "n13",
+                "P2": "n14"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e5",
+        "e6",
+        "e9",
+        "e12"
+    ]
+}

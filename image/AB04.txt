@@ -1,0 +1,5 @@
+[variables]
+Case LAB: to legalize abortion
+Case RMI: to reduce maternal injury and death caused by unsafe, illegal abortions
+[instances]
+red: I02 from consequence

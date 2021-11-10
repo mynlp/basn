@@ -1,0 +1,5 @@
+[variables]
+Case HAB: to have an abortion
+Case GPW: to give pregnant women the choice to avoid interference with their education and career goals
+[instances]
+red: I04 means for goal

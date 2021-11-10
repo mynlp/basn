@@ -1,0 +1,5 @@
+[variables]
+Case TAA: to take attention away from finding genuine solutions to problems in education
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

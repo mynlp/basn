@@ -1,0 +1,7 @@
+[variables]
+Case JGR: job growth
+Case SEC: to stimulate the economy
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence
+blue: I02 from consequence

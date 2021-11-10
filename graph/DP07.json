@@ -1,0 +1,215 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["KIP"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IDP", "KIP"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["CJS"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["PMO"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["KIP"]
+        },
+        {
+            "id": "n7",
+            "predicate": "is",
+            "args": ["KIP", "IIR"]
+        },
+        {
+            "id": "n8",
+            "predicate": "negative",
+            "args": ["IIR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["SDR"]
+        },
+        {
+            "id": "n10",
+            "predicate": "mean",
+            "args": ["SDR", "CJS"]
+        },
+        {
+            "id": "n11",
+            "predicate": "acceptable",
+            "args": ["MAA"]
+        },
+        {
+            "id": "n12",
+            "predicate": "mean",
+            "args": ["SDR", "MAA"]
+        },
+        {
+            "id": "n13",
+            "predicate": "acceptable",
+            "args": ["DHS"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n2"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n4"
+        },
+        {
+            "id": "e9",
+            "from": "n10",
+            "to": "n4"
+        },
+        {
+            "id": "e10",
+            "from": "n9",
+            "to": "n11"
+        },
+        {
+            "id": "e11",
+            "from": "n12",
+            "to": "n11"
+        },
+        {
+            "id": "e12",
+            "from": "n11",
+            "to": "n3"
+        },
+        {
+            "id": "e13",
+            "from": "n13",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "KIP": {
+            "type": "Case",
+            "text": "to kill innocent people"
+        },
+        "CJS": {
+            "type": "Proposition",
+            "text": "The criminal justice system may make a mistake."
+        },
+        "PMO": {
+            "type": "Proposition",
+            "text": "Prosecutorial misconduct occurs."
+        },
+        "IIR": {
+            "type": "Concept",
+            "text": "irreversible and irreparable"
+        },
+        "SDR": {
+            "type": "Proposition",
+            "text": "Some on death row were found to be innocent due to DNA testing."
+        },
+        "MAA": {
+            "type": "Proposition",
+            "text": "Multiple assurances are applied before a death sentence."
+        },
+        "DHS": {
+            "type": "Proposition",
+            "text": "The criminal justice system rightfully demands a higher standard for the death penalty cases."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I16b",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "n4",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "n11",
+                "P1": "n9",
+                "P2": "n12"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e3",
+        "e4",
+        "e5",
+        "e12",
+        "e13"
+    ]
+}

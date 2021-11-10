@@ -1,0 +1,5 @@
+[variables]
+Proposition KRP: The minimum wage should keep up with rising productivity and incomes.
+Case IMW: to increase the minimum wage
+[instances]
+red: I07 rule or principle

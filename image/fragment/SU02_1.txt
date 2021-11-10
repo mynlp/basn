@@ -1,0 +1,5 @@
+[variables]
+Case HSF: to help students focus on learning
+Case ASU: to adopt school uniforms
+[instances]
+red: I02 from consequence

@@ -1,0 +1,93 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "either",
+            "args": ["ASU", "ADC"]
+        },
+        {
+            "id": "n3",
+            "predicate": "better_than",
+            "args": ["ASU", "ADC"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["ADC"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["SUE"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n1",
+            "to": "n3"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n5",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "ADC": {
+            "type": "Case",
+            "text": "to adopt dress codes"
+        },
+        "SUE": {
+            "type": "Proposition",
+            "text": "School uniforms are easier to enforce than dress codes."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I11b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I14b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n3"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e5"
+    ]
+}

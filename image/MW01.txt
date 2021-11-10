@@ -1,0 +1,11 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case SEC: to stimulate the economy
+Case JGR: job growth
+Case RUR: to raise the unemployment rate
+Proposition CUR: Companies may use more robots and automated processes to replace service employees.
+Proposition COJ: Companies may outsource jobs to countries where costs would be lower.
+[instances]
+red: I02 from consequence
+blue: I02 from consequence
+green: I02 from consequence

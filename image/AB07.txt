@@ -1,0 +1,7 @@
+[variables]
+Case LAB: to legalize an abortion
+Case UAF: to use abortion as a form of contraception
+Concept IMM: immoral
+[instances]
+red: I02 from consequence
+blue: I16b verbal evaluation

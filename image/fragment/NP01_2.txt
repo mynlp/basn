@@ -1,0 +1,5 @@
+[variables]
+Proposition NPS: Nuclear power is safe.
+Case UNP: The U.S. nuclear power industry has not melted down a reactor since Three Mile Island.
+[instances]
+red: I09 from evidence

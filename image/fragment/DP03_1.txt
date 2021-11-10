@@ -1,0 +1,5 @@
+[variables]
+Action DTC: DNA testing in criminal cases
+Case CLM: to cost a lot of money
+[instances]
+red: I02 from consequence

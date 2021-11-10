@@ -1,0 +1,6 @@
+[variables]
+Case RUR: to raise the unemployment rate
+Proposition COJ: Companies may outsource jobs to countries where costs would be lower.
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence

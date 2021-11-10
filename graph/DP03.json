@@ -1,0 +1,117 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["DTC"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["CLM"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["DTC", "CLM"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["AJU"]
+        },
+        {
+            "id": "n5",
+            "predicate": "means_to",
+            "args": ["DTC", "AJU"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["DRI"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["DEA"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n5"
+        }
+    ],
+    "variables": {
+        "DTC": {
+            "type": "Action",
+            "text": "DNA testing in criminal cases"
+        },
+        "CLM": {
+            "type": "Case",
+            "text": "to cost a lot of money"
+        },
+        "AJU": {
+            "type": "Case",
+            "text": "accurate judgment"
+        },
+        "DRI": {
+            "type": "Proposition",
+            "text": "DNA is a reliable identifier."
+        },
+        "DEA": {
+            "type": "Proposition",
+            "text": "DNA evidence is not available in many cases."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        }
+    ],
+    "default_inferences": [
+        "e5",
+        "e6"
+    ]
+}

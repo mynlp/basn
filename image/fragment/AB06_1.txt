@@ -1,0 +1,5 @@
+[variables]
+Case LAB: to legalize abortion
+Case GPW: to give pregnant women the option to choose not to bring fetuses with profound abnormalities to full term
+[instances]
+red: I04 means for goal

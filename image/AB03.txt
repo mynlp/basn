@@ -1,0 +1,6 @@
+[variables]
+Case HAB: to have an abortion
+Case CPF: to cause pain to a fetus
+Proposition FIF: Fetuses are incapable of feeling pain when most abortions are performed.
+[instances]
+red: I02 from consequence

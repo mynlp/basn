@@ -1,0 +1,6 @@
+[variables]
+Case RUN: to regulate the uses of nuclear energy
+Case MNP: to make nuclear power safe
+Proposition NPD: Nuclear plants are designed, licensed, constructed, and operated to rigorous requirements established by the US Nuclear Regulatory Commission.
+[instances]
+red: I03 goal from means

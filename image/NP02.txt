@@ -1,0 +1,12 @@
+[variables]
+Case MNP: to make nuclear power safe
+Case RUN: to regulate the uses of nuclear energy
+Proposition NPD: Nuclear plants are designed, licensed, constructed, and operated to rigorous requirements established by the US Nuclear Regulatory Commission.
+Proposition HCI: The US Nuclear Regulatory Commission has a continuing inspection and oversight process with on-site resident inspectors and periodic inspection teams to ensure compliance with regulations and associated programs.
+Proposition AES: The US Nuclear Regulatory Commission does not adequately enforce safety standards.
+Case ISS: to introduce safety systems
+Proposition MNT: Modern nuclear technologies have multi-layered safety systems in place that offer a huge improvement on the older power plants.
+Proposition HSM: Hundreds of systems monitor, control, and support the safe operation of the reactor at each power plant.
+[instances]
+red: I03 goal from means
+blue: I03 goal from means

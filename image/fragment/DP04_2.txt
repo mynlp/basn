@@ -1,0 +1,6 @@
+[variables]
+Case IDP: to introduce the death penalty
+Proposition PFD: People fear nothing more than death and nothing will deter a criminal more than the fear of death.
+Case DCR: to deter crime
+[instances]
+red: I02 from consequence

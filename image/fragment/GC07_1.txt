@@ -1,0 +1,5 @@
+[variables]
+Case RGC: to reduce gun crime
+Case BCG: background checks for guns
+[instances]
+red: I02 from consequence

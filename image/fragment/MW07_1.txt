@@ -1,0 +1,5 @@
+[variables]
+Case RRG: to reduce race and gender inequality
+Case IMW: to increase the minimum wage
+[instances]
+red: I02 from consequence

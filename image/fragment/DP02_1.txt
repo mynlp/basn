@@ -1,0 +1,9 @@
+[variables]
+Thing(s) FAU: the Fifth Amendment to the United States Constitution
+Case IDP: to introduce the death penalty
+Proposition NDL: No one shall be deprived of life, liberty or property without due process of law.
+Proposition CDL: Citizens might be denied their life, liberty, or property if certain procedural safeguards were in place.
+[instances]
+red: I06 from source authority
+blue: I08 interpretation
+green: I07 rule or principle

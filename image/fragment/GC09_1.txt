@@ -1,0 +1,5 @@
+[variables]
+Person(s) MOA: a majority of adults
+Case CSG: common-sense gun control such as background checks, bans on assault weapons, and bans on high-capacity magazines
+[instances]
+red: I06 from source authority

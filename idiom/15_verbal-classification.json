@@ -1,0 +1,36 @@
+{
+    "id": "I15",
+    "name": "verbal classification",
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "have",
+            "args": ["X", "F"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "key_property_of",
+            "args": ["F", "V"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "is",
+            "args": ["X", "V"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P2",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "C",
+            "to": "P1"
+        }
+    ]
+}
