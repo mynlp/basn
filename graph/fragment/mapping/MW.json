@@ -60,13 +60,13 @@
         "default_inferences": []
     },
     "MW04_1": {
-        "nodes": ["n1", "n2", "n3", "n4", "n5"],
-        "instances": ["i1", "i2"],
+        "nodes": ["n1", "n2", "n3"],
+        "instances": ["i1"],
         "default_inferences": []
     },
     "MW04_2": {
-        "nodes": ["n1", "n2", "n3", "n4", "n5"],
-        "instances": ["i1", "i2"],
+        "nodes": ["n1", "n4", "n5", "n6", "n7"],
+        "instances": ["i2", "i3"],
         "default_inferences": []
     },
     "MW05_1": {

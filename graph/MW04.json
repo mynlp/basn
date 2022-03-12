@@ -8,20 +8,30 @@
         {
             "id": "n2",
             "predicate": "bring_about",
-            "args": ["RUR"]
+            "args": ["RCR"]
         },
         {
             "id": "n3",
             "predicate": "lead_to",
-            "args": ["IMW", "RUR"]
+            "args": ["IMW", "RCR"]
         },
         {
             "id": "n4",
             "predicate": "bring_about",
-            "args": ["ICR"]
+            "args": ["RUR"]
         },
         {
             "id": "n5",
+            "predicate": "lead_to",
+            "args": ["IMW", "RUR"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["ICR"]
+        },
+        {
+            "id": "n7",
             "predicate": "lead_to",
             "args": ["RUR", "ICR"]
         }
@@ -39,19 +49,33 @@
         },
         {
             "id": "e3",
-            "from": "n2",
+            "from": "n1",
             "to": "n4"
         },
         {
             "id": "e4",
             "from": "n5",
             "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n4",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
         }
     ],
     "variables": {
         "IMW": {
             "type": "Case",
             "text": "to increase the minimum wage"
+        },
+        "RCR": {
+            "type": "Case",
+            "text": "to reduce crime"
         },
         "RUR": {
             "type": "Case",
@@ -76,9 +100,18 @@
             "id": "i2",
             "idiom_id": "I02",
             "node_map": {
-                "C": "n2",
+                "C": "n1",
                 "P1": "n4",
                 "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n4",
+                "P1": "n6",
+                "P2": "n7"
             }
         }
     ],
