@@ -59,6 +59,16 @@
             "id": "n12",
             "predicate": "lead_to",
             "args": ["IMW", "HPO"]
+        },
+        {
+            "id": "n13",
+            "predicate": "bring_about",
+            "args": ["RPO"]
+        },
+        {
+            "id": "n14",
+            "predicate": "lead_to",
+            "args": ["IMW", "RPO"]
         }
     ],
     "edges": [
@@ -131,6 +141,16 @@
             "id": "e14",
             "from": "n12",
             "to": "n11"
+        },
+        {
+            "id": "e15",
+            "from": "n1",
+            "to": "n13"
+        },
+        {
+            "id": "e16",
+            "from": "n14",
+            "to": "n13"
         }
     ],
     "variables": {
@@ -157,6 +177,10 @@
         "HPO": {
             "type": "Case",
             "text": "a healthier population"
+        },
+        "RPO": {
+            "type": "Case",
+            "text": "to reduce poverty"
         }
     },
     "instances": [
@@ -212,6 +236,15 @@
                 "C": "n1",
                 "P1": "n11",
                 "P2": "n12"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n1",
+                "P1": "n13",
+                "P2": "n14"
             }
         }
     ],

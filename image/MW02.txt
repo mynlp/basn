@@ -5,6 +5,7 @@ Case IPO: to increase poverty
 Case SAH: to solve the problem of the current minimum wage not being high enough to allow people to afford housing
 Case SAE: to solve the problem of the current minimum wage not being high enough to allow people to afford everyday essentials
 Case HPO: a healthier population
+Case RPO: to reduce poverty
 [instances]
 red: I02 from consequence
 blue: I02 from consequence
@@ -12,3 +13,4 @@ green: I02 from consequence
 orange: I04 means for goal
 darkgreen: I04 means for goal
 purple: I02 from consequence
+lightgreen: I02 from consequence

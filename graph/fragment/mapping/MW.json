@@ -25,8 +25,8 @@
         "default_inferences": []
     },
     "MW02_2": {
-        "nodes": ["n1", "n4", "n6"],
-        "instances": ["i3"],
+        "nodes": ["n1", "n13", "n14"],
+        "instances": ["i7"],
         "default_inferences": []
     },
     "MW02_3": {

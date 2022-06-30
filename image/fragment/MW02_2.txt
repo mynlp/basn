@@ -1,5 +1,5 @@
 [variables]
-Case IPO: to increase poverty
 Case IMW: to increase the minimum wage
+Case RPO: to reduce poverty
 [instances]
 red: I02 from consequence
