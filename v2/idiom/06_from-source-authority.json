@@ -1,0 +1,43 @@
+{
+    "id": "I06",
+    "name": "from source authority",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "authority_over",
+            "args": ["S", "X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "assert",
+            "args": ["S", "X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P1",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "C"
+        }
+    ],
+    "cpd": {
+        "evidence": ["P1", "P2"],
+        "values": [
+            [0.99, 0.5, 0.5, 0.5],
+            [0.01, 0.5, 0.5, 0.5]
+        ]
+    }
+}

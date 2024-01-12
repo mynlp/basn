@@ -1,0 +1,43 @@
+{
+    "id": "I12d",
+    "name": "either constraint",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "bring_about",
+            "args": ["X"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "not_bring_about",
+            "args": ["X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "either",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P2"
+        },
+        {
+            "id": "E2",
+            "from": "P1",
+            "to": "P2"
+        }
+    ],
+    "cpd": {
+        "evidence": ["C", "P1"],
+        "values": [
+            [0.01, 0.99, 0.99, 0.01],
+            [0.99, 0.01, 0.01, 0.99]
+        ]
+    }
+}

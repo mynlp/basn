@@ -1,0 +1,32 @@
+{
+    "id": "I18",
+    "name": "correlation to cause",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P",
+            "type": "premise",
+            "predicate": "correlate",
+            "args": ["X", "Y"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P"
+        }
+    ],
+    "cpd": {
+        "evidence": ["C"],
+        "values": [
+            [0.99, 0.5],
+            [0.01, 0.5]
+        ]
+    }
+}

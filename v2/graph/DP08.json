@@ -1,0 +1,404 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n3",
+            "predicate": "either",
+            "args": ["IDP", "ILP"]
+        },
+        {
+            "id": "n4",
+            "predicate": "better_than",
+            "args": ["ILP", "IDP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "either",
+            "args": ["ILP", "IDP"]
+        },
+        {
+            "id": "z1",
+            "predicate": "equivalent",
+            "args": []
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["LPB"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["LPS"]
+        },
+        {
+            "id": "z2",
+            "predicate": "acceptable",
+            "args": ["LPB"]
+        },
+        {
+            "id": "n8",
+            "predicate": "reason_enough",
+            "args": ["LPS", "LPB"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["DPT"]
+        },
+        {
+            "id": "z3",
+            "predicate": "acceptable",
+            "args": ["LPB"]
+        },
+        {
+            "id": "n10",
+            "predicate": "reason_enough",
+            "args": ["DPT", "LPB"]
+        },
+        {
+            "id": "n11",
+            "predicate": "bring_about",
+            "args": ["DPR"]
+        },
+        {
+            "id": "n12",
+            "predicate": "lead_to",
+            "args": ["ILP", "DPR"]
+        },
+        {
+            "id": "n13",
+            "predicate": "unacceptable",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n14",
+            "predicate": "is",
+            "args": ["ILP", "ACA"]
+        },
+        {
+            "id": "n15",
+            "predicate": "negative",
+            "args": ["ACA"]
+        },
+        {
+            "id": "n16",
+            "predicate": "acceptable",
+            "args": ["IAC"]
+        },
+        {
+            "id": "n17",
+            "predicate": "acceptable",
+            "args": ["LPP"]
+        },
+        {
+            "id": "n18",
+            "predicate": "reason_enough",
+            "args": ["LPP", "IAC"]
+        },
+        {
+            "id": "n19",
+            "predicate": "not_bring_about",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n20",
+            "predicate": "either",
+            "args": ["ILP"]
+        },
+        {
+            "id": "n21",
+            "predicate": "bring_about",
+            "args": ["CPS"]
+        },
+        {
+            "id": "n22",
+            "predicate": "lead_to",
+            "args": ["ILP", "CPS"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n3"
+        },
+        {
+            "id": "e2",
+            "from": "n2",
+            "to": "n3"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n2"
+        },
+        {
+            "id": "q1",
+            "from": "n3",
+            "to": "z1"
+        },
+        {
+            "id": "q2",
+            "from": "n5",
+            "to": "z1"
+        },
+        {
+            "id": "r1",
+            "from": "n6",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "z2"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "z2"
+        },
+        {
+            "id": "e7",
+            "from": "n9",
+            "to": "z3"
+        },
+        {
+            "id": "e8",
+            "from": "n10",
+            "to": "z3"
+        },
+        {
+            "id": "o1",
+            "from": "z2",
+            "to": "n6"
+        },
+        {
+            "id": "o2",
+            "from": "z3",
+            "to": "n6"
+        },
+        {
+            "id": "e9",
+            "from": "n2",
+            "to": "n11"
+        },
+        {
+            "id": "e10",
+            "from": "n12",
+            "to": "n11"
+        },
+        {
+            "id": "e11",
+            "from": "n14",
+            "to": "n13"
+        },
+        {
+            "id": "e12",
+            "from": "n15",
+            "to": "n13"
+        },
+        {
+            "id": "r2",
+            "from": "n16",
+            "to": "n14"
+        },
+        {
+            "id": "e13",
+            "from": "n17",
+            "to": "n16"
+        },
+        {
+            "id": "e14",
+            "from": "n18",
+            "to": "n16"
+        },
+        {
+            "id": "r3",
+            "from": "n13",
+            "to": "n19"
+        },
+        {
+            "id": "e15",
+            "from": "n2",
+            "to": "n20"
+        },
+        {
+            "id": "e16",
+            "from": "n19",
+            "to": "n20"
+        },
+        {
+            "id": "e17",
+            "from": "n2",
+            "to": "n21"
+        },
+        {
+            "id": "e18",
+            "from": "n22",
+            "to": "n21"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "ILP": {
+            "type": "Case",
+            "text": "to introduce life in prison without parole"
+        },
+        "LPS": {
+            "type": "Proposition",
+            "text": "Life in prison without parole is as severe as the death penalty."
+        },
+        "LPB": {
+            "type": "Proposition",
+            "text": "Life in prison without parole is better than the death penalty."
+        },
+        "DPT": {
+            "type": "Proposition",
+            "text": "Each death penalty trial costs a country three times more than a trial seeking death in prison."
+        },
+        "DPR": {
+            "type": "Case",
+            "text": "to deny the possibility of redemption"
+        },
+        "ACA": {
+            "type": "Concept",
+            "text": "as cruel as the death penalty"
+        },
+        "IAC": {
+            "type": "Proposition",
+            "text": "To introduce life in prison without paroleas is cruel as the death penalty."
+        },
+        "LPP": {
+            "type": "Proposition",
+            "text": "Life in prison prisoners are treated as dead men."
+        },
+        "CPS": {
+            "type": "Case",
+            "text": "to cause psychiatric symptoms to prisoners"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I12b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I15b",
+            "node_map": {
+                "C": "n2",
+                "P1": "n5",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "z2",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "z3",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n2",
+                "P1": "n11",
+                "P2": "n12"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I17b",
+            "node_map": {
+                "C": "n13",
+                "P1": "n14",
+                "P2": "n15"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "n16",
+                "P1": "n17",
+                "P2": "n18"
+            }
+        },
+        {
+            "id": "i8",
+            "idiom_id": "I12d",
+            "node_map": {
+                "C": "n2",
+                "P1": "n19",
+                "P2": "n20"
+            }
+        },
+        {
+            "id": "i9",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n2",
+                "P1": "n21",
+                "P2": "n22"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "r2": {
+            "type": "rephrasing"
+        },
+        "r3": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "noisy OR"
+        },
+        "o2": {
+            "type": "noisy OR"
+        },
+        "q1": {
+            "type": "equivalent"
+        },
+        "q2": {
+            "type": "equivalent"
+        }
+    }
+}

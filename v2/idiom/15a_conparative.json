@@ -1,0 +1,43 @@
+{
+    "id": "I15a",
+    "name": "comparative",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "either",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "better_than",
+            "args": ["X", "Y"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P1",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "C"
+        }
+    ],
+    "cpd": {
+        "evidence": ["P1", "P2"],
+        "values": [
+            [0.99, 0.5, 0.5, 0.5],
+            [0.01, 0.5, 0.5, 0.5]
+        ]
+    }
+}

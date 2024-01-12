@@ -1,0 +1,43 @@
+{
+    "id": "I07a",
+    "name": "principle",
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "acceptable",
+            "args": ["R"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "follow",
+            "args": ["X", "R"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P1",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "C"
+        }
+    ],
+    "cpd": {
+        "evidence": ["P1", "P2"],
+        "values": [
+            [0.99, 0.5, 0.5, 0.5],
+            [0.01, 0.5, 0.5, 0.5]
+        ]
+    }
+}

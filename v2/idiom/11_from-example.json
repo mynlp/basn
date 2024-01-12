@@ -1,0 +1,43 @@
+{
+    "id": "I11",
+    "name": "from example",
+    "nodes": [
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["X"]
+        },
+        {
+            "id": "P1",
+            "type": "premise",
+            "predicate": "example",
+            "args": ["E", "X"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "fact",
+            "args": ["E"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P2"
+        },
+        {
+            "id": "E2",
+            "from": "P1",
+            "to": "P2"
+        }
+    ],
+    "cpd": {
+        "evidence": ["C", "P1"],
+        "values": [
+            [0.99, 0.5, 0.5, 0.5],
+            [0.01, 0.5, 0.5, 0.5]
+        ]
+    }
+}

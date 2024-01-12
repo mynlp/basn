@@ -1,0 +1,327 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "unacceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["VSL"]
+        },
+        {
+            "id": "n3",
+            "predicate": "violate",
+            "args": ["IDP", "VSL"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "either",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n6",
+            "predicate": "follow",
+            "args": ["IDP", "SPP"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["SPP"]
+        },
+        {
+            "id": "z1",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n8",
+            "predicate": "is",
+            "args": ["SPP", "BBR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "negative",
+            "args": ["BBR"]
+        },
+        {
+            "id": "n10",
+            "predicate": "unacceptable",
+            "args": ["SPP"]
+        },
+        {
+            "id": "n11",
+            "predicate": "either",
+            "args": ["SPP"]
+        },
+        {
+            "id": "n12",
+            "predicate": "follow",
+            "args": ["IDP", "SDL"]
+        },
+        {
+            "id": "n13",
+            "predicate": "acceptable",
+            "args": ["SDL"]
+        },
+        {
+            "id": "z2",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n14",
+            "predicate": "assert",
+            "args": ["IKA", "SDL"]
+        },
+        {
+            "id": "n15",
+            "predicate": "familiar_with",
+            "args": ["IKA", "SDL"]
+        },
+        {
+            "id": "n16",
+            "predicate": "honest",
+            "args": ["IKA"]
+        },
+        {
+            "id": "n17",
+            "predicate": "bring_about",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n18",
+            "predicate": "bring_about",
+            "args": ["PMH"]
+        },
+        {
+            "id": "n19",
+            "predicate": "lead_to",
+            "args": ["IDP", "PMH"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n5"
+        },
+        {
+            "id": "e4",
+            "from": "n4",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "z1"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "z1"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n4"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n10"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n10"
+        },
+        {
+            "id": "e9",
+            "from": "n7",
+            "to": "n11"
+        },
+        {
+            "id": "e10",
+            "from": "n10",
+            "to": "n11"
+        },
+        {
+            "id": "e11",
+            "from": "n12",
+            "to": "z2"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "z2"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n4"
+        },
+        {
+            "id": "e13",
+            "from": "n13",
+            "to": "n14"
+        },
+        {
+            "id": "e14",
+            "from": "n15",
+            "to": "n14"
+        },
+        {
+            "id": "e15",
+            "from": "n16",
+            "to": "n14"
+        },
+        {
+            "id": "r1",
+            "from": "n4",
+            "to": "n17"
+        },
+        {
+            "id": "e16",
+            "from": "n17",
+            "to": "n18"
+        },
+        {
+            "id": "e17",
+            "from": "n19",
+            "to": "n18"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "VSL": {
+            "type": "Proposition",
+            "text": "We should not violate the sanctity of life."
+        },
+        "SPP": {
+            "type": "Proposition",
+            "text": "Those who commit serious crimes morally deserve to suffer a proportionate punishment."
+        },
+        "BBR": {
+            "type": "Concept",
+            "text": "barbaric"
+        },
+        "SDL": {
+            "type": "Proposition",
+            "text": "A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral."
+        },
+        "IKA": {
+            "type": "Person(s)",
+            "text": "Immanuel Kant"
+        },
+        "PMH": {
+            "type": "Case",
+            "text": "promoting moral healing for criminals before their death"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "n4",
+                "P1": "n1",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I07a",
+            "node_map": {
+                "C": "z1",
+                "P1": "n7",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I17b",
+            "node_map": {
+                "C": "n10",
+                "P1": "n8",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "n7",
+                "P1": "n10",
+                "P2": "n11"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I07a",
+            "node_map": {
+                "C": "z2",
+                "P1": "n13",
+                "P2": "n12"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n13",
+                "P1": "n15",
+                "P2": "n16",
+                "P3": "n14"
+            }
+        },
+        {
+            "id": "i8",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n17",
+                "P1": "n18",
+                "P2": "n19"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "noisy OR"
+        },
+        "o2": {
+            "type": "noisy OR"
+        }
+    }
+}
