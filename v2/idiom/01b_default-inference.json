@@ -1,24 +1,24 @@
 {
-    "id": "I06",
-    "name": "from source authority",
+    "id": "I01b",
+    "name": "default inference",
     "nodes": [
         {
-            "id": "C",
-            "type": "conclusion",
+            "id": "P1",
+            "type": "premise",
             "predicate": "acceptable",
             "args": ["X"]
         },
         {
-            "id": "P1",
-            "type": "premise",
-            "predicate": "authority_over",
-            "args": ["S", "X"]
-        },
-        {
             "id": "P2",
             "type": "premise",
-            "predicate": "assert",
-            "args": ["S", "X"]
+            "predicate": "reason_enough_not",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "unacceptable",
+            "args": ["Y"]
         }
     ],
     "edges": [

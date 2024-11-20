@@ -1,5 +1,5 @@
 {
-    "id": "I18",
+    "id": "I17",
     "name": "correlation to cause",
     "nodes": [
         {
@@ -21,12 +21,5 @@
             "from": "C",
             "to": "P"
         }
-    ],
-    "cpd": {
-        "evidence": ["C"],
-        "values": [
-            [0.99, 0.5],
-            [0.01, 0.5]
-        ]
-    }
+    ]
 }

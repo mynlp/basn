@@ -1,6 +1,6 @@
 {
-    "id": "I06",
-    "name": "from source authority",
+    "id": "I13c",
+    "name": "consistent constraint",
     "nodes": [
         {
             "id": "C",
@@ -11,26 +11,26 @@
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "authority_over",
-            "args": ["S", "X"]
+            "predicate": "acceptable",
+            "args": ["X"]
         },
         {
             "id": "P2",
-            "type": "premise",
-            "predicate": "assert",
-            "args": ["S", "X"]
+            "type": "constraint",
+            "predicate": "consistent",
+            "args": []
         }
     ],
     "edges": [
         {
             "id": "E1",
-            "from": "P1",
-            "to": "C"
+            "from": "C",
+            "to": "P2"
         },
         {
             "id": "E2",
-            "from": "P2",
-            "to": "C"
+            "from": "P1",
+            "to": "P2"
         }
     ]
 }

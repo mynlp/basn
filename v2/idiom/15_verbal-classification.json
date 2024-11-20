@@ -1,5 +1,5 @@
 {
-    "id": "I16",
+    "id": "I15",
     "name": "verbal classification",
     "nodes": [
         {
@@ -32,12 +32,5 @@
             "from": "C",
             "to": "P1"
         }
-    ],
-    "cpd": {
-        "evidence": ["C", "P2"],
-        "values": [
-            [0.99, 0.5, 0.5, 0.5],
-            [0.01, 0.5, 0.5, 0.5]
-        ]
-    }
+    ]
 }

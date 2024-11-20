@@ -1,36 +1,36 @@
 {
-    "id": "I06",
-    "name": "from source authority",
+    "id": "I13d",
+    "name": "consistent constraint",
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "acceptable",
+            "predicate": "bring_about",
             "args": ["X"]
         },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "authority_over",
-            "args": ["S", "X"]
+            "predicate": "bring_about",
+            "args": ["X"]
         },
         {
             "id": "P2",
-            "type": "premise",
-            "predicate": "assert",
-            "args": ["S", "X"]
+            "type": "constraint",
+            "predicate": "consistent",
+            "args": []
         }
     ],
     "edges": [
         {
             "id": "E1",
-            "from": "P1",
-            "to": "C"
+            "from": "C",
+            "to": "P2"
         },
         {
             "id": "E2",
-            "from": "P2",
-            "to": "C"
+            "from": "P1",
+            "to": "P2"
         }
     ]
 }

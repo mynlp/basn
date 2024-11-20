@@ -1,5 +1,5 @@
 {
-    "id": "I02",
+    "id": "I03",
     "name": "from consequence",
     "nodes": [
         {
@@ -9,16 +9,16 @@
             "args": ["X"]
         },
         {
-            "id": "P2",
-            "type": "premise",
-            "predicate": "lead_to",
-            "args": ["X", "Y"]
-        },
-        {
             "id": "P1",
             "type": "premise",
             "predicate": "bring_about",
             "args": ["Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
         }
     ],
     "edges": [
@@ -32,12 +32,5 @@
             "from": "P2",
             "to": "P1"
         }
-    ],
-    "cpd": {
-        "evidence": ["C", "P2"],
-        "values": [
-            [0.99, 0.5, 0.5, 0.5],
-            [0.01, 0.5, 0.5, 0.5]
-        ]
-    }
+    ]
 }

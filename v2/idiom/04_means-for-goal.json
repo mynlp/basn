@@ -9,16 +9,28 @@
             "args": ["X"]
         },
         {
-            "id": "P2",
-            "type": "premise",
-            "predicate": "means_to",
-            "args": ["X", "Y"]
-        },
-        {
             "id": "P1",
             "type": "premise",
             "predicate": "bring_about",
             "args": ["Y"]
+        },
+        {
+            "id": "M1",
+            "type": "intermediate",
+            "predicate": "means_to",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P3",
+            "type": "premise",
+            "predicate": "have_higher_priority_for",
+            "args": ["X", "Y"]
         }
     ],
     "edges": [
@@ -29,15 +41,18 @@
         },
         {
             "id": "E2",
-            "from": "P2",
+            "from": "M1",
             "to": "P1"
+        },
+        {
+            "id": "E3",
+            "from": "P2",
+            "to": "M1"
+        },
+        {
+            "id": "E4",
+            "from": "P3",
+            "to": "M1"
         }
-    ],
-    "cpd": {
-        "evidence": ["C", "P2"],
-        "values": [
-            [0.99, 0.5, 0.5, 0.5],
-            [0.01, 0.5, 0.5, 0.5]
-        ]
-    }
+    ]
 }
