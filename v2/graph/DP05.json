@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "is",
+            "args": ["IDP", "RJU"]
+        },
+        {
+            "id": "n3",
+            "predicate": "positive",
+            "args": ["RJU"]
+        },
+        {
+            "id": "n4",
+            "predicate": "have",
+            "args": ["IDP", "PSC"]
+        },
+        {
+            "id": "n5",
+            "predicate": "key_property_of",
+            "args": ["PSC", "RJU"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n2",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "RJU": {
+            "type": "Concept",
+            "text": "retributive justice"
+        },
+        "PSC": {
+            "type": "Property",
+            "text": "a punishment in proportion to a serious crime"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I16a",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I15",
+            "node_map": {
+                "C": "n2",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

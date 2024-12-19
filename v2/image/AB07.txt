@@ -1,0 +1,8 @@
+[variables]
+Case LAB: to legalize an abortion
+Case UAF: to use abortion as a form of contraception
+Concept IMM: immoral
+[instances]
+red: I03 from consequence
+blue: I16b verbal evaluation
+green: I12c contradict constraint

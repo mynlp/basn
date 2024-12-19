@@ -1,0 +1,11 @@
+[variables]
+Proposition SUN: School uniforms are necessary.
+Proposition NSU: School uniforms are not necessary.
+Person(s) MPE: most parents and educators
+Person(s) MST: most students
+[instances]
+red: I06 from source authority
+blue: I05 from source knowledge
+green: I12a contradict constraint
+orange: I06 from source authority
+darkgreen: I05 from source knowledge

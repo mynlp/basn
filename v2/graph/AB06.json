@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["LAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["GPW"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["LAB", "GPW"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["LAB", "GPW"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["LAB", "GPW"]
+        },
+        {
+            "id": "n6",
+            "predicate": "unacceptable",
+            "args": ["SAB"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["PLM"]
+        },
+        {
+            "id": "n8",
+            "predicate": "violate",
+            "args": ["SAB", "PLM"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["SAB"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n9",
+            "to": "c1"
+        },
+        {
+            "id": "e8",
+            "from": "n6",
+            "to": "c1"
+        },
+        {
+            "id": "r1",
+            "from": "n2",
+            "to": "n9"
+        }
+    ],
+    "variables": {
+        "LAB": {
+            "type": "Case",
+            "text": "to legalize abortion"
+        },
+        "GPW": {
+            "type": "Case",
+            "text": "to give pregnant women the option to choose not to bring fetuses with profound abnormalities to full term"
+        },
+        "SAB": {
+            "type": "Case",
+            "text": "selective abortion based on genetic abnormalities"
+        },
+        "PLM": {
+            "type": "Proposition",
+            "text": "Physical limitations don’t make those with disabilities less than humans."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n9",
+                "P2": "n6"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

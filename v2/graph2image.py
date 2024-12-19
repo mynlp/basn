@@ -6,9 +6,8 @@ from graphviz import Digraph
 
 COLORS = ["red", "blue", "green", "orange", "darkgreen", "purple", "lightgreen", "cyan", "magenta", "navy"]
 NON_IDIOM_EDGE_LABEL = {
-    "noisy OR": "OR",
-    "rephrasing": "REP",
-    "equivalent": "EQ",
+    "or": "OR",
+    "rephrasing": "REP"
 }
 
 def create_graph(data: dict):
@@ -16,9 +15,9 @@ def create_graph(data: dict):
     for n in data["nodes"]:
         g.node(n["id"], make_node_label(n))
     for e in data["edges"]:
-        label = None
-        if e["id"] in data["non_idiom"]:
-            label = NON_IDIOM_EDGE_LABEL[data["non_idiom"][e["id"]]["type"]]
+        label = e["id"]
+        #if e["id"] in data["non_idiom"]:
+        #    label += " (%s)" % NON_IDIOM_EDGE_LABEL[data["non_idiom"][e["id"]]["type"]]
         g.edge(e["from"], e["to"], label=label)
     colors = COLORS[:]
     for i in data["instances"]:

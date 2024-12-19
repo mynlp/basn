@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["IPU"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["ASU", "IPU"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["ASU", "IPU"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["ASU", "IPU"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["SIP"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["MGR"]
+        },
+        {
+            "id": "n8",
+            "predicate": "reason_enough",
+            "args": ["MGR","SIP"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "r1",
+            "from": "n6",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "IPU": {
+            "type": "Case",
+            "text": "to improve punctuality"
+        },
+        "SIP": {
+            "type": "Proposition",
+            "text": "To adopt school uniforms improves punctuality."
+        },
+        "MGR": {
+            "type": "Proposition",
+            "text": "School uniforms make getting ready for school easier."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

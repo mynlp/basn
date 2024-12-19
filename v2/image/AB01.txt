@@ -1,0 +1,12 @@
+[variables]
+Proposition AFR: Abortion is a fundamental right guaranteed by the US Constitution.
+Person(s) USC: the US Supreme Court
+Person(s) DRW: the decision of the US Supreme Court in Roe v. Wade
+Proposition CGG: The Constitution gives “a guarantee of certain areas or zones of privacy,” and that “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy”.
+Proposition DAG: The decision of the US Supreme Court in Roe v. Wade has authority over whether “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy.”
+Proposition RWW: The decision of the US Supreme Court in Roe v. Wade is wrong.
+[instances]
+red: I06 from source authority
+blue: I08 interpretation
+green: I06 from source authority
+orange: I12a contradict constraint

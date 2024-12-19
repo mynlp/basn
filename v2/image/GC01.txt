@@ -1,0 +1,14 @@
+[variables]
+Case EGC: to enact more gun control laws
+Thing(s) SAU: the Second Amendment of the US Constitution states
+Proposition WRM: A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.
+Proposition RIG: The right of individual gun ownership is protected. 
+Proposition RMO: the right of militias to own guns, not the right of individuals, is protected. 
+[instances]
+red: I07b rule-or-principle
+blue: I06 from source authority
+green: I07b rule-or-principle
+orange: I08 interpretation
+darkgreen: I07a rule-or-principle
+purple: I08 interpretation
+lightgreen: I12c contradict constraint

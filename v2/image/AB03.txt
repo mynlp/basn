@@ -1,0 +1,9 @@
+[variables]
+Case HAB: to have an abortion
+Case CPF: to cause pain to a fetus
+Proposition ACP: To have an abortion causes pain to a fetus.
+Proposition FIF: Fetuses are incapable of feeling pain when most abortions are performed.
+[instances]
+red: I03 from consequence
+blue: I01b default inference
+green: I12c contradict constraint

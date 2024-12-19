@@ -4,17 +4,16 @@ import json, glob
 from collections import Counter
 
 PREDICATES_ARGNUMS = {
-    "bring_about": 1, "not_bring_about": 1,
+    "bring_about": 1,# "not_bring_about": 1,
     "acceptable": 1, "unacceptable": 1,
-    "lead_to": 2, "means_to": 2,
+    "lead_to": 2, "means_to": 2, "have_higher_priority_for": 2,
     "honest": 1, "assert": 2, "familiar_with": 2, "authority_over": 2,
     "follow": 2, "violate": 2,
-    "mean": 2, "reason_enough": 2,
+    "mean": 2, "reason_enough": 2, "reason_enough_not": 2,
     "fact": 1, "evidence": 2, "example": 2,
     "either": 2, "contradict": 2, "consistent": 2, "better_than": 2,
     "is": 2, "have": 2, "key_property_of": 2, "positive": 1, "negative": 1,
-    "correlate": 2,
-    "equivalent": 0
+    "correlate": 2, "equivalent": 0
 }
 VARIABLE_TYPES = ["Person(s)", "Thing(s)", "Action", "Case", "Proposition", "Concept", "Property"]
 
@@ -38,7 +37,9 @@ def should_predicate_be_reserved(data):
 
 def check_num_of_predicate_args(data):
     for n in data["nodes"]:
-        if n["predicate"] == "either" and len(n.get("args", [])) == 1:
+        if n["predicate"] in ["contradict", "consistent"] and len(n.get("args", [])) == 0:
+            continue
+        elif n["predicate"] in ["either"] and len(n.get("args", [])) == 1:
             continue
         assert len(n.get("args", [])) == PREDICATES_ARGNUMS[n["predicate"]],\
             "[%s] invalid num of args %d, expexted to %d" % (n["id"], len(n["args"]), PREDICATES_ARGNUMS[n["predicate"]])

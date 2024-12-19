@@ -1,0 +1,152 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["NPS"]
+        },
+        {
+            "id": "n2",
+            "predicate": "fact",
+            "args": ["HCN"]
+        },
+        {
+            "id": "n3",
+            "predicate": "evidence",
+            "args": ["HCN", "NPS"]
+        },
+        {
+            "id": "n4",
+            "predicate": "fact",
+            "args": ["UNP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "evidence",
+            "args": ["UNP", "NPS"]
+        },
+        {
+            "id": "n6",
+            "predicate": "contradict",
+            "args": ["NPS", "NPN"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["NPN"]
+        },
+        {
+            "id": "n8",
+            "predicate": "fact",
+            "args": ["LPJ"]
+        },
+        {
+            "id": "n9",
+            "predicate": "example",
+            "args": ["LPJ", "NPN"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n7",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n8"
+        }
+    ],
+    "variables": {
+        "NPS": {
+            "type": "Proposition",
+            "text": "Nuclear power is safe."
+        },
+        "HCN": {
+            "type": "Case",
+            "text": "After more than a half-century of commercial nuclear energy production in the United States, there have been no radiation-related health effects linked to their operation."
+        },
+        "UNP": {
+            "type": "Case",
+            "text": "The U.S. nuclear power industry has not melted down a reactor since Three Mile Island."
+        },
+        "NPN": {
+            "type": "Proposition",
+            "text": "Nuclear power is not safe."
+        },
+        "LPJ": {
+            "type": "Case",
+            "text": "The lives of people in Japan are being endangered by nuclear radiation as a result of the breakdown at the Fukushima nuclear plant."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "n1",
+                "P1": "n3",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "n1",
+                "P1": "n5",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I12a",
+            "node_map": {
+                "C": "n1",
+                "P1": "n7",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I10",
+            "node_map": {
+                "C": "n7",
+                "P1": "n9",
+                "P2": "n8"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

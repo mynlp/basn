@@ -1,0 +1,8 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case ADC: to adopt dress codes
+Proposition SBD: To adopt school uniforms is better than to adopt dress codes.
+Proposition SUE: School uniforms are easier to enforce than dress codes.
+[instances]
+red: I14b comparative
+blue: I01a default inference

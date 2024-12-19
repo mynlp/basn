@@ -3,19 +3,19 @@
     "name": "contradict constraint",
     "nodes": [
         {
-            "id": "C",
-            "type": "conclusion",
+            "id": "P1",
+            "type": "premise",
             "predicate": "acceptable",
             "args": ["X"]
         },
         {
-            "id": "P1",
+            "id": "P2",
             "type": "premise",
             "predicate": "unacceptable",
             "args": ["X"]
         },
         {
-            "id": "P2",
+            "id": "C",
             "type": "constraint",
             "predicate": "contradict",
             "args": []
@@ -24,13 +24,13 @@
     "edges": [
         {
             "id": "E1",
-            "from": "C",
-            "to": "P2"
+            "from": "P1",
+            "to": "C"
         },
         {
             "id": "E2",
-            "from": "P1",
-            "to": "P2"
+            "from": "P2",
+            "to": "C"
         }
     ]
 }

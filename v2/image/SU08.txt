@@ -1,0 +1,15 @@
+[variables]
+Case ASU: to adopt school uniforms
+Case RSF: to restrict students’ freedom of expression
+Proposition SRF: To adopt school uniforms restricts students’ freedom of expression.
+Proposition SCR: Students’ constitutional right to free speech does not relate to the regulation of the length of skirts or the type of clothing.
+Case SSB: to stop students from being themselves
+Proposition SSS: To adopt school uniforms stops students from being themselves.
+Proposition SET: Students can express their individuality in school uniforms by introducing variations and adding accessories.
+[instances]
+red: I03 from consequence
+blue: I01b default inference
+green: I12c contradict constraint
+orange: I03 from consequence
+darkgreen: I01b default inference
+purple: I12c contradict constraint

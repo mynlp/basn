@@ -1,0 +1,170 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RTE"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IMW", "RTE"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["MRT"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["TMW"]
+        },
+        {
+            "id": "n6",
+            "predicate": "reason_enough",
+            "args": ["TMW", "MRT"]
+        },
+        {
+            "id": "n7",
+            "predicate": "bring_about",
+            "args": ["REL"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["IMW", "REL"]
+        },
+        {
+            "id": "n9",
+            "predicate": "bring_about",
+            "args": ["DOL"]
+        },
+        {
+            "id": "n10",
+            "predicate": "lead_to",
+            "args": ["REL", "DOL"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n6",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n7"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e7",
+            "from": "n7",
+            "to": "n9"
+        },
+        {
+            "id": "e8",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "r1",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RTE": {
+            "type": "Case",
+            "text": "to reduce teenage employment"
+        },
+        "MRT": {
+            "type": "Proposition",
+            "text": "To increase the minimum wage reduces teenage employment."
+        },
+        "TMW": {
+            "type": "Proposition",
+            "text": "24% of minimum wage workers are teenagers."
+        },
+        "REL": {
+            "type": "Case",
+            "text": "to reduce the employment of low-skilled workers"
+        },
+        "DOL": {
+            "type": "Case",
+            "text": "to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n4",
+                "P1": "n5",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n7",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

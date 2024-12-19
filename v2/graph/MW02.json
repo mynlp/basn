@@ -1,0 +1,306 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RUR"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IMW", "RUR"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["IPO"]
+        },
+        {
+            "id": "n5",
+            "predicate": "lead_to",
+            "args": ["RUR", "IPO"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["SAH"]
+        },
+        {
+            "id": "n7",
+            "predicate": "means_to",
+            "args": ["IMW", "SAH"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["IMW", "SAH"]
+        },
+        {
+            "id": "n9",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "SAH"]
+        },
+        {
+            "id": "n10",
+            "predicate": "bring_about",
+            "args": ["SAE"]
+        },
+        {
+            "id": "n11",
+            "predicate": "means_to",
+            "args": ["IMW", "SAE"]
+        },
+        {
+            "id": "n12",
+            "predicate": "lead_to",
+            "args": ["IMW", "SAE"]
+        },
+        {
+            "id": "n13",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "SAE"]
+        },
+        {
+            "id": "n14",
+            "predicate": "bring_about",
+            "args": ["HPO"]
+        },
+        {
+            "id": "n15",
+            "predicate": "means_to",
+            "args": ["IMW", "HPO"]
+        },
+        {
+            "id": "n16",
+            "predicate": "lead_to",
+            "args": ["IMW", "HPO"]
+        },
+        {
+            "id": "n17",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "HPO"]
+        },
+        {
+            "id": "n18",
+            "predicate": "bring_about",
+            "args": ["RPO"]
+        },
+        {
+            "id": "n19",
+            "predicate": "means_to",
+            "args": ["IMW", "RPO"]
+        },
+        {
+            "id": "n20",
+            "predicate": "lead_to",
+            "args": ["IMW", "RPO"]
+        },
+        {
+            "id": "n21",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "RPO"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n2",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n7"
+        },
+        {
+            "id": "e9",
+            "from": "n1",
+            "to": "n10"
+        },
+        {
+            "id": "e10",
+            "from": "n11",
+            "to": "n10"
+        },
+        {
+            "id": "e11",
+            "from": "n12",
+            "to": "n11"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "n11"
+        },
+        {
+            "id": "e13",
+            "from": "n1",
+            "to": "n14"
+        },
+        {
+            "id": "e14",
+            "from": "n15",
+            "to": "n14"
+        },
+        {
+            "id": "e15",
+            "from": "n16",
+            "to": "n15"
+        },
+        {
+            "id": "e16",
+            "from": "n17",
+            "to": "n15"
+        },
+        {
+            "id": "e17",
+            "from": "n1",
+            "to": "n18"
+        },
+        {
+            "id": "e18",
+            "from": "n19",
+            "to": "n18"
+        },
+        {
+            "id": "e19",
+            "from": "n20",
+            "to": "n19"
+        },
+        {
+            "id": "e20",
+            "from": "n21",
+            "to": "n19"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RUR": {
+            "type": "Case",
+            "text": "to raise the unemployment rate"
+        },
+        "IPO": {
+            "type": "Case",
+            "text": "to increase poverty"
+        },
+        "SAH": {
+            "type": "Case",
+            "text": "to solve the problem of the current minimum wage not being high enough to allow people to afford housing"
+        },
+        "SAE": {
+            "type": "Case",
+            "text": "to solve the problem of the current minimum wage not being high enough to allow people to afford everyday essentials"
+        },
+        "HPO": {
+            "type": "Case",
+            "text": "a healthier population"
+        },
+        "RPO": {
+            "type": "Case",
+            "text": "to reduce poverty"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n2",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "M1": "n7",
+                "P2": "n8",
+                "P3": "n9"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n10",
+                "M1": "n11",
+                "P2": "n12",
+                "P3": "n13"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n14",
+                "M1": "n15",
+                "P2": "n16",
+                "P3": "n17"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n18",
+                "M1": "n19",
+                "P2": "n20",
+                "P3": "n21"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

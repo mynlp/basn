@@ -1,0 +1,133 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["CPF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["HAB", "CPF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["ACP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "unacceptable",
+            "args": ["ACP"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["FIF"]
+        },
+        {
+            "id": "n7",
+            "predicate": "reason_enough_not",
+            "args": ["FIF", "ACP"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e4",
+            "from": "n7",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n4",
+            "to": "c1"
+        },
+        {
+            "id": "e6",
+            "from": "n5",
+            "to": "c1"
+        },
+        {
+            "id": "r1",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "CPF": {
+            "type": "Case",
+            "text": "to cause pain to a fetus"
+        },
+        "ACP": {
+            "type": "Proposition",
+            "text": "To have an abortion causes pain to a fetus."
+        },
+        "FIF": {
+            "type": "Proposition",
+            "text": "Fetuses are incapable of feeling pain when most abortions are performed."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n5",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+[variables]
+Case IDP: to introduce the death penalty
+Case KIP: to kill innocent people
+Proposition DLK: To introduce the death penalty lead to killing innocent people.
+Proposition CJS: The criminal justice system may make a mistake.
+Proposition PMO: Prosecutorial misconduct occurs.
+Concept IIR: irreversible and irreparable
+Proposition SDR: Some on death row were found to be innocent due to DNA testing.
+Proposition MAA: Multiple assurances are applied before a death sentence.
+Proposition DHS: The criminal justice system rightfully demands a higher standard for the death penalty cases.
+[instances]
+red: I03 from consequence
+blue: I01a default inference
+green: I01b default inference
+orange: I01a default inference
+darkgreen: I08 interpretation
+purple: I01b default inference
+lightgreen: I08 interpretation
+cyan: I16b verbal evaluation
+magenta: I12c contradict constraint
+navy: I12c contradict constraint

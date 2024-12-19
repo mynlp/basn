@@ -1,0 +1,19 @@
+[variables]
+Case HAB: to have an abortion
+Case FMP: future medical problems for the mother
+Case LHI: lasting health issues such as cancer and infertility
+Proposition ALH: To have an abortion leads to lasting health issues such as cancer and infertility.
+Proposition MAP: Modern abortion procedures are safe.
+Case CPD: to cause psychological damage to a woman or her partner
+Case MHP: mental health problems
+Proposition ALM: To have an abortion leads to mental health problems.
+Proposition PLA: Purported links between abortion and mental health problems are unfounded according to recent researches.
+[instances]
+red: I03 from consequence
+blue: I03 from consequence
+green: I01b default inference
+orange: I12c contradict constraint
+darkgreen: I03 from consequence
+purple: I03 from consequence
+lightgreen: I01b default inference
+cyan: I12c contradict constraint

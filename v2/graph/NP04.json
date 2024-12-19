@@ -1,0 +1,157 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["INP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["PCE"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["INP", "PCE"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["INP", "PCE"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["INP", "PCE"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["USR"]
+        },
+        {
+            "id": "n7",
+            "predicate": "means_to",
+            "args": ["USR", "PCE"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["USR", "PCE"]
+        },
+        {
+            "id": "n9",
+            "predicate": "have_higher_priority_for",
+            "args": ["USR", "PCE"]
+        },
+        {
+            "id": "z1",
+            "predicate": "bring_about",
+            "args": ["PCE"]
+        },
+        {
+            "id": "z2",
+            "predicate": "bring_about",
+            "args": ["PCE"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "z1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "z1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "z2"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "z2"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n7"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n2"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n2"
+        }
+    ],
+    "variables": {
+        "INP": {
+            "type": "Case",
+            "text": "to introduce nuclear power plants"
+        },
+        "PCE": {
+            "type": "Case",
+            "text": "to provide carbonless energy"
+        },
+        "USR": {
+            "type": "Case",
+            "text": "to use safe renewable forms of energy such as wind, solar, and geothermal power"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "z1",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n6",
+                "P1": "z2",
+                "M1": "n7",
+                "P2": "n8",
+                "P3": "n9"
+            }
+        }
+    ],
+    "non_idiom": {
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

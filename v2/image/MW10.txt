@@ -1,0 +1,5 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case CSC: the closure of stores and companies
+[instances]
+red: I03 from consequence

@@ -1,0 +1,11 @@
+[variables]
+Case EGC: to enact more gun control laws
+Case PGU: to possess a gun
+Case NPG: not to possess a gun
+Case MCB: to make a conflict more likely to become violent
+Case IWR: to increase a woman’s risk of being murdered
+[instances]
+red: I04 means for goal
+blue: I12b contradict constraint
+green: I03 from consequence
+orange: I03 from consequence

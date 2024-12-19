@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["DTC"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["CLM"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["DTC", "CLM"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["AJU"]
+        },
+        {
+            "id": "n5",
+            "predicate": "means_to",
+            "args": ["DTC", "AJU"]
+        },
+        {
+            "id": "n6",
+            "predicate": "lead_to",
+            "args": ["DTC", "AJU"]
+        },
+        {
+            "id": "n7",
+            "predicate": "have_higher_priority_for",
+            "args": ["DTC", "AJU"]
+        },
+        {
+            "id": "n8",
+            "predicate": "acceptable",
+            "args": ["DLA"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["DRI"]
+        },
+        {
+            "id": "n10",
+            "predicate": "reason_enough",
+            "args": ["DRI", "DLA"]
+        },
+        {
+            "id": "n11",
+            "predicate": "unacceptable",
+            "args": ["DLA"]
+        },
+        {
+            "id": "n12",
+            "predicate": "acceptable",
+            "args": ["DEA"]
+        },
+        {
+            "id": "n13",
+            "predicate": "reason_enough_not",
+            "args": ["DEA", "DLA"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n5"
+        },
+        {
+            "id": "e7",
+            "from": "n9",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n10",
+            "to": "n8"
+        },
+        {
+            "id": "e9",
+            "from": "n12",
+            "to": "n11"
+        },
+        {
+            "id": "e10",
+            "from": "n13",
+            "to": "n11"
+        },
+        {
+            "id": "e11",
+            "from": "n8",
+            "to": "c1"
+        },
+        {
+            "id": "e12",
+            "from": "n11",
+            "to": "c1"
+        },
+        {
+            "id": "r1",
+            "from": "n8",
+            "to": "n6"
+        }
+    ],
+    "variables": {
+        "DTC": {
+            "type": "Action",
+            "text": "DNA testing in criminal cases"
+        },
+        "CLM": {
+            "type": "Case",
+            "text": "to cost a lot of money"
+        },
+        "AJU": {
+            "type": "Case",
+            "text": "accurate judgment"
+        },
+        "DLA": {
+            "type": "Proposition",
+            "text": "DNA testing leads to accurate judgment."
+        },
+        "DRI": {
+            "type": "Proposition",
+            "text": "DNA is a reliable identifier."
+        },
+        "DEA": {
+            "type": "Proposition",
+            "text": "DNA evidence is not available in many cases."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n4",
+                "M1": "n5",
+                "P2": "n6",
+                "P3": "n7"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n8",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n11",
+                "P1": "n12",
+                "P2": "n13"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n8",
+                "P2": "n11"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

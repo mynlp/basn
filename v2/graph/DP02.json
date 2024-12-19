@@ -1,0 +1,427 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "unacceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["NDL"]
+        },
+        {
+            "id": "n3",
+            "predicate": "authority_over",
+            "args": ["FAU", "NDL"]
+        },
+        {
+            "id": "n4",
+            "predicate": "assert",
+            "args": ["FAU", "NDL"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["CDL"]
+        },
+        {
+            "id": "n6",
+            "predicate": "mean",
+            "args": ["NDL", "CDL"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n8",
+            "predicate": "follow",
+            "args": ["IDP", "CDL"]
+        },
+        {
+            "id": "n9",
+            "predicate": "violate",
+            "args": ["IDP", "NDL"]
+        },
+        {
+            "id": "n10",
+            "predicate": "acceptable",
+            "args": ["DVN"]
+        },
+        {
+            "id": "n11",
+            "predicate": "acceptable",
+            "args": ["EFD"]
+        },
+        {
+            "id": "n12",
+            "predicate": "reason_enough",
+            "args": ["EFD", "DVN"]
+        },
+        {
+            "id": "n13",
+            "predicate": "acceptable",
+            "args": ["EBR"]
+        },
+        {
+            "id": "n14",
+            "predicate": "authority_over",
+            "args": ["EAU", "EBR"]
+        },
+        {
+            "id": "n15",
+            "predicate": "assert",
+            "args": ["EAU", "EBR"]
+        },
+        {
+            "id": "n16",
+            "predicate": "violate",
+            "args": ["IDP", "EBR"]
+        },
+        {
+            "id": "n17",
+            "predicate": "acceptable",
+            "args": ["DVE"]
+        },
+        {
+            "id": "n18",
+            "predicate": "acceptable",
+            "args": ["DPC"]
+        },
+        {
+            "id": "n19",
+            "predicate": "reason_enough",
+            "args": ["DPC", "DVE"]
+        },
+        {
+            "id": "n20",
+            "predicate": "unacceptable",
+            "args": ["DVE"]
+        },
+        {
+            "id": "n21",
+            "predicate": "acceptable",
+            "args": ["MSA"]
+        },
+        {
+            "id": "n22",
+            "predicate": "reason_enough_not",
+            "args": ["MSA", "DVE"]
+        },
+        {
+            "id": "z1",
+            "predicate": "unacceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "z2",
+            "predicate": "unacceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        },
+        {
+            "id": "c2",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n4",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n2",
+            "to": "n5"
+        },
+        {
+            "id": "e4",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
+            "from": "n5",
+            "to": "n7"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e7",
+            "from": "n2",
+            "to": "z1"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "z1"
+        },
+        {
+            "id": "e9",
+            "from": "n11",
+            "to": "n10"
+        },
+        {
+            "id": "e10",
+            "from": "n12",
+            "to": "n10"
+        },
+        {
+            "id": "e11",
+            "from": "n14",
+            "to": "n13"
+        },
+        {
+            "id": "e12",
+            "from": "n15",
+            "to": "n13"
+        },
+        {
+            "id": "e13",
+            "from": "n13",
+            "to": "z2"
+        },
+        {
+            "id": "e14",
+            "from": "n16",
+            "to": "z2"
+        },
+        {
+            "id": "e15",
+            "from": "n18",
+            "to": "n17"
+        },
+        {
+            "id": "e16",
+            "from": "n19",
+            "to": "n17"
+        },
+        {
+            "id": "e17",
+            "from": "n21",
+            "to": "n20"
+        },
+        {
+            "id": "e18",
+            "from": "n22",
+            "to": "n20"
+        },
+        {
+            "id": "e19",
+            "from": "n1",
+            "to": "c1"
+        },
+        {
+            "id": "e20",
+            "from": "n7",
+            "to": "c1"
+        },
+        {
+            "id": "n21",
+            "from": "n17",
+            "to": "c2"
+        },
+        {
+            "id": "n22",
+            "from": "n20",
+            "to": "c2"
+        },
+        {
+            "id": "r1",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "r2",
+            "from": "n17",
+            "to": "n16"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n1"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n1"
+        }
+    ],
+    "variables": {
+        "IDP": {
+            "type": "Case",
+            "text": "to introduce the death penalty"
+        },
+        "FAU": {
+            "type": "Thing(s)",
+            "text": "the Fifth Amendment to the United States Constitution"
+        },
+        "NDL": {
+            "type": "Proposition",
+            "text": "No one shall be deprived of life, liberty or property without due process of law."
+        },
+        "CDL": {
+            "type": "Proposition",
+            "text": "Citizens might be denied their life, liberty, or property if certain procedural safeguards were in place."
+        },
+        "DVN": {
+            "type": "Proposition",
+            "text": "To introduce the death penalty volates the idea that no one shall be deprived of life, liberty or property without due process of law."
+        },
+        "EFD": {
+            "type": "Proposition",
+            "text": "Execution under the Federal Death Penalty Act cuts off the opportunity for exoneration."
+        },
+        "EAU": {
+            "type": "Thing(s)",
+            "text": "the Eighth Amendment to the United States Constitution"
+        },
+        "EBR": {
+            "type": "Proposition",
+            "text": "Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted."
+        },
+        "DVE": {
+            "type": "Proposition",
+            "text": "To introduce the death penalty violates the idea that excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted."
+        },
+        "DPC": {
+            "type": "Proposition",
+            "text": "The death penalty is cruel and unusual."
+        },
+        "MSA": {
+            "type": "Proposition",
+            "text": "Many states have adopted a method of execution believed to be the most humane available."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n2",
+                "P1": "n3",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "n5",
+                "P1": "n2",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I07a",
+            "node_map": {
+                "C": "n7",
+                "P1": "n5",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "z1",
+                "P1": "n2",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n10",
+                "P1": "n11",
+                "P2": "n12"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n13",
+                "P1": "n14",
+                "P2": "n15"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "z2",
+                "P1": "n13",
+                "P2": "n16"
+            }
+        },
+        {
+            "id": "i8",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n17",
+                "P1": "n18",
+                "P2": "n19"
+            }
+        },
+        {
+            "id": "i9",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n20",
+                "P1": "n21",
+                "P2": "n22"
+            }
+        },
+        {
+            "id": "i10",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n7",
+                "P2": "n1"
+            }
+        },
+        {
+            "id": "i11",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c2",
+                "P1": "n17",
+                "P2": "n20"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "r2": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case RCR: to reduce crime
+Case RUR: to raise the unemployment rate
+Case ICR: to increase crime
+[instances]
+red: I04 means for goal
+blue: I03 from consequence
+green: I03 from consequence

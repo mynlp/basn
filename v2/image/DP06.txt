@@ -1,0 +1,16 @@
+[variables]
+Case IDP: to introduce the death penalty
+Proposition CJS: The criminal justice system must be fair.
+Proposition IVC: To introduce the death penaltyThe violates the idea that criminal justice system must be fair.
+Proposition PDP: The death penalty is racially biased.
+Case CDP: The death penalty is racially biased.
+Case DSR: The death sentence rate of a particular race is high compared to the population.
+Case HCR: the high crime rate of a particular race
+Case HPR: the high poverty rate of a particular race
+[instances]
+red: I07b rule-or-principle
+blue: I01a default inference
+green: I03 from consequence
+orange: I02 cause to effect
+darkgreen: I02 cause to effect
+purple: I11d either constraint

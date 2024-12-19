@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RGW"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["IMW", "RGW"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["IMW", "RGW"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "RGW"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["MRG"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["PDG"]
+        },
+        {
+            "id": "n8",
+            "predicate": "reason_enough",
+            "args": ["PDG", "MRG"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "r1",
+            "from": "n6",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RGW": {
+            "type": "Case",
+            "text": "to reduce government welfare spending"
+        },
+        "MRG": {
+            "type": "Proposition",
+            "text": "To increase the minimum wage reduces government welfare spending."
+        },
+        "PDG": {
+            "type": "Proposition",
+            "text": "Many people would no longer be dependent on government assistance programs."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+[variables]
+Case IDP: to introduce the death penalty
+Proposition VSL: We should not violate the sanctity of life.
+Proposition SPP: Those who commit serious crimes morally deserve to suffer a proportionate punishment.
+Concept BBR: barbaric
+Proposition SDL: A society that is not willing to demand a life of somebody who has taken somebody else’s life is simply immoral.
+Person(s) IKA: Immanuel Kant
+Case PMH: promoting moral healing for criminals before their death
+[instances]
+red: I07b rule-or-principle
+blue: I12c contradict constraint
+green: I07a rule-or-principle
+orange: I16b verbal evaluation
+darkgreen: I12c contradict constraint
+purple: I07a rule-or-principle
+lightgreen: I05 from source knowledge
+cyan: I04 means for goal

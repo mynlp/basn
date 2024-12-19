@@ -1,0 +1,14 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case SEC: to stimulate the economy
+Case JGR: job growth
+Case RUR: to raise the unemployment rate
+Case CUR: Companies use more robots and automated processes to replace service employees.
+Case COJ: Companies outsource jobs to countries where costs would be lower.
+[instances]
+red: I03 from consequence
+blue: I03 from consequence
+green: I03 from consequence
+orange: I03 from consequence
+darkgreen: I04 means for goal
+purple: I02 cause to effect

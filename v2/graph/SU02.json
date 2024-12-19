@@ -1,0 +1,276 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["ASU"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["HSF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["ASU", "HSF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["ASU", "HSF"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["ASU", "HSF"]
+        },
+        {
+            "id": "n6",
+            "predicate": "acceptable",
+            "args": ["SHS"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["SLC"]
+        },
+        {
+            "id": "n8",
+            "predicate": "reason_enough",
+            "args": ["SLC", "SHS"]
+        },
+        {
+            "id": "n9",
+            "predicate": "unacceptable",
+            "args": ["SHS"]
+        },
+        {
+            "id": "n10",
+            "predicate": "acceptable",
+            "args": ["PSF"]
+        },
+        {
+            "id": "n11",
+            "predicate": "reason_enough_not",
+            "args": ["PSF", "SHS"]
+        },
+        {
+            "id": "n12",
+            "predicate": "bring_about",
+            "args": ["IAD"]
+        },
+        {
+            "id": "n13",
+            "predicate": "means_to",
+            "args": ["ASU", "IAD"]
+        },
+        {
+            "id": "n14",
+            "predicate": "lead_to",
+            "args": ["ASU", "IAD"]
+        },
+        {
+            "id": "n15",
+            "predicate": "have_higher_priority_for",
+            "args": ["ASU", "IAD"]
+        },
+        {
+            "id": "n16",
+            "predicate": "bring_about",
+            "args": ["TAA"]
+        },
+        {
+            "id": "n17",
+            "predicate": "lead_to",
+            "args": ["ASU", "TAA"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "e8",
+            "from": "n11",
+            "to": "n9"
+        },
+        {
+            "id": "e9",
+            "from": "n6",
+            "to": "c1"
+        },
+        {
+            "id": "e10",
+            "from": "n9",
+            "to": "c1"
+        },
+        {
+            "id": "e11",
+            "from": "n1",
+            "to": "n12"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "n12"
+        },
+        {
+            "id": "e13",
+            "from": "n14",
+            "to": "n13"
+        },
+        {
+            "id": "e14",
+            "from": "n15",
+            "to": "n13"
+        },
+        {
+            "id": "e15",
+            "from": "n1",
+            "to": "n16"
+        },
+        {
+            "id": "e16",
+            "from": "n17",
+            "to": "n16"
+        },
+        {
+            "id": "r1",
+            "from": "n6",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "ASU": {
+            "type": "Case",
+            "text": "to adopt school uniforms"
+        },
+        "HSF": {
+            "type": "Case",
+            "text": "to help students focus on learning"
+        },
+        "SHS": {
+            "type": "Proposition",
+            "text": "To adopt school uniforms helps students focus on learning."
+        },
+        "SLC": {
+            "type": "Proposition",
+            "text": "Students are less concerned about how they look and how they fit in with their peers."
+        },
+        "IAD": {
+            "type": "Case",
+            "text": "to improve attendance and discipline"
+        },
+        "PSF": {
+            "type": "Proposition",
+            "text": "A peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations."
+        },
+        "TAA": {
+            "type": "Case",
+            "text": "to take attention away from finding genuine solutions to problems in education"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n9",
+                "P1": "n10",
+                "P2": "n11"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n6",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n12",
+                "M1": "n13",
+                "P2": "n14",
+                "P3": "n15"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n16",
+                "P2": "n17"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

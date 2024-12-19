@@ -1,0 +1,258 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["CUR"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["IMW", "CUR"]
+        },
+        {
+            "id": "n4",
+            "predicate": "bring_about",
+            "args": ["RUR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "lead_to",
+            "args": ["CUR", "RUR"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["COJ"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["IMW", "COJ"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["COJ", "RUR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "bring_about",
+            "args": ["SEC"]
+        },
+        {
+            "id": "n10",
+            "predicate": "means_to",
+            "args": ["IMW", "SEC"]
+        },
+        {
+            "id": "n11",
+            "predicate": "lead_to",
+            "args": ["IMW", "SEC"]
+        },
+        {
+            "id": "n12",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "SEC"]
+        },
+        {
+            "id": "n13",
+            "predicate": "bring_about",
+            "args": ["JGR"]
+        },
+        {
+            "id": "n14",
+            "predicate": "lead_to",
+            "args": ["SEC", "JGR"]
+        },
+        {
+            "id": "z1",
+            "predicate": "bring_about",
+            "args": ["RUR"]
+        },
+        {
+            "id": "z2",
+            "predicate": "bring_about",
+            "args": ["RUR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n2",
+            "to": "z1"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "z1"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n6",
+            "to": "z2"
+        },
+        {
+            "id": "e8",
+            "from": "n8",
+            "to": "z2"
+        },
+        {
+            "id": "e9",
+            "from": "n1",
+            "to": "n9"
+        },
+        {
+            "id": "e10",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "e11",
+            "from": "n11",
+            "to": "n10"
+        },
+        {
+            "id": "e12",
+            "from": "n12",
+            "to": "n10"
+        },
+        {
+            "id": "e13",
+            "from": "n9",
+            "to": "n13"
+        },
+        {
+            "id": "e14",
+            "from": "n14",
+            "to": "n13"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n4"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "SEC": {
+            "type": "Case",
+            "text": "to stimulate the economy"
+        },
+        "JGR": {
+            "type": "Case",
+            "text": "job growth"
+        },
+        "RUR": {
+            "type": "Case",
+            "text": "to raise the unemployment rate"
+        },
+        "CUR": {
+            "type": "Case",
+            "text": "Companies use more robots and automated processes to replace service employees."
+        },
+        "COJ": {
+            "type": "Case",
+            "text": "Companies outsource jobs to countries where costs would be lower."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n2",
+                "P1": "z1",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n6",
+                "P1": "z2",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n9",
+                "M1": "n10",
+                "P2": "n11",
+                "P3": "n12"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "n13",
+                "P1": "n9",
+                "P2": "n14"
+            }
+        }
+    ],
+    "non_idiom": {
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["KIN"]
+        },
+        {
+            "id": "n3",
+            "predicate": "follow",
+            "args": ["IMW", "KIN"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["KRP"]
+        },
+        {
+            "id": "n5",
+            "predicate": "follow",
+            "args": ["IMW", "KRP"]
+        },
+        {
+            "id": "n6",
+            "predicate": "unacceptable",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["FMD"]
+        },
+        {
+            "id": "n8",
+            "predicate": "violate",
+            "args": ["IMW", "FMD"]
+        },
+        {
+            "id": "z1",
+            "predicate": "acceptable",
+            "args": ["IMW"]
+        },
+        {
+            "id": "z2",
+            "predicate": "acceptable",
+            "args": ["IMW"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "z1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "z1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "z2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "z2"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n1",
+            "to": "c1"
+        },
+        {
+            "id": "e8",
+            "from": "n6",
+            "to": "c1"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n1"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n1"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "KIN": {
+            "type": "Proposition",
+            "text": "The minimum wage should keep up with inflation."
+        },
+        "KRP": {
+            "type": "Proposition",
+            "text": "The minimum wage should keep up with rising productivity and incomes."
+        },
+        "FMD": {
+            "type": "Proposition",
+            "text": "The free market should determine minimum wages."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07a",
+            "node_map": {
+                "C": "z1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I07a",
+            "node_map": {
+                "C": "z2",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n1",
+                "P2": "n6"
+            }
+        }
+    ],
+    "non_idiom": {
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

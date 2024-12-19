@@ -1,0 +1,393 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["MNP"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RUN"]
+        },
+        {
+            "id": "n3",
+            "predicate": "lead_to",
+            "args": ["RUN", "MNP"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["RNS"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["NPD"]
+        },
+        {
+            "id": "n6",
+            "predicate": "reason_enough",
+            "args": ["NPD", "RNS"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["HCI"]
+        },
+        {
+            "id": "n8",
+            "predicate": "reason_enough",
+            "args": ["HCI", "RNS"]
+        },
+        {
+            "id": "n9",
+            "predicate": "unacceptable",
+            "args": ["RNS"]
+        },
+        {
+            "id": "n10",
+            "predicate": "acceptable",
+            "args": ["AES"]
+        },
+        {
+            "id": "n11",
+            "predicate": "reason_enough_not",
+            "args": ["AES", "RNS"]
+        },
+        {
+            "id": "n12",
+            "predicate": "bring_about",
+            "args": ["ISS"]
+        },
+        {
+            "id": "n13",
+            "predicate": "lead_to",
+            "args": ["ISS", "MNP"]
+        },
+        {
+            "id": "n14",
+            "predicate": "acceptable",
+            "args": ["INS"]
+        },
+        {
+            "id": "n15",
+            "predicate": "acceptable",
+            "args": ["MNT"]
+        },
+        {
+            "id": "n16",
+            "predicate": "reason_enough",
+            "args": ["MNT", "INS"]
+        },
+        {
+            "id": "n17",
+            "predicate": "acceptable",
+            "args": ["HSM"]
+        },
+        {
+            "id": "n18",
+            "predicate": "reason_enough",
+            "args": ["HSM", "INS"]
+        },
+        {
+            "id": "z1",
+            "predicate": "bring_about",
+            "args": ["MNP"]
+        },
+        {
+            "id": "z2",
+            "predicate": "bring_about",
+            "args": ["MNP"]
+        },
+        {
+            "id": "z3",
+            "predicate": "acceptable",
+            "args": ["RNS"]
+        },
+        {
+            "id": "z4",
+            "predicate": "acceptable",
+            "args": ["RNS"]
+        },
+        {
+            "id": "z5",
+            "predicate": "acceptable",
+            "args": ["INS"]
+        },
+        {
+            "id": "z6",
+            "predicate": "acceptable",
+            "args": ["INS"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "z1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "z1"
+        },
+        {
+            "id": "e3",
+            "from": "n5",
+            "to": "z3"
+        },
+        {
+            "id": "e4",
+            "from": "n6",
+            "to": "z3"
+        },
+        {
+            "id": "e5",
+            "from": "n7",
+            "to": "z4"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "z4"
+        },
+        {
+            "id": "e7",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "e8",
+            "from": "n11",
+            "to": "n9"
+        },
+        {
+            "id": "e9",
+            "from": "n4",
+            "to": "c1"
+        },
+        {
+            "id": "e10",
+            "from": "n9",
+            "to": "c1"
+        },
+        {
+            "id": "e11",
+            "from": "n12",
+            "to": "z2"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "z2"
+        },
+        {
+            "id": "e13",
+            "from": "n15",
+            "to": "z5"
+        },
+        {
+            "id": "e14",
+            "from": "n16",
+            "to": "z5"
+        },
+        {
+            "id": "e15",
+            "from": "n17",
+            "to": "z6"
+        },
+        {
+            "id": "e16",
+            "from": "n18",
+            "to": "z6"
+        },
+        {
+            "id": "r1",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "r2",
+            "from": "n14",
+            "to": "n13"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n1"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n1"
+        },
+        {
+            "id": "o3",
+            "from": "z3",
+            "to": "n4"
+        },
+        {
+            "id": "o4",
+            "from": "z4",
+            "to": "n4"
+        },
+        {
+            "id": "o5",
+            "from": "z5",
+            "to": "n14"
+        },
+        {
+            "id": "o6",
+            "from": "z6",
+            "to": "n14"
+        }
+    ],
+    "variables": {
+        "MNP": {
+            "type": "Case",
+            "text": "to make nuclear power safe"
+        },
+        "RUN": {
+            "type": "Case",
+            "text": "to regulate the uses of nuclear energy"
+        },
+        "RNS": {
+            "type": "Proposition",
+            "text": "To regulate the uses of nuclear energy make nuclear power safe."
+        },
+        "NPD": {
+            "type": "Proposition",
+            "text": "Nuclear plants are designed, licensed, constructed, and operated to rigorous requirements established by the US Nuclear Regulatory Commission."
+        },
+        "HCI": {
+            "type": "Proposition",
+            "text": "The US Nuclear Regulatory Commission has a continuing inspection and oversight process with on-site resident inspectors and periodic inspection teams to ensure compliance with regulations and associated programs."
+        },
+        "AES": {
+            "type": "Proposition",
+            "text": "The US Nuclear Regulatory Commission does not adequately enforce safety standards."
+        },
+        "ISS": {
+            "type": "Case",
+            "text": "to introduce safety systems"
+        },
+        "INS": {
+            "type": "Proposition",
+            "text": "To introduce safety systems make nuclear power safe."
+        },
+        "MNT": {
+            "type": "Proposition",
+            "text": "Modern nuclear technologies have multi-layered safety systems in place that offer a huge improvement on the older power plants."
+        },
+        "HSM": {
+            "type": "Proposition",
+            "text": "Hundreds of systems monitor, control, and support the safe operation of the reactor at each power plant."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "z1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z3",
+                "P1": "n5",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z4",
+                "P1": "n7",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n9",
+                "P1": "n10",
+                "P2": "n11"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n4",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I02",
+            "node_map": {
+                "C": "z2",
+                "P1": "n12",
+                "P2": "n13"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z5",
+                "P1": "n15",
+                "P2": "n16"
+            }
+        },
+        {
+            "id": "i8",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z6",
+                "P1": "n17",
+                "P2": "n18"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "r2": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        },
+        "o3": {
+            "type": "or"
+        },
+        "o4": {
+            "type": "or"
+        },
+        "o5": {
+            "type": "or"
+        },
+        "o6": {
+            "type": "or"
+        }
+    }
+}

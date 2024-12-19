@@ -1,0 +1,166 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "unacceptable",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "acceptable",
+            "args": ["KIH"]
+        },
+        {
+            "id": "n3",
+            "predicate": "violate",
+            "args": ["HAB", "KIH"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["AVK"]
+        },
+        {
+            "id": "n5",
+            "predicate": "acceptable",
+            "args": ["LBC"]
+        },
+        {
+            "id": "n6",
+            "predicate": "reason_enough",
+            "args": ["LBC", "AVK"]
+        },
+        {
+            "id": "n7",
+            "predicate": "unacceptable",
+            "args": ["AVK"]
+        },
+        {
+            "id": "n8",
+            "predicate": "acceptable",
+            "args": ["WPU"]
+        },
+        {
+            "id": "n9",
+            "predicate": "reason_enough_not",
+            "args": ["WPU", "AVK"]
+        },
+        {
+            "id": "c1",
+            "predicate": "contradict",
+            "args": []
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n6",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e6",
+            "from": "n9",
+            "to": "n7"
+        },
+        {
+            "id": "e7",
+            "from": "n4",
+            "to": "c1"
+        },
+        {
+            "id": "e8",
+            "from": "n7",
+            "to": "c1"
+        },
+        {
+            "id": "r1",
+            "from": "n4",
+            "to": "n3"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "KIH": {
+            "type": "Proposition",
+            "text": "We must not kill an innocent human being."
+        },
+        "AVK": {
+            "type": "Proposition",
+            "text": "To have an abortion violates the idea that we must not kill an innocent human being."
+        },
+        "LBC": {
+            "type": "Proposition",
+            "text": "Life begins at conception."
+        },
+        "WPU": {
+            "type": "Proposition",
+            "text": "The word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I07b",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "P2": "n3"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "n4",
+                "P1": "n5",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I01b",
+            "node_map": {
+                "C": "n7",
+                "P1": "n8",
+                "P2": "n9"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I12c",
+            "node_map": {
+                "C": "c1",
+                "P1": "n4",
+                "P2": "n7"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        }
+    }
+}

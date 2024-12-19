@@ -1,0 +1,21 @@
+[variables]
+Case IDP: to introduce the death penalty
+Case ILP: to introduce life in prison without parole
+Proposition LPS: Life in prison without parole is as severe as the death penalty.
+Proposition LPB: Life in prison without parole is better than the death penalty.
+Proposition DPT: Each death penalty trial costs a country three times more than a trial seeking death in prison.
+Case DPR: to deny the possibility of redemption
+Concept ACA: as cruel as the death penalty
+Proposition IAC: To introduce life in prison without paroleas is as cruel as the death penalty.
+Proposition LPP: Life in prison prisoners are treated as dead men.
+Case CPS: to cause psychiatric symptoms to prisoners
+[instances]
+red: I11b either constraint
+blue: I14b comparative
+green: I01a default inference
+orange: I01a default inference
+darkgreen: I03 from consequence
+purple: I16b verbal evaluation
+lightgreen: I01a default inference
+cyan: I03 from consequence
+magenta: I12c contradict constraint

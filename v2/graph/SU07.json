@@ -1,0 +1,199 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["SUN"]
+        },
+        {
+            "id": "n2",
+            "predicate": "assert",
+            "args": ["MPE", "SUN"]
+        },
+        {
+            "id": "n3",
+            "predicate": "authority_over",
+            "args": ["MPE", "SUN"]
+        },
+        {
+            "id": "n4",
+            "predicate": "assert",
+            "args": ["MPE", "SUN"]
+        },
+        {
+            "id": "n5",
+            "predicate": "familiar_with",
+            "args": ["MPE", "SUN"]
+        },
+        {
+            "id": "n6",
+            "predicate": "honest",
+            "args": ["MPE"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["NSU"]
+        },
+        {
+            "id": "n8",
+            "predicate": "assert",
+            "args": ["MST", "NSU"]
+        },
+        {
+            "id": "n9",
+            "predicate": "authority_over",
+            "args": ["MST", "NSU"]
+        },
+        {
+            "id": "n10",
+            "predicate": "assert",
+            "args": ["MST", "NSU"]
+        },
+        {
+            "id": "n11",
+            "predicate": "familiar_with",
+            "args": ["MST", "NSU"]
+        },
+        {
+            "id": "n12",
+            "predicate": "honest",
+            "args": ["MST"]
+        },
+        {
+            "id": "n13",
+            "predicate": "contradict",
+            "args": ["SUN", "NSU"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "n1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n1"
+        },
+        {
+            "id": "e3",
+            "from": "n1",
+            "to": "n4"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n4"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n4"
+        },
+        {
+            "id": "e6",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e7",
+            "from": "n9",
+            "to": "n7"
+        },
+        {
+            "id": "e8",
+            "from": "n7",
+            "to": "n10"
+        },
+        {
+            "id": "e9",
+            "from": "n11",
+            "to": "n10"
+        },
+        {
+            "id": "e10",
+            "from": "n12",
+            "to": "n10"
+        },
+        {
+            "id": "e11",
+            "from": "n1",
+            "to": "n13"
+        },
+        {
+            "id": "e12",
+            "from": "n7",
+            "to": "n13"
+        }
+    ],
+    "variables": {
+        "SUN": {
+            "type": "Proposition",
+            "text": "School uniforms are necessary."
+        },
+        "NSU": {
+            "type": "Proposition",
+            "text": "School uniforms are not necessary."
+        },
+        "MPE": {
+            "type": "Person(s)",
+            "text": "most parents and educators"
+        },
+        "MST": {
+            "type": "Person(s)",
+            "text": "most students"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n1",
+                "P1": "n3",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n1",
+                "P1": "n5",
+                "P2": "n6",
+                "P3": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I12a",
+            "node_map": {
+                "C": "n1",
+                "P1": "n7",
+                "P2": "n13"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n7",
+                "P1": "n9",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I05",
+            "node_map": {
+                "C": "n7",
+                "P1": "n11",
+                "P2": "n12",
+                "P3": "n10"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

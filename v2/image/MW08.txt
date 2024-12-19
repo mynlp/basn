@@ -1,0 +1,5 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case IWP: to increase worker productivity and reduces employee turnover
+[instances]
+red: I04 means for goal

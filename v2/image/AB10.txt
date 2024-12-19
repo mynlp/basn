@@ -1,0 +1,9 @@
+[variables]
+Case HAB: to have an abortion
+Case PWF: to protect women from financial disadvantage
+Case RWC: to reduce welfare costs
+Case GPW: to give pregnant women the choice to avoid interference with their education and career goals
+[instances]
+red: I04 means for goal
+blue: I04 means for goal
+green: I04 means for goal

@@ -11,7 +11,7 @@
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "not_bring_about",
+            "predicate": "bring_about",
             "args": ["X"]
         },
         {

@@ -1,0 +1,11 @@
+[variables]
+Case HAB: to have an abortion
+Proposition KIH: We must not kill an innocent human being.
+Proposition AVK: To have an abortion violates the idea that we must not kill an innocent human being.
+Proposition LBC: Life begins at conception.
+Proposition WPU: The word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn.
+[instances]
+red: I07b rule-or-principle
+blue: I01a default inference
+green: I01b default inference
+orange: I12c contradict constraint

@@ -1,0 +1,319 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["EGC"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RGC"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["EGC", "RGC"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["EGC", "RGC"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["EGC", "RGC"]
+        },
+        {
+            "id": "n6",
+            "predicate": "correlate",
+            "args": ["EGC", "RGC"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["SGL"]
+        },
+        {
+            "id": "n8",
+            "predicate": "fact",
+            "args": ["CRG"]
+        },
+        {
+            "id": "n9",
+            "predicate": "example",
+            "args": ["CRG", "SGL"]
+        },
+        {
+            "id": "n10",
+            "predicate": "acceptable",
+            "args": ["GLR"]
+        },
+        {
+            "id": "n11",
+            "predicate": "acceptable",
+            "args": ["GNR"]
+        },
+        {
+            "id": "n12",
+            "predicate": "contradict",
+            "args": ["GLR", "GNR"]
+        },
+        {
+            "id": "n13",
+            "predicate": "acceptable",
+            "args": ["LOG"]
+        },
+        {
+            "id": "n14",
+            "predicate": "reason_enough",
+            "args": ["LOG", "GNR"]
+        },
+        {
+            "id": "n15",
+            "predicate": "acceptable",
+            "args": ["COL"]
+        },
+        {
+            "id": "n16",
+            "predicate": "reason_enough",
+            "args": ["COL", "GNR"]
+        },
+        {
+            "id": "n17",
+            "predicate": "fact",
+            "args": ["SLG"]
+        },
+        {
+            "id": "n18",
+            "predicate": "evidence",
+            "args": ["SLG", "GNR"]
+        },
+        {
+            "id": "z1",
+            "predicate": "acceptable",
+            "args": ["GNR"]
+        },
+        {
+            "id": "z2",
+            "predicate": "acceptable",
+            "args": ["GNR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n4",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n8"
+        },
+        {
+            "id": "e7",
+            "from": "n9",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n10",
+            "to": "n12"
+        },
+        {
+            "id": "e9",
+            "from": "n11",
+            "to": "n12"
+        },
+        {
+            "id": "e10",
+            "from": "n13",
+            "to": "z1"
+        },
+        {
+            "id": "e11",
+            "from": "n14",
+            "to": "z1"
+        },
+        {
+            "id": "e12",
+            "from": "n15",
+            "to": "z2"
+        },
+        {
+            "id": "e13",
+            "from": "n16",
+            "to": "z2"
+        },
+        {
+            "id": "e14",
+            "from": "n11",
+            "to": "n17"
+        },
+        {
+            "id": "e15",
+            "from": "n18",
+            "to": "n17"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n11"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n11"
+        },
+        {
+            "id": "r1",
+            "from": "n6",
+            "to": "n7"
+        },
+        {
+            "id": "r2",
+            "from": "n10",
+            "to": "n4"
+        }
+    ],
+    "variables": {
+        "EGC": {
+            "type": "Case",
+            "text": "to enact more gun control laws"
+        },
+        "RGC": {
+            "type": "Case",
+            "text": "to reduce gun crime"
+        },
+        "CRG": {
+            "type": "Proposition",
+            "text": "Countries with restrictive gun control laws have lower gun homicide and suicide rates than the United States."
+        },
+        "SGL": {
+            "type": "Proposition",
+            "text": "The strictness of gun laws correlates with the gun murder rate."
+        },
+        "GLR": {
+            "type": "Proposition",
+            "text": "More gun control laws reduce gun murder."
+        },
+        "GNR": {
+            "type": "Proposition",
+            "text": "More gun control laws do not reduce gun murder."
+        },
+        "LOG": {
+            "type": "Proposition",
+            "text": "Legally owned guns are frequently stolen and used by criminals."
+        },
+        "COL": {
+            "type": "Proposition",
+            "text": "Criminals don’t obey the law."
+        },
+        "SLG": {
+            "type": "Proposition",
+            "text": "Most state-level gun control laws do not reduce the firearm death rate."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I17",
+            "node_map": {
+                "C": "n4",
+                "P": "n6"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I10",
+            "node_map": {
+                "C": "n7",
+                "P1": "n9",
+                "P2": "n8"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I12a",
+            "node_map": {
+                "C": "n10",
+                "P1": "n11",
+                "P2": "n12"
+            }
+        },
+        {
+            "id": "i5",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z1",
+                "P1": "n13",
+                "P2": "n14"
+            }
+        },
+        {
+            "id": "i6",
+            "idiom_id": "I01a",
+            "node_map": {
+                "C": "z2",
+                "P1": "n15",
+                "P2": "n16"
+            }
+        },
+        {
+            "id": "i7",
+            "idiom_id": "I09",
+            "node_map": {
+                "C": "n11",
+                "P1": "n18",
+                "P2": "n17"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "r2": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

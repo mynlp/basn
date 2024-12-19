@@ -1,0 +1,185 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["HAB"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["PWF"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["HAB", "PWF"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["HAB", "PWF"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["HAB", "PWF"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["RWC"]
+        },
+        {
+            "id": "n7",
+            "predicate": "means_to",
+            "args": ["PWF", "RWC"]
+        },
+        {
+            "id": "n8",
+            "predicate": "lead_to",
+            "args": ["PWF", "RWC"]
+        },
+        {
+            "id": "n9",
+            "predicate": "have_higher_priority_for",
+            "args": ["PWF", "RWC"]
+        },
+        {
+            "id": "n10",
+            "predicate": "bring_about",
+            "args": ["GPW"]
+        },
+        {
+            "id": "n11",
+            "predicate": "means_to",
+            "args": ["HAB", "GPW"]
+        },
+        {
+            "id": "n12",
+            "predicate": "lead_to",
+            "args": ["HAB", "GPW"]
+        },
+        {
+            "id": "n13",
+            "predicate": "have_higher_priority_for",
+            "args": ["HAB", "GPW"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n2",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n7"
+        },
+        {
+            "id": "e9",
+            "from": "n1",
+            "to": "n10"
+        },
+        {
+            "id": "e10",
+            "from": "n11",
+            "to": "n10"
+        },
+        {
+            "id": "e11",
+            "from": "n12",
+            "to": "n11"
+        },
+        {
+            "id": "e12",
+            "from": "n13",
+            "to": "n11"
+        }
+    ],
+    "variables": {
+        "HAB": {
+            "type": "Case",
+            "text": "to have an abortion"
+        },
+        "PWF": {
+            "type": "Case",
+            "text": "to protect women from financial disadvantage"
+        },
+        "RWC": {
+            "type": "Case",
+            "text": "to reduce welfare costs"
+        },
+        "GPW": {
+            "type": "Case",
+            "text": "to give pregnant women the choice to avoid interference with their education and career goals"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n2",
+                "P1": "n6",
+                "M1": "n7",
+                "P2": "n8",
+                "P3": "n9"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n10",
+                "M1": "n11",
+                "P2": "n12",
+                "P3": "n13"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

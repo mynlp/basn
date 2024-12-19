@@ -1,0 +1,19 @@
+[variables]
+Case EGC: to enact more gun control laws
+Case IRS: to infringe upon the right to self-defense
+Case GOW: gun ownership
+Case PGO: to prevent gun ownership
+Case ESD: to enable self-defense
+Proposition GLS: Gun ownership leads to enabling self-defense.
+Proposition CAA: Criminals avoid attacking a person who possesses a gun.
+Proposition GRU: Guns are rarely used in self-defense.
+Proposition AGO: The average gun owner is not trained in law enforcement or on how to handle life-threatening situations.
+[instances]
+red: I03 from consequence
+blue: I02 cause to effect
+green: I12b contradict constraint
+orange: I04 means for goal
+darkgreen: I01a default inference
+purple: I01b default inference
+lightgreen: I01b default inference
+cyan: I12c contradict constraint

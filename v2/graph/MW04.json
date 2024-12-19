@@ -1,0 +1,141 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "bring_about",
+            "args": ["IMW"]
+        },
+        {
+            "id": "n2",
+            "predicate": "bring_about",
+            "args": ["RCR"]
+        },
+        {
+            "id": "n3",
+            "predicate": "means_to",
+            "args": ["IMW", "RCR"]
+        },
+        {
+            "id": "n4",
+            "predicate": "lead_to",
+            "args": ["IMW", "RCR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "have_higher_priority_for",
+            "args": ["IMW", "RCR"]
+        },
+        {
+            "id": "n6",
+            "predicate": "bring_about",
+            "args": ["RUR"]
+        },
+        {
+            "id": "n7",
+            "predicate": "lead_to",
+            "args": ["IMW", "RUR"]
+        },
+        {
+            "id": "n8",
+            "predicate": "bring_about",
+            "args": ["ICR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "lead_to",
+            "args": ["RUR", "ICR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n1",
+            "to": "n2"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "n2"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "n3"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "n3"
+        },
+        {
+            "id": "e5",
+            "from": "n1",
+            "to": "n6"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n6"
+        },
+        {
+            "id": "e7",
+            "from": "n6",
+            "to": "n8"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n8"
+        }
+    ],
+    "variables": {
+        "IMW": {
+            "type": "Case",
+            "text": "to increase the minimum wage"
+        },
+        "RCR": {
+            "type": "Case",
+            "text": "to reduce crime"
+        },
+        "RUR": {
+            "type": "Case",
+            "text": "to raise the unemployment rate"
+        },
+        "ICR": {
+            "type": "Case",
+            "text": "to increase crime"
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I04",
+            "node_map": {
+                "C": "n1",
+                "P1": "n2",
+                "M1": "n3",
+                "P2": "n4",
+                "P3": "n5"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I03",
+            "node_map": {
+                "C": "n6",
+                "P1": "n8",
+                "P2": "n9"
+            }
+        }
+    ],
+    "non_idiom": {}
+}

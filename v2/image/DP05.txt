@@ -1,0 +1,7 @@
+[variables]
+Case IDP: to introduce the death penalty
+Concept RJU: retributive justice
+Property PSC: a punishment in proportion to a serious crime
+[instances]
+red: I16a verbal evaluation
+blue: I15 verbal classification

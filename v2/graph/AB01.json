@@ -1,0 +1,196 @@
+{
+    "nodes": [
+        {
+            "id": "n1",
+            "predicate": "acceptable",
+            "args": ["AFR"]
+        },
+        {
+            "id": "n2",
+            "predicate": "assert",
+            "args": ["USC", "AFR"]
+        },
+        {
+            "id": "n3",
+            "predicate": "authority_over",
+            "args": ["USC", "AFR"]
+        },
+        {
+            "id": "n4",
+            "predicate": "acceptable",
+            "args": ["CGG"]
+        },
+        {
+            "id": "n5",
+            "predicate": "mean",
+            "args": ["CGG", "AFR"]
+        },
+        {
+            "id": "n6",
+            "predicate": "assert",
+            "args": ["DRW", "CGG"]
+        },
+        {
+            "id": "n7",
+            "predicate": "authority_over",
+            "args": ["DRW", "CGG"]
+        },
+        {
+            "id": "n8",
+            "predicate": "acceptable",
+            "args": ["DAG"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["RWW"]
+        },
+        {
+            "id": "n10",
+            "predicate": "contradict",
+            "args": ["DAG", "RWW"]
+        },
+        {
+            "id": "z1",
+            "predicate": "acceptable",
+            "args": ["AFR"]
+        },
+        {
+            "id": "z2",
+            "predicate": "acceptable",
+            "args": ["AFR"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "from": "n2",
+            "to": "z1"
+        },
+        {
+            "id": "e2",
+            "from": "n3",
+            "to": "z1"
+        },
+        {
+            "id": "e3",
+            "from": "n4",
+            "to": "z2"
+        },
+        {
+            "id": "e4",
+            "from": "n5",
+            "to": "z2"
+        },
+        {
+            "id": "e5",
+            "from": "n6",
+            "to": "n4"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n4"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n10"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n10"
+        },
+        {
+            "id": "r1",
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n1"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n1"
+        }
+    ],
+    "variables": {
+        "AFR": {
+            "type": "Proposition",
+            "text": "Abortion is a fundamental right guaranteed by the US Constitution."
+        },
+        "USC": {
+            "type": "Person(s)",
+            "text": "the US Supreme Court"
+        },
+        "DRW": {
+            "type": "Person(s)",
+            "text": "the decision of the US Supreme Court in Roe v. Wade"
+        },
+        "CGG": {
+            "type": "Proposition",
+            "text": "The Constitution gives “a guarantee of certain areas or zones of privacy,” and that “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy”."
+        },
+        "DAG": {
+            "type": "Proposition",
+            "text": "The decision of the US Supreme Court in Roe v. Wade has authority over whether “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy.”"
+        },
+        "RWW": {
+            "type": "Proposition",
+            "text": "The decision of the US Supreme Court in Roe v. Wade is wrong."
+        }
+    },
+    "instances": [
+        {
+            "id": "i1",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "z1",
+                "P1": "n3",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i2",
+            "idiom_id": "I08",
+            "node_map": {
+                "C": "z2",
+                "P1": "n4",
+                "P2": "n5"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I06",
+            "node_map": {
+                "C": "n4",
+                "P1": "n7",
+                "P2": "n6"
+            }
+        },
+        {
+            "id": "i4",
+            "idiom_id": "I12a",
+            "node_map": {
+                "C": "n8",
+                "P1": "n9",
+                "P2": "n10"
+            }
+        }
+    ],
+    "non_idiom": {
+        "r1": {
+            "type": "rephrasing"
+        },
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
+        }
+    }
+}

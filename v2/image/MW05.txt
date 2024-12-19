@@ -1,0 +1,12 @@
+[variables]
+Case IMW: to increase the minimum wage
+Case RTE: to reduce teenage employment
+Proposition MRT: To increase the minimum wage reduces teenage employment.
+Proposition TMW: 24% of minimum wage workers are teenagers.
+Case REL: to reduce the employment of low-skilled workers
+Case DOL: to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion
+[instances]
+red: I03 from consequence
+blue: I01a default inference
+green: I03 from consequence
+orange: I03 from consequence
