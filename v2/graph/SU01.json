@@ -22,7 +22,7 @@
         },
         {
             "id": "n5",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["ASU", "DCR"]
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "id": "n12",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["INS", "DCR"]
         },
         {

@@ -29,7 +29,7 @@
         {
             "id": "P3",
             "type": "premise",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["X", "Y"]
         }
     ],

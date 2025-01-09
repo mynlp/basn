@@ -6,7 +6,7 @@ from collections import Counter
 PREDICATES_ARGNUMS = {
     "bring_about": 1,# "not_bring_about": 1,
     "acceptable": 1, "unacceptable": 1,
-    "lead_to": 2, "means_to": 2, "have_higher_priority_for": 2,
+    "lead_to": 2, "means_to": 2, "higher_priority_for": 2,
     "honest": 1, "assert": 2, "familiar_with": 2, "authority_over": 2,
     "follow": 2, "violate": 2,
     "mean": 2, "reason_enough": 2, "reason_enough_not": 2,

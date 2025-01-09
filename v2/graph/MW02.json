@@ -42,7 +42,7 @@
         },
         {
             "id": "n9",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["IMW", "SAH"]
         },
         {
@@ -62,7 +62,7 @@
         },
         {
             "id": "n13",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["IMW", "SAE"]
         },
         {
@@ -82,7 +82,7 @@
         },
         {
             "id": "n17",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["IMW", "HPO"]
         },
         {
@@ -102,7 +102,7 @@
         },
         {
             "id": "n21",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["IMW", "RPO"]
         }
     ],

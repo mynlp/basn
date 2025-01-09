@@ -22,7 +22,7 @@
         },
         {
             "id": "n5",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["INP", "PCE"]
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "id": "n9",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["USR", "PCE"]
         },
         {

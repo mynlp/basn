@@ -57,7 +57,7 @@
         },
         {
             "id": "n12",
-            "predicate": "have_higher_priority_for",
+            "predicate": "higher_priority_for",
             "args": ["IMW", "SEC"]
         },
         {
