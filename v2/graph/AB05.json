@@ -203,7 +203,7 @@
         },
         "ALH": {
             "type": "Proposition",
-            "text": "To have an abortion leads to lasting health issues such as cancer and infertility."
+            "text": "Having an abortion leads to lasting health issues such as cancer and infertility."
         },
         "MAP": {
             "type": "Proposition",
@@ -219,7 +219,7 @@
         },
         "ALM": {
             "type": "Proposition",
-            "text": "To have an abortion leads to mental health problems."
+            "text": "Having an abortion leads to mental health problems."
         },
         "PLA": {
             "type": "Proposition",
@@ -247,7 +247,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n7",
                 "P1": "n8",
@@ -283,7 +283,7 @@
         },
         {
             "id": "i7",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n15",
                 "P1": "n16",

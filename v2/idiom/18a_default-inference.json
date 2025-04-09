@@ -1,24 +1,24 @@
 {
-    "id": "I11d",
-    "name": "either constraint",
+    "id": "I18a",
+    "name": "default inference",
     "nodes": [
-        {
-            "id": "C",
-            "type": "conclusion",
-            "predicate": "bring_about",
-            "args": ["X"]
-        },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "bring_about",
+            "predicate": "acceptable",
             "args": ["X"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "either",
-            "args": ["X"]
+            "predicate": "reason_enough",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "predicate": "acceptable",
+            "args": ["Y"]
         }
     ],
     "edges": [

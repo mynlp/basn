@@ -62,7 +62,7 @@
         },
         {
             "id": "n13",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["IKA", "SDL"]
         },
         {

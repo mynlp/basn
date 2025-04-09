@@ -274,7 +274,7 @@
         },
         "DLK": {
             "type": "Proposition",
-            "text": "To introduce the death penalty lead to killing innocent people."
+            "text": "Introducing the death penalty kills innocent people."
         },
         "CJS": {
             "type": "Proposition",
@@ -313,7 +313,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z1",
                 "P1": "n5",
@@ -322,7 +322,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "z3",
                 "P1": "n8",
@@ -331,7 +331,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z2",
                 "P1": "n10",
@@ -349,7 +349,7 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "z4",
                 "P1": "n14",

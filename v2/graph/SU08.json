@@ -159,7 +159,7 @@
         },
         "SRF": {
             "type": "Proposition",
-            "text": "To adopt school uniforms restricts students’ freedom of expression."
+            "text": "Adopting school uniforms restricts students’ freedom of expression."
         },
         "SCR": {
             "type": "Proposition",
@@ -171,7 +171,7 @@
         },
         "SSS": {
             "type": "Proposition",
-            "text": "To adopt school uniforms stops students from being themselves."
+            "text": "Adopting school uniforms stops students from being themselves."
         },
         "SET": {
             "type": "Proposition",
@@ -190,7 +190,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n5",
                 "P1": "n6",
@@ -217,7 +217,7 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n11",
                 "P1": "n12",

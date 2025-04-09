@@ -149,7 +149,7 @@
         },
         "SDC": {
             "type": "Proposition",
-            "text": "To adopt school uniforms deters crime."
+            "text": "Adopting school uniforms deters crime."
         },
         "IER": {
             "type": "Proposition",
@@ -174,7 +174,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n6",
                 "P1": "n7",

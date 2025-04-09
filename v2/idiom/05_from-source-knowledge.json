@@ -11,7 +11,7 @@
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["S", "X"]
         },
         {

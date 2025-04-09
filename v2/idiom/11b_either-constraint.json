@@ -24,13 +24,13 @@
     "edges": [
         {
             "id": "E1",
-            "from": "C",
-            "to": "P2"
+            "from": "P1",
+            "to": "C"
         },
         {
             "id": "E2",
-            "from": "P1",
-            "to": "P2"
+            "from": "P2",
+            "to": "C"
         }
     ]
 }

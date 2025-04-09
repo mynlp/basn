@@ -22,7 +22,7 @@
         },
         {
             "id": "n5",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["MPE", "SUN"]
         },
         {
@@ -52,7 +52,7 @@
         },
         {
             "id": "n11",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["MST", "NSU"]
         },
         {

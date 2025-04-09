@@ -189,7 +189,7 @@
         },
         "SHS": {
             "type": "Proposition",
-            "text": "To adopt school uniforms helps students focus on learning."
+            "text": "Adopting school uniforms helps students focus on learning."
         },
         "SLC": {
             "type": "Proposition",
@@ -222,7 +222,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n6",
                 "P1": "n7",
@@ -231,7 +231,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n9",
                 "P1": "n10",

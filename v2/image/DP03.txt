@@ -8,6 +8,6 @@ Proposition DEA: DNA evidence is not available in many cases.
 [instances]
 red: I03 from consequence
 blue: I04 means for goal
-green: I01a default inference
-orange: I01b default inference
+green: I18a default inference
+orange: I18b default inference
 darkgreen: I12c contradict constraint

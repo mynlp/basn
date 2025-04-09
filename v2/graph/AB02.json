@@ -109,7 +109,7 @@
         },
         "AVK": {
             "type": "Proposition",
-            "text": "To have an abortion violates the idea that we must not kill an innocent human being."
+            "text": "Having an abortion violates the idea that we must not kill an innocent human being."
         },
         "LBC": {
             "type": "Proposition",
@@ -132,7 +132,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",
@@ -141,7 +141,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n7",
                 "P1": "n8",

@@ -30,8 +30,8 @@
     ],
     "variables": {
         "CSG": {
-            "type": "Case",
-            "text": "common-sense gun control such as background checks, bans on assault weapons, and bans on high-capacity magazines"
+            "type": "Proposition",
+            "text": "Common-sense gun control such as background checks, bans on assault weapons, and bans on high-capacity magazines is acceptable."
         },
         "MOA": {
             "type": "Person(s)",

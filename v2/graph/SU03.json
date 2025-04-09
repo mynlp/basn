@@ -113,7 +113,7 @@
         },
         "SES": {
             "type": "Proposition",
-            "text": "To adopt school uniforms emphasizes the socio-economic divisions they are supposed to eliminate."
+            "text": "Adopting school uniforms emphasizes the socio-economic divisions they are supposed to eliminate."
         },
         "MPS": {
             "type": "Proposition",
@@ -143,7 +143,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n8",
                 "P1": "n9",

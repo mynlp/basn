@@ -89,7 +89,7 @@
         },
         "ACP": {
             "type": "Proposition",
-            "text": "To have an abortion causes pain to a fetus."
+            "text": "Having an abortion causes pain to a fetus."
         },
         "FIF": {
             "type": "Proposition",
@@ -108,7 +108,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n5",
                 "P1": "n6",

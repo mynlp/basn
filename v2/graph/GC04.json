@@ -241,7 +241,7 @@
         },
         "GLS": {
             "type": "Proposition",
-            "text": "Gun ownership leads to enabling self-defense."
+            "text": "Gun ownership enables self-defense."
         },
         "CAA": {
             "type": "Proposition",
@@ -268,10 +268,10 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I02",
+            "idiom_id": "I03",
             "node_map": {
-                "C": "n4",
-                "P1": "n1",
+                "C": "n1",
+                "P1": "n4",
                 "P2": "n5"
             }
         },
@@ -297,7 +297,7 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n12",
                 "P1": "n13",
@@ -306,7 +306,7 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "z1",
                 "P1": "n16",
@@ -315,7 +315,7 @@
         },
         {
             "id": "i7",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "z2",
                 "P1": "n18",

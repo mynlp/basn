@@ -12,10 +12,10 @@ Case CPS: to cause psychiatric symptoms to prisoners
 [instances]
 red: I11b either constraint
 blue: I14b comparative
-green: I01a default inference
-orange: I01a default inference
+green: I18a default inference
+orange: I18a default inference
 darkgreen: I03 from consequence
 purple: I16b verbal evaluation
-lightgreen: I01a default inference
+lightgreen: I18a default inference
 cyan: I03 from consequence
 magenta: I12c contradict constraint

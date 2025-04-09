@@ -109,7 +109,7 @@
         },
         "MRT": {
             "type": "Proposition",
-            "text": "To increase the minimum wage reduces teenage employment."
+            "text": "Increasing the minimum wage reduces teenage employment."
         },
         "TMW": {
             "type": "Proposition",
@@ -136,7 +136,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",

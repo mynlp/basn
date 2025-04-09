@@ -159,7 +159,7 @@
         },
         "IVC": {
             "type": "Proposition",
-            "text": "To introduce the death penaltyThe violates the idea that criminal justice system must be fair."
+            "text": "To introduce the death penalty violates the idea that criminal justice system must be fair."
         },
         "PDP": {
             "type": "Proposition",
@@ -194,7 +194,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",
@@ -203,7 +203,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
             "node_map": {
                 "C": "n7",
                 "P1": "z1",
@@ -230,7 +230,7 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I11d",
+            "idiom_id": "I11c",
             "node_map": {
                 "C": "z1",
                 "P1": "z2",

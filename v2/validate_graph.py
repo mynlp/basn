@@ -7,7 +7,7 @@ PREDICATES_ARGNUMS = {
     "bring_about": 1,# "not_bring_about": 1,
     "acceptable": 1, "unacceptable": 1,
     "lead_to": 2, "means_to": 2, "higher_priority_for": 2,
-    "honest": 1, "assert": 2, "familiar_with": 2, "authority_over": 2,
+    "honest": 1, "assert": 2, "knowledgeable_about": 2, "authority_over": 2,
     "follow": 2, "violate": 2,
     "mean": 2, "reason_enough": 2, "reason_enough_not": 2,
     "fact": 1, "evidence": 2, "example": 2,

@@ -348,7 +348,7 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n10",
                 "P1": "n11",
@@ -375,7 +375,7 @@
         },
         {
             "id": "i8",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n17",
                 "P1": "n18",
@@ -384,7 +384,7 @@
         },
         {
             "id": "i9",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n20",
                 "P1": "n21",

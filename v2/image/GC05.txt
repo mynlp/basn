@@ -13,6 +13,6 @@ red: I04 means for goal
 blue: I17 correlation to cause
 green: I10 from example
 orange: I12a contradict constraint
-darkgreen: I01a default inference
-purple: I01a default inference
+darkgreen: I18a default inference
+purple: I18a default inference
 lightgreen: I09 from evidence

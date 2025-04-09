@@ -187,7 +187,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n8",
                 "P1": "n9",
@@ -196,7 +196,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n11",
                 "P1": "n12",

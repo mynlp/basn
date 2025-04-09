@@ -1,5 +1,5 @@
 {
-    "id": "I01a",
+    "id": "I18b",
     "name": "default inference",
     "nodes": [
         {
@@ -11,13 +11,13 @@
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "reason_enough",
+            "predicate": "reason_enough_not",
             "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "acceptable",
+            "predicate": "unacceptable",
             "args": ["Y"]
         }
     ],

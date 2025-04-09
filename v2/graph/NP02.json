@@ -259,7 +259,7 @@
         },
         "RNS": {
             "type": "Proposition",
-            "text": "To regulate the uses of nuclear energy make nuclear power safe."
+            "text": "Regulating the uses of nuclear energy makes nuclear power safe."
         },
         "NPD": {
             "type": "Proposition",
@@ -279,7 +279,7 @@
         },
         "INS": {
             "type": "Proposition",
-            "text": "To introduce safety systems make nuclear power safe."
+            "text": "Introducing safety systems makes nuclear power safe."
         },
         "MNT": {
             "type": "Proposition",
@@ -302,7 +302,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z3",
                 "P1": "n5",
@@ -311,7 +311,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z4",
                 "P1": "n7",
@@ -320,7 +320,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I01b",
+            "idiom_id": "I18b",
             "node_map": {
                 "C": "n9",
                 "P1": "n10",
@@ -347,7 +347,7 @@
         },
         {
             "id": "i7",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z5",
                 "P1": "n15",
@@ -356,7 +356,7 @@
         },
         {
             "id": "i8",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "z6",
                 "P1": "n17",

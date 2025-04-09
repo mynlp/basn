@@ -57,7 +57,7 @@
         },
         {
             "id": "n12",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["RIN", "DPC"]
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "id": "n15",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["RST", "DPD"]
         },
         {
@@ -83,7 +83,7 @@
         {
             "id": "n17",
             "predicate": "acceptable",
-            "args": ["RFD"]
+            "args": ["RND"]
         },
         {
             "id": "n18",
@@ -93,7 +93,7 @@
         {
             "id": "n19",
             "predicate": "contradict",
-            "args": ["RFD", "RSC"]
+            "args": ["RND", "RSC"]
         },
         {
             "id": "n20",
@@ -112,7 +112,7 @@
         },
         {
             "id": "n23",
-            "predicate": "familiar_with",
+            "predicate": "knowledgeable_about",
             "args": ["CRM", "DPN"]
         },
         {
@@ -253,7 +253,7 @@
         },
         "DPC": {
             "type": "Proposition",
-            "text": "Whether to introduce the death penalty correlates with a murder rate."
+            "text": "To introduce the death penalty correlates with a murder rate."
         },
         "RIN": {
             "type": "Thing(s)",
@@ -261,15 +261,15 @@
         },
         "DPD": {
             "type": "Proposition",
-            "text": "The death penalty deters crime."
+            "text": "Introducing the death penalty deters crime."
         },
         "RST": {
             "type": "Thing(s)",
             "text": "recent studies"
         },
-        "RFD": {
+        "RND": {
             "type": "Proposition",
-            "text": "Recent studies are familiar with whether the death penalty deters crime."
+            "text": "Recent studies are credible in assessing whether introducing the death penalty deters crime."
         },
         "RSC": {
             "type": "Proposition",
@@ -277,7 +277,7 @@
         },
         "DPN": {
             "type": "Proposition",
-            "text": "the death penalty does not deter crime."
+            "text": "Introducing the death penalty does not deter crime."
         },
         "CRM": {
             "type": "Person(s)",
@@ -298,7 +298,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n6",
                 "P1": "n7",

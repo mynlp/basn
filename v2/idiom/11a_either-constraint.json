@@ -1,17 +1,17 @@
 {
-    "id": "I11a",
+    "id": "I11b",
     "name": "either constraint",
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "acceptable",
+            "predicate": "bring_about",
             "args": ["X"]
         },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "acceptable",
+            "predicate": "bring_about",
             "args": ["Y"]
         },
         {

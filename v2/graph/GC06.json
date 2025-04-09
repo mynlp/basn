@@ -8,119 +8,89 @@
         {
             "id": "n2",
             "predicate": "bring_about",
-            "args": ["PGO"]
+            "args": ["PAG"]
         },
         {
             "id": "n3",
             "predicate": "means_to",
-            "args": ["EGC", "PGO"]
+            "args": ["EGC", "PAG"]
         },
         {
             "id": "n4",
             "predicate": "lead_to",
-            "args": ["EGC", "PGO"]
+            "args": ["EGC", "PAG"]
         },
         {
             "id": "n5",
             "predicate": "higher_priority_for",
-            "args": ["EGC", "PGO"]
+            "args": ["EGC", "PAG"]
         },
         {
             "id": "n6",
-            "predicate": "contradict",
-            "args": ["PGO", "GOW"]
-        },
-        {
-            "id": "n7",
-            "predicate": "bring_about",
-            "args": ["GOW"]
-        },
-        {
-            "id": "n8",
-            "predicate": "bring_about",
-            "args": ["AGD"]
-        },
-        {
-            "id": "n9",
-            "predicate": "lead_to",
-            "args": ["GOW", "AGD"]
-        },
-        {
-            "id": "n10",
-            "predicate": "contradict",
-            "args": ["AGD", "PAG"]
-        },
-        {
-            "id": "n11",
-            "predicate": "bring_about",
-            "args": ["PAG"]
-        },
-        {
-            "id": "n12",
             "predicate": "bring_about",
             "args": ["PEG"]
         },
         {
-            "id": "n13",
+            "id": "n7",
             "predicate": "means_to",
             "args": ["PEG", "PAG"]
         },
         {
-            "id": "n14",
+            "id": "n8",
             "predicate": "lead_to",
             "args": ["PEG", "PAG"]
         },
         {
-            "id": "n15",
+            "id": "n9",
             "predicate": "higher_priority_for",
             "args": ["PEG", "PAG"]
         },
         {
-            "id": "n16",
+            "id": "n10",
             "predicate": "either",
             "args": ["PEG", "EGC"]
         },
         {
-            "id": "n17",
+            "id": "n11",
             "predicate": "better_than",
             "args": ["PEG", "EGC"]
         },
         {
-            "id": "n18",
+            "id": "n12",
             "predicate": "acceptable",
             "args": ["EBG"]
         },
         {
-            "id": "n19",
+            "id": "n13",
             "predicate": "acceptable",
             "args": ["CTF"]
         },
         {
-            "id": "n20",
+            "id": "n14",
             "predicate": "reason_enough",
             "args": ["CTF", "EBG"]
         },
         {
-            "id": "n21",
-            "predicate": "either",
-            "args": ["PEG", "EGC"]
+            "id": "z1",
+            "predicate": "bring_about",
+            "args": ["PAG"]
         },
         {
-            "id": "e1",
-            "predicate": "equivalent",
-            "args": []
+            "id": "z2",
+            "predicate": "bring_about",
+            "args": ["PAG"]
         }
     ],
     "edges": [
         {
             "id": "e1",
             "from": "n1",
-            "to": "n2"
+            "to": "z1"
         },
         {
             "id": "e2",
             "from": "n3",
-            "to": "n2"
+            "to": "z1"
         },
         {
             "id": "e3",
@@ -134,116 +104,64 @@
         },
         {
             "id": "e5",
-            "from": "n2",
-            "to": "n6"
+            "from": "n6",
+            "to": "z2"
         },
         {
             "id": "e6",
             "from": "n7",
-            "to": "n6"
+            "to": "z2"
         },
         {
             "id": "e7",
-            "from": "n7",
-            "to": "n8"
+            "from": "n8",
+            "to": "n7"
         },
         {
             "id": "e8",
             "from": "n9",
-            "to": "n8"
+            "to": "n7"
         },
         {
             "id": "e9",
-            "from": "n8",
-            "to": "n10"
+            "from": "n10",
+            "to": "n6"
         },
         {
             "id": "e10",
             "from": "n11",
-            "to": "n10"
+            "to": "n6"
         },
         {
             "id": "e11",
-            "from": "n12",
-            "to": "n11"
+            "from": "n13",
+            "to": "n12"
         },
         {
             "id": "e12",
-            "from": "n13",
-            "to": "n11"
-        },
-        {
-            "id": "e13",
             "from": "n14",
-            "to": "n13"
-        },
-        {
-            "id": "e14",
-            "from": "n15",
-            "to": "n13"
-        },
-        {
-            "id": "e15",
-            "from": "n16",
             "to": "n12"
         },
         {
-            "id": "e16",
-            "from": "n17",
-            "to": "n12"
+            "id": "o1",
+            "from": "z1",
+            "to": "n2"
         },
         {
-            "id": "e17",
-            "from": "n19",
-            "to": "n18"
-        },
-        {
-            "id": "e18",
-            "from": "n20",
-            "to": "n18"
-        },
-        {
-            "id": "e19",
-            "from": "n1",
-            "to": "n21"
-        },
-        {
-            "id": "e20",
-            "from": "n12",
-            "to": "n21"
-        },
-        {
-            "id": "q1",
-            "from": "n16",
-            "to": "e1"
-        },
-        {
-            "id": "q2",
-            "from": "n21",
-            "to": "e1"
+            "id": "o2",
+            "from": "z2",
+            "to": "n2"
         },
         {
             "id": "r1",
-            "from": "n18",
-            "to": "n17"
+            "from": "n12",
+            "to": "n11"
         }
     ],
     "variables": {
         "EGC": {
             "type": "Case",
             "text": "to enact more gun control laws"
-        },
-        "GOW": {
-            "type": "Case",
-            "text": "gun ownership"
-        },
-        "PGO": {
-            "type": "Case",
-            "text": "to prevent gun ownership"
-        },
-        "AGD": {
-            "type": "Case",
-            "text": "an accidental gun death"
         },
         "PAG": {
             "type": "Case",
@@ -268,7 +186,7 @@
             "idiom_id": "I04",
             "node_map": {
                 "C": "n1",
-                "P1": "n2",
+                "P1": "z1",
                 "M1": "n3",
                 "P2": "n4",
                 "P3": "n5"
@@ -276,67 +194,31 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I12b",
+            "idiom_id": "I04",
             "node_map": {
-                "C": "n2",
-                "P1": "n7",
-                "P2": "n6"
+                "C": "n6",
+                "P1": "z2",
+                "M1": "n7",
+                "P2": "n8",
+                "P3": "n9"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I03",
+            "idiom_id": "I14b",
             "node_map": {
-                "C": "n7",
-                "P1": "n8",
-                "P2": "n9"
+                "C": "n6",
+                "P1": "n10",
+                "P2": "n11"
             }
         },
         {
             "id": "i4",
-            "idiom_id": "I12b",
-            "node_map": {
-                "C": "n8",
-                "P1": "n11",
-                "P2": "n10"
-            }
-        },
-        {
-            "id": "i5",
-            "idiom_id": "I04",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n12",
-                "P1": "n11",
-                "M1": "n13",
-                "P2": "n14",
-                "P3": "n15"
-            }
-        },
-        {
-            "id": "i6",
-            "idiom_id": "I14b",
-            "node_map": {
-                "C": "n12",
-                "P1": "n16",
-                "P2": "n17"
-            }
-        },
-        {
-            "id": "i7",
-            "idiom_id": "I01a",
-            "node_map": {
-                "C": "n18",
-                "P1": "n19",
-                "P2": "n20"
-            }
-        },
-        {
-            "id": "i8",
-            "idiom_id": "I11b",
-            "node_map": {
-                "C": "n1",
-                "P1": "n12",
-                "P2": "n21"
+                "P1": "n13",
+                "P2": "n14"
             }
         }
     ],
@@ -344,11 +226,11 @@
         "r1": {
             "type": "rephrasing"
         },
-        "q1": {
-            "type": "equivalent"
+        "o1": {
+            "type": "or"
         },
-        "q2": {
-            "type": "equivalent"
+        "o2": {
+            "type": "or"
         }
     }
 }

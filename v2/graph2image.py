@@ -58,6 +58,7 @@ if __name__ == "__main__":
     g = create_graph(data)
     #g.view()
     g.render(output_path)
+    os.remove(output_path)
 
     idioms = read_idioms("idiom")
     caption = make_caption(data, idioms)

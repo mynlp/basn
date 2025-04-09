@@ -89,7 +89,7 @@
         },
         "MRG": {
             "type": "Proposition",
-            "text": "To increase the minimum wage reduces government welfare spending."
+            "text": "Increasing the minimum wage reduces government welfare spending."
         },
         "PDG": {
             "type": "Proposition",
@@ -110,7 +110,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I01a",
+            "idiom_id": "I18a",
             "node_map": {
                 "C": "n6",
                 "P1": "n7",

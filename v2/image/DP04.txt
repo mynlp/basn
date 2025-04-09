@@ -2,17 +2,17 @@
 Case IDP: to introduce the death penalty
 Case DCR: to deter crime
 Proposition PFD: People fear nothing more than death and nothing will deter a criminal more than the fear of death.
-Proposition DPC: Whether to introduce the death penalty correlates with a murder rate.
+Proposition DPC: To introduce the death penalty correlates with a murder rate.
 Thing(s) RIN: recent investigations
-Proposition DPD: The death penalty deters crime.
+Proposition DPD: Introducing the death penalty deters crime.
 Thing(s) RST: recent studies
-Proposition RFD: Recent studies are familiar with whether the death penalty deters crime.
+Proposition RND: Recent studies are credible in assessing whether introducing the death penalty deters crime.
 Proposition RSC: Recent studies contain numerous technical and conceptual errors.
-Proposition DPN: the death penalty does not deter crime.
+Proposition DPN: Introducing the death penalty does not deter crime.
 Person(s) CRM: Criminologists
 [instances]
 red: I04 means for goal
-blue: I01a default inference
+blue: I18a default inference
 green: I17 correlation to cause
 orange: I05 from source knowledge
 darkgreen: I05 from source knowledge

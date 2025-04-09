@@ -15,10 +15,10 @@ red: I06 from source authority
 blue: I08 interpretation
 green: I07a rule-or-principle
 orange: I07b rule-or-principle
-darkgreen: I01a default inference
+darkgreen: I18a default inference
 purple: I06 from source authority
 lightgreen: I07b rule-or-principle
-cyan: I01a default inference
-magenta: I01b default inference
+cyan: I18a default inference
+magenta: I18b default inference
 navy: I12c contradict constraint
 red: I12c contradict constraint
