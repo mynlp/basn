@@ -122,7 +122,17 @@
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c2",
+            "predicate": "conflict_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "consistent_link",
             "args": []
         }
     ],
@@ -168,16 +178,6 @@
             "to": "n9"
         },
         {
-            "id": "e9",
-            "from": "n4",
-            "to": "c1"
-        },
-        {
-            "id": "e10",
-            "from": "n9",
-            "to": "c1"
-        },
-        {
             "id": "e11",
             "from": "n12",
             "to": "z2"
@@ -208,14 +208,34 @@
             "to": "z6"
         },
         {
-            "id": "r1",
-            "from": "n4",
-            "to": "n3"
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
         },
         {
-            "id": "r2",
+            "id": "l2",
+            "from": "n4",
+            "to": "c1"
+        },
+        {
+            "id": "l3",
+            "from": "n3",
+            "to": "c2"
+        },
+        {
+            "id": "l4",
+            "from": "n9",
+            "to": "c2"
+        },
+        {
+            "id": "l5",
+            "from": "n13",
+            "to": "c3"
+        },
+        {
+            "id": "l6",
             "from": "n14",
-            "to": "n13"
+            "to": "c3"
         },
         {
             "id": "o1",
@@ -228,22 +248,22 @@
             "to": "n1"
         },
         {
-            "id": "o3",
+            "id": "m1",
             "from": "z3",
             "to": "n4"
         },
         {
-            "id": "o4",
+            "id": "m2",
             "from": "z4",
             "to": "n4"
         },
         {
-            "id": "o5",
+            "id": "m3",
             "from": "z5",
             "to": "n14"
         },
         {
-            "id": "o6",
+            "id": "m4",
             "from": "z6",
             "to": "n14"
         }
@@ -302,7 +322,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z3",
                 "P1": "n5",
@@ -311,7 +331,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z4",
                 "P1": "n7",
@@ -320,7 +340,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
                 "C": "n9",
                 "P1": "n10",
@@ -329,15 +349,6 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n4",
-                "P2": "n9"
-            }
-        },
-        {
-            "id": "i6",
             "idiom_id": "I02",
             "node_map": {
                 "C": "z2",
@@ -346,8 +357,8 @@
             }
         },
         {
-            "id": "i7",
-            "idiom_id": "I18a",
+            "id": "i6",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z5",
                 "P1": "n15",
@@ -356,7 +367,7 @@
         },
         {
             "id": "i8",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z6",
                 "P1": "n17",
@@ -365,11 +376,23 @@
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
+        },
+        "l3": {
+            "type": "link"
+        },
+        "l4": {
+            "type": "link"
+        },
+        "l5": {
+            "type": "link"
+        },
+        "l6": {
+            "type": "link"
         },
         "o1": {
             "type": "or"
@@ -377,17 +400,17 @@
         "o2": {
             "type": "or"
         },
-        "o3": {
-            "type": "or"
+        "m1": {
+            "type": "max"
         },
-        "o4": {
-            "type": "or"
+        "m2": {
+            "type": "max"
         },
-        "o5": {
-            "type": "or"
+        "m3": {
+            "type": "max"
         },
-        "o6": {
-            "type": "or"
+        "m4": {
+            "type": "max"
         }
     }
 }

@@ -12,57 +12,27 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
+            "predicate": "lead_to",
             "args": ["HAB", "PWF"]
         },
         {
             "id": "n4",
-            "predicate": "lead_to",
-            "args": ["HAB", "PWF"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["HAB", "PWF"]
-        },
-        {
-            "id": "n6",
             "predicate": "bring_about",
             "args": ["RWC"]
         },
         {
-            "id": "n7",
-            "predicate": "means_to",
-            "args": ["PWF", "RWC"]
-        },
-        {
-            "id": "n8",
+            "id": "n5",
             "predicate": "lead_to",
             "args": ["PWF", "RWC"]
         },
         {
-            "id": "n9",
-            "predicate": "higher_priority_for",
-            "args": ["PWF", "RWC"]
-        },
-        {
-            "id": "n10",
+            "id": "n6",
             "predicate": "bring_about",
             "args": ["GPW"]
         },
         {
-            "id": "n11",
-            "predicate": "means_to",
-            "args": ["HAB", "GPW"]
-        },
-        {
-            "id": "n12",
+            "id": "n7",
             "predicate": "lead_to",
-            "args": ["HAB", "GPW"]
-        },
-        {
-            "id": "n13",
-            "predicate": "higher_priority_for",
             "args": ["HAB", "GPW"]
         }
     ],
@@ -79,53 +49,23 @@
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "n3"
+            "from": "n2",
+            "to": "n4"
         },
         {
             "id": "e4",
             "from": "n5",
-            "to": "n3"
+            "to": "n4"
         },
         {
             "id": "e5",
-            "from": "n2",
+            "from": "n1",
             "to": "n6"
         },
         {
             "id": "e6",
             "from": "n7",
             "to": "n6"
-        },
-        {
-            "id": "e7",
-            "from": "n8",
-            "to": "n7"
-        },
-        {
-            "id": "e8",
-            "from": "n9",
-            "to": "n7"
-        },
-        {
-            "id": "e9",
-            "from": "n1",
-            "to": "n10"
-        },
-        {
-            "id": "e10",
-            "from": "n11",
-            "to": "n10"
-        },
-        {
-            "id": "e11",
-            "from": "n12",
-            "to": "n11"
-        },
-        {
-            "id": "e12",
-            "from": "n13",
-            "to": "n11"
         }
     ],
     "variables": {
@@ -149,35 +89,32 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n2",
-                "P1": "n6",
-                "M1": "n7",
-                "P2": "n8",
-                "P3": "n9"
+                "P1": "n4",
+                "P2": "n5"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
-                "P1": "n10",
-                "M1": "n11",
-                "P2": "n12",
-                "P3": "n13"
+                "P1": "n6",
+                "P2": "n7"
             }
         }
     ],

@@ -4,5 +4,5 @@ Case RGW: to reduce government welfare spending
 Proposition MRG: Increasing the minimum wage reduces government welfare spending.
 Proposition PDG: Many people would no longer be dependent on government assistance programs.
 [instances]
-red: I04 means for goal
-blue: I18a default inference
+red: I01 From Consequence
+blue: I23b Support Default Inference

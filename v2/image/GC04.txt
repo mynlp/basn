@@ -9,11 +9,10 @@ Proposition CAA: Criminals avoid attacking a person who possesses a gun.
 Proposition GRU: Guns are rarely used in self-defense.
 Proposition AGO: The average gun owner is not trained in law enforcement or on how to handle life-threatening situations.
 [instances]
-red: I03 from consequence
-blue: I03 from consequence
-green: I12b contradict constraint
-orange: I04 means for goal
-darkgreen: I18a default inference
-purple: I18b default inference
-lightgreen: I18b default inference
-cyan: I12c contradict constraint
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I01 From Consequence
+orange: I19a Either Constraint
+darkgreen: I23b Support Default Inference
+purple: I24b Attack Default Inference
+lightgreen: I24b Attack Default Inference

@@ -23,27 +23,27 @@
         {
             "id": "n5",
             "predicate": "acceptable",
-            "args": ["PDP"]
+            "args": ["DRB"]
         },
         {
             "id": "n6",
             "predicate": "reason_enough",
-            "args": ["PDP", "IVC"]
+            "args": ["DRB", "IVC"]
         },
         {
             "id": "n7",
             "predicate": "bring_about",
-            "args": ["CDP"]
+            "args": ["DRB"]
         },
         {
             "id": "n8",
-            "predicate": "either",
+            "predicate": "bring_about",
             "args": ["DSR"]
         },
         {
             "id": "n9",
             "predicate": "lead_to",
-            "args": ["CDP", "DSR"]
+            "args": ["DRB", "DSR"]
         },
         {
             "id": "z1",
@@ -74,6 +74,21 @@
             "id": "n13",
             "predicate": "lead_to",
             "args": ["HPR", "HCR"]
+        },
+        {
+            "id": "n14",
+            "predicate": "conflict",
+            "args": ["DSR", "DSR"]
+        },
+        {
+            "id": "c1",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c2",
+            "predicate": "consistent_link",
+            "args": []
         }
     ],
     "edges": [
@@ -119,33 +134,53 @@
         },
         {
             "id": "e9",
-            "from": "z1",
-            "to": "n8"
-        },
-        {
-            "id": "e10",
-            "from": "z2",
-            "to": "n8"
-        },
-        {
-            "id": "e11",
             "from": "n12",
             "to": "n10"
         },
         {
-            "id": "e12",
+            "id": "e10",
             "from": "n13",
             "to": "n10"
         },
         {
-            "id": "r1",
-            "from": "n4",
-            "to": "n3"
+            "id": "e11",
+            "from": "z1",
+            "to": "n14"
         },
         {
-            "id": "r2",
+            "id": "e12",
+            "from": "z2",
+            "to": "n14"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
+            "to": "n8"
+        },
+        {
+            "id": "l2",
+            "from": "n4",
+            "to": "c1"
+        },
+        {
+            "id": "l3",
             "from": "n5",
-            "to": "n7"
+            "to": "c2"
+        },
+        {
+            "id": "l4",
+            "from": "n7",
+            "to": "c2"
+        },
+        {
+            "id": "o2",
+            "from": "z2",
+            "to": "n8"
+        },
+        {
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
         }
     ],
     "variables": {
@@ -161,11 +196,7 @@
             "type": "Proposition",
             "text": "To introduce the death penalty violates the idea that criminal justice system must be fair."
         },
-        "PDP": {
-            "type": "Proposition",
-            "text": "The death penalty is racially biased."
-        },
-        "CDP": {
+        "DRB": {
             "type": "Case",
             "text": "The death penalty is racially biased."
         },
@@ -185,7 +216,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -194,7 +225,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",
@@ -204,6 +235,7 @@
         {
             "id": "i3",
             "idiom_id": "I01",
+            "usage": "effect to cause",
             "node_map": {
                 "C": "n7",
                 "P1": "z1",
@@ -230,20 +262,32 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I11c",
+            "idiom_id": "I20a",
             "node_map": {
                 "C": "z1",
-                "P1": "z2",
-                "P2": "n8"
+                "P1": "n14",
+                "P2": "z2"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
+        },
+        "l3": {
+            "type": "link"
+        },
+        "l4": {
+            "type": "link"
+        },
+        "o1": {
+            "type": "or"
+        },
+        "o2": {
+            "type": "or"
         }
     }
 }

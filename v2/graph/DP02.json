@@ -12,7 +12,7 @@
         },
         {
             "id": "n3",
-            "predicate": "authority_over",
+            "predicate": "authority_regard",
             "args": ["FAU", "NDL"]
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "id": "n6",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["NDL", "CDL"]
         },
         {
@@ -67,7 +67,7 @@
         },
         {
             "id": "n14",
-            "predicate": "authority_over",
+            "predicate": "authority_regard",
             "args": ["EAU", "EBR"]
         },
         {
@@ -122,12 +122,22 @@
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         },
         {
             "id": "c2",
-            "predicate": "contradict",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c4",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -223,42 +233,52 @@
             "to": "n20"
         },
         {
-            "id": "e19",
+            "id": "l1",
             "from": "n1",
             "to": "c1"
         },
         {
-            "id": "e20",
+            "id": "l2",
             "from": "n7",
             "to": "c1"
         },
         {
-            "id": "n21",
-            "from": "n17",
+            "id": "l3",
+            "from": "n9",
             "to": "c2"
         },
         {
-            "id": "n22",
-            "from": "n20",
-            "to": "c2"
-        },
-        {
-            "id": "r1",
+            "id": "l4",
             "from": "n10",
-            "to": "n9"
+            "to": "c2"
         },
         {
-            "id": "r2",
+            "id": "l5",
+            "from": "n16",
+            "to": "c3"
+        },
+        {
+            "id": "l6",
             "from": "n17",
-            "to": "n16"
+            "to": "c3"
         },
         {
-            "id": "o1",
+            "id": "l7",
+            "from": "n16",
+            "to": "c4"
+        },
+        {
+            "id": "l8",
+            "from": "n20",
+            "to": "c4"
+        },
+        {
+            "id": "m1",
             "from": "z1",
             "to": "n1"
         },
         {
-            "id": "o2",
+            "id": "m2",
             "from": "z2",
             "to": "n1"
         }
@@ -312,7 +332,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "n2",
                 "P1": "n3",
@@ -330,7 +350,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I07a",
+            "idiom_id": "I03",
             "node_map": {
                 "C": "n7",
                 "P1": "n5",
@@ -339,7 +359,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "z1",
                 "P1": "n2",
@@ -348,7 +368,7 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "n10",
                 "P1": "n11",
@@ -357,7 +377,7 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "n13",
                 "P1": "n14",
@@ -366,7 +386,7 @@
         },
         {
             "id": "i7",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "z2",
                 "P1": "n13",
@@ -375,7 +395,7 @@
         },
         {
             "id": "i8",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "n17",
                 "P1": "n18",
@@ -384,44 +404,44 @@
         },
         {
             "id": "i9",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
                 "C": "n20",
                 "P1": "n21",
                 "P2": "n22"
             }
-        },
-        {
-            "id": "i10",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n7",
-                "P2": "n1"
-            }
-        },
-        {
-            "id": "i11",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c2",
-                "P1": "n17",
-                "P2": "n20"
-            }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
         },
-        "o1": {
-            "type": "or"
+        "l3": {
+            "type": "link"
         },
-        "o2": {
-            "type": "or"
+        "l4": {
+            "type": "link"
+        },
+        "l5": {
+            "type": "link"
+        },
+        "l6": {
+            "type": "link"
+        },
+        "l7": {
+            "type": "link"
+        },
+        "l8": {
+            "type": "link"
+        },
+        "m1": {
+            "type": "max"
+        },
+        "m2": {
+            "type": "max"
         }
     }
 }

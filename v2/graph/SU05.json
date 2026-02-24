@@ -7,55 +7,80 @@
         },
         {
             "id": "n2",
+            "predicate": "bring_about",
+            "args": ["ADC"]
+        },
+        {
+            "id": "n3",
             "predicate": "either",
             "args": ["ASU", "ADC"]
         },
         {
-            "id": "n3",
+            "id": "n4",
             "predicate": "better_than",
             "args": ["ASU", "ADC"]
         },
         {
-            "id": "n4",
+            "id": "n5",
             "predicate": "acceptable",
             "args": ["SBD"]
         },
         {
-            "id": "n5",
+            "id": "n6",
             "predicate": "acceptable",
             "args": ["SUE"]
         },
         {
-            "id": "n6",
+            "id": "n7",
             "predicate": "reason_enough",
             "args": ["SUE", "SBD"]
+        },
+        {
+            "id": "c1",
+            "predicate": "consistent_link",
+            "args": []
         }
     ],
     "edges": [
         {
             "id": "e1",
-            "from": "n2",
-            "to": "n1"
+            "from": "n1",
+            "to": "n3"
         },
         {
             "id": "e2",
-            "from": "n3",
-            "to": "n1"
+            "from": "n2",
+            "to": "n3"
         },
         {
             "id": "e3",
-            "from": "n5",
+            "from": "n1",
             "to": "n4"
         },
         {
             "id": "e4",
-            "from": "n6",
+            "from": "n2",
             "to": "n4"
         },
         {
-            "id": "r1",
+            "id": "e5",
+            "from": "n6",
+            "to": "n5"
+        },
+        {
+            "id": "e6",
+            "from": "n7",
+            "to": "n5"
+        },
+        {
+            "id": "l1",
             "from": "n4",
-            "to": "n3"
+            "to": "c1"
+        },
+        {
+            "id": "l2",
+            "from": "n5",
+            "to": "c1"
         }
     ],
     "variables": {
@@ -79,26 +104,38 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I14b",
+            "idiom_id": "I19a",
             "node_map": {
                 "C": "n1",
-                "P1": "n2",
-                "P2": "n3"
+                "P1": "n3",
+                "P2": "n2"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I22a",
             "node_map": {
-                "C": "n4",
-                "P1": "n5",
-                "P2": "n6"
+                "C": "n1",
+                "P1": "n4",
+                "P2": "n2"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I23b",
+            "node_map": {
+                "C": "n5",
+                "P1": "n6",
+                "P2": "n7"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
         }
     }
 }

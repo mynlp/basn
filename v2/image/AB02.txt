@@ -5,7 +5,6 @@ Proposition AVK: Having an abortion violates the idea that we must not kill an i
 Proposition LBC: Life begins at conception.
 Proposition WPU: The word ‘person,’ as used in the Fourteenth Amendment of the US Constitution, does not include the unborn.
 [instances]
-red: I07b rule-or-principle
-blue: I18a default inference
-green: I18b default inference
-orange: I12c contradict constraint
+red: I04 Violating a Rule or Principle
+blue: I23b Support Default Inference
+green: I24b Attack Default Inference

@@ -10,12 +10,11 @@ Proposition IAC: To introduce life in prison without paroleas is as cruel as the
 Proposition LPP: Life in prison prisoners are treated as dead men.
 Case CPS: to cause psychiatric symptoms to prisoners
 [instances]
-red: I11b either constraint
-blue: I14b comparative
-green: I18a default inference
-orange: I18a default inference
-darkgreen: I03 from consequence
-purple: I16b verbal evaluation
-lightgreen: I18a default inference
-cyan: I03 from consequence
-magenta: I12c contradict constraint
+red: I19a Either Constraint
+blue: I22a Comparative
+green: I23b Support Default Inference
+orange: I23b Support Default Inference
+darkgreen: I01 From Consequence
+purple: I17 Negative Verbal Evaluation
+lightgreen: I23b Support Default Inference
+cyan: I01 From Consequence

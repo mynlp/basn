@@ -2,4 +2,4 @@
 Case LAB: to legalize abortion
 Case RMI: to reduce maternal injury and death caused by unsafe, illegal abortions
 [instances]
-red: I04 means for goal
+red: I01 From Consequence

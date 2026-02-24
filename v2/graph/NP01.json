@@ -7,85 +7,65 @@
         },
         {
             "id": "n2",
-            "predicate": "fact",
-            "args": ["HCN"]
+            "predicate": "if_then",
+            "args": ["NPS", "HCN"]
         },
         {
             "id": "n3",
-            "predicate": "evidence",
-            "args": ["HCN", "NPS"]
+            "predicate": "observed",
+            "args": ["HCN"]
         },
         {
             "id": "n4",
-            "predicate": "fact",
-            "args": ["UNP"]
+            "predicate": "if_then",
+            "args": ["NPS", "UNP"]
         },
         {
             "id": "n5",
-            "predicate": "evidence",
-            "args": ["UNP", "NPS"]
+            "predicate": "observed",
+            "args": ["UNP"]
         },
         {
             "id": "n6",
-            "predicate": "contradict",
-            "args": ["NPS", "NPN"]
+            "predicate": "if_then_not",
+            "args": ["NPS", "LPJ"]
         },
         {
             "id": "n7",
-            "predicate": "acceptable",
-            "args": ["NPN"]
-        },
-        {
-            "id": "n8",
-            "predicate": "fact",
+            "predicate": "observed",
             "args": ["LPJ"]
-        },
-        {
-            "id": "n9",
-            "predicate": "example",
-            "args": ["LPJ", "NPN"]
         }
     ],
     "edges": [
         {
             "id": "e1",
             "from": "n1",
-            "to": "n2"
+            "to": "n3"
         },
         {
             "id": "e2",
-            "from": "n3",
-            "to": "n2"
+            "from": "n2",
+            "to": "n3"
         },
         {
             "id": "e3",
             "from": "n1",
-            "to": "n4"
+            "to": "n5"
         },
         {
             "id": "e4",
-            "from": "n5",
-            "to": "n4"
+            "from": "n4",
+            "to": "n5"
         },
         {
             "id": "e5",
             "from": "n1",
-            "to": "n6"
+            "to": "n7"
         },
         {
             "id": "e6",
-            "from": "n7",
-            "to": "n6"
-        },
-        {
-            "id": "e7",
-            "from": "n7",
-            "to": "n8"
-        },
-        {
-            "id": "e8",
-            "from": "n9",
-            "to": "n8"
+            "from": "n6",
+            "to": "n7"
         }
     ],
     "variables": {
@@ -101,10 +81,6 @@
             "type": "Case",
             "text": "The U.S. nuclear power industry has not melted down a reactor since Three Mile Island."
         },
-        "NPN": {
-            "type": "Proposition",
-            "text": "Nuclear power is not safe."
-        },
         "LPJ": {
             "type": "Case",
             "text": "The lives of people in Japan are being endangered by nuclear radiation as a result of the breakdown at the Fukushima nuclear plant."
@@ -116,8 +92,8 @@
             "idiom_id": "I09",
             "node_map": {
                 "C": "n1",
-                "P1": "n3",
-                "P2": "n2"
+                "P1": "n2",
+                "P2": "n3"
             }
         },
         {
@@ -125,26 +101,17 @@
             "idiom_id": "I09",
             "node_map": {
                 "C": "n1",
-                "P1": "n5",
-                "P2": "n4"
+                "P1": "n4",
+                "P2": "n5"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I12a",
-            "node_map": {
-                "C": "n1",
-                "P1": "n7",
-                "P2": "n6"
-            }
-        },
-        {
-            "id": "i4",
             "idiom_id": "I10",
             "node_map": {
-                "C": "n7",
-                "P1": "n9",
-                "P2": "n8"
+                "C": "n1",
+                "P1": "n6",
+                "P2": "n7"
             }
         }
     ],

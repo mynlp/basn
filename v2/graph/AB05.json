@@ -27,72 +27,62 @@
         },
         {
             "id": "n6",
-            "predicate": "acceptable",
+            "predicate": "unacceptable",
             "args": ["ALH"]
         },
         {
             "id": "n7",
-            "predicate": "unacceptable",
-            "args": ["ALH"]
-        },
-        {
-            "id": "n8",
             "predicate": "acceptable",
             "args": ["MAP"]
         },
         {
-            "id": "n9",
+            "id": "n8",
             "predicate": "reason_enough_not",
             "args": ["MAP", "ALH"]
         },
         {
-            "id": "n10",
+            "id": "n9",
             "predicate": "bring_about",
             "args": ["CPD"]
         },
         {
-            "id": "n11",
+            "id": "n10",
             "predicate": "lead_to",
             "args": ["HAB", "CPD"]
         },
         {
-            "id": "n12",
+            "id": "n11",
             "predicate": "bring_about",
             "args": ["MHP"]
         },
         {
-            "id": "n13",
+            "id": "n12",
             "predicate": "lead_to",
             "args": ["HAB", "MHP"]
         },
         {
-            "id": "n14",
-            "predicate": "acceptable",
-            "args": ["ALM"]
-        },
-        {
-            "id": "n15",
+            "id": "n13",
             "predicate": "unacceptable",
             "args": ["ALM"]
         },
         {
-            "id": "n16",
+            "id": "n14",
             "predicate": "acceptable",
             "args": ["PLA"]
         },
         {
-            "id": "n17",
+            "id": "n15",
             "predicate": "reason_enough_not",
             "args": ["PLA", "ALM"]
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         },
         {
             "id": "c2",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -119,73 +109,63 @@
         },
         {
             "id": "e5",
-            "from": "n8",
-            "to": "n7"
+            "from": "n7",
+            "to": "n6"
         },
         {
             "id": "e6",
-            "from": "n9",
-            "to": "n7"
+            "from": "n8",
+            "to": "n6"
         },
         {
             "id": "e7",
-            "from": "n6",
-            "to": "c1"
+            "from": "n1",
+            "to": "n9"
         },
         {
             "id": "e8",
-            "from": "n7",
-            "to": "c1"
+            "from": "n10",
+            "to": "n9"
         },
         {
             "id": "e9",
             "from": "n1",
-            "to": "n10"
+            "to": "n11"
         },
         {
             "id": "e10",
-            "from": "n11",
-            "to": "n10"
+            "from": "n12",
+            "to": "n11"
         },
         {
             "id": "e11",
-            "from": "n1",
-            "to": "n12"
+            "from": "n14",
+            "to": "n13"
         },
         {
             "id": "e12",
-            "from": "n13",
-            "to": "n12"
-        },
-        {
-            "id": "e13",
-            "from": "n16",
-            "to": "n15"
-        },
-        {
-            "id": "e14",
-            "from": "n17",
-            "to": "n15"
-        },
-        {
-            "id": "e15",
-            "from": "n14",
-            "to": "c2"
-        },
-        {
-            "id": "e16",
             "from": "n15",
+            "to": "n13"
+        },
+        {
+            "id": "l1",
+            "from": "n5",
+            "to": "c1"
+        },
+        {
+            "id": "l2",
+            "from": "n6",
+            "to": "c1"
+        },
+        {
+            "id": "l3",
+            "from": "n12",
             "to": "c2"
         },
         {
-            "id": "r1",
-            "from": "n6",
-            "to": "n5"
-        },
-        {
-            "id": "r2",
-            "from": "n14",
-            "to": "n13"
+            "id": "l4",
+            "from": "n13",
+            "to": "c2"
         }
     ],
     "variables": {
@@ -229,7 +209,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -238,7 +219,8 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n4",
@@ -247,65 +229,55 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
-                "C": "n7",
-                "P1": "n8",
-                "P2": "n9"
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
             }
         },
         {
             "id": "i4",
-            "idiom_id": "I12c",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "c1",
-                "P1": "n6",
-                "P2": "n7"
+                "C": "n1",
+                "P1": "n9",
+                "P2": "n10"
             }
         },
         {
             "id": "i5",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
-                "P1": "n10",
-                "P2": "n11"
+                "P1": "n11",
+                "P2": "n12"
             }
         },
         {
             "id": "i6",
-            "idiom_id": "I03",
+            "idiom_id": "I24b",
             "node_map": {
-                "C": "n1",
-                "P1": "n12",
-                "P2": "n13"
-            }
-        },
-        {
-            "id": "i7",
-            "idiom_id": "I18b",
-            "node_map": {
-                "C": "n15",
-                "P1": "n16",
-                "P2": "n17"
-            }
-        },
-        {
-            "id": "i8",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c2",
+                "C": "n13",
                 "P1": "n14",
                 "P2": "n15"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
+        },
+        "l3": {
+            "type": "link"
+        },
+        "l4": {
+            "type": "link"
         }
     }
 }

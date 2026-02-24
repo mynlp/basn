@@ -5,6 +5,6 @@ Proposition SDC: Adopting school uniforms deters crime.
 Proposition IER: An intruder can easily be recognized.
 Case INS: to introduce new school security measures
 [instances]
-red: I04 means for goal
-blue: I18a default inference
-green: I04 means for goal
+red: I01 From Consequence
+blue: I23b Support Default Inference
+green: I01 From Consequence

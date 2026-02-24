@@ -7,7 +7,8 @@ from graphviz import Digraph
 COLORS = ["red", "blue", "green", "orange", "darkgreen", "purple", "lightgreen", "cyan", "magenta", "navy"]
 NON_IDIOM_EDGE_LABEL = {
     "or": "OR",
-    "rephrasing": "REP"
+    "max": "MAX",
+    "link": "link"
 }
 
 def create_graph(data: dict):

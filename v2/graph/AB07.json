@@ -27,17 +27,12 @@
         },
         {
             "id": "n6",
-            "predicate": "negative",
+            "predicate": "bad",
             "args": ["IMM"]
         },
         {
-            "id": "n7",
-            "predicate": "acceptable",
-            "args": ["UAF"]
-        },
-        {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -63,19 +58,14 @@
             "to": "n4"
         },
         {
-            "id": "e5",
-            "from": "n7",
+            "id": "l1",
+            "from": "n2",
             "to": "c1"
         },
         {
-            "id": "e6",
+            "id": "l2",
             "from": "n4",
             "to": "c1"
-        },
-        {
-            "id": "r1",
-            "from": "n2",
-            "to": "n7"
         }
     ],
     "variables": {
@@ -95,7 +85,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -104,26 +95,20 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I16b",
+            "idiom_id": "I17",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",
                 "P2": "n6"
             }
-        },
-        {
-            "id": "i3",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n7",
-                "P2": "n4"
-            }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
         }
     }
 }

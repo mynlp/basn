@@ -12,17 +12,7 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
-            "args": ["LAB", "RMI"]
-        },
-        {
-            "id": "n4",
             "predicate": "lead_to",
-            "args": ["LAB", "RMI"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
             "args": ["LAB", "RMI"]
         }
     ],
@@ -36,16 +26,6 @@
             "id": "e2",
             "from": "n3",
             "to": "n2"
-        },
-        {
-            "id": "e3",
-            "from": "n4",
-            "to": "n3"
-        },
-        {
-            "id": "e4",
-            "from": "n5",
-            "to": "n3"
         }
     ],
     "variables": {
@@ -61,13 +41,12 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         }
     ],

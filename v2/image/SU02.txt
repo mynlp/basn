@@ -7,9 +7,8 @@ Case IAD: to improve attendance and discipline
 Proposition PSF: A peer-reviewed study found no significant effects of school uniforms on performance on second-grade reading and mathematics examinations.
 Case TAA: to take attention away from finding genuine solutions to problems in education
 [instances]
-red: I04 means for goal
-blue: I18a default inference
-green: I18b default inference
-orange: I12c contradict constraint
-darkgreen: I04 means for goal
-purple: I03 from consequence
+red: I01 From Consequence
+blue: I23b Support Default Inference
+green: I24b Attack Default Inference
+orange: I01 From Consequence
+darkgreen: I01 From Consequence

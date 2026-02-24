@@ -27,142 +27,127 @@
         },
         {
             "id": "n6",
-            "predicate": "acceptable",
+            "predicate": "unacceptable",
             "args": ["NIC"]
         },
         {
             "id": "n7",
-            "predicate": "unacceptable",
-            "args": ["NIC"]
-        },
-        {
-            "id": "n8",
             "predicate": "acceptable",
             "args": ["RRT"]
         },
         {
-            "id": "n9",
+            "id": "n8",
             "predicate": "reason_enough_not",
             "args": ["RRT", "NIC"]
         },
         {
-            "id": "n10",
+            "id": "n9",
             "predicate": "bring_about",
             "args": ["MME"]
         },
         {
-            "id": "n11",
+            "id": "n10",
             "predicate": "lead_to",
             "args": ["ONP", "MME"]
         },
         {
-            "id": "n12",
+            "id": "n11",
             "predicate": "bring_about",
             "args": ["RSA"]
         },
         {
-            "id": "n13",
+            "id": "n12",
             "predicate": "lead_to",
             "args": ["MME", "RSA"]
         },
         {
-            "id": "n14",
+            "id": "n13",
             "predicate": "bring_about",
             "args": ["UMI"]
         },
         {
-            "id": "n15",
+            "id": "n14",
             "predicate": "lead_to",
             "args": ["ONP", "UMI"]
         },
         {
-            "id": "n16",
+            "id": "n15",
             "predicate": "bring_about",
             "args": ["SHP"]
         },
         {
-            "id": "n17",
+            "id": "n16",
             "predicate": "lead_to",
             "args": ["UMI", "SHP"]
         },
         {
-            "id": "n18",
+            "id": "n17",
             "predicate": "bring_about",
             "args": ["PEQ"]
         },
         {
-            "id": "n19",
+            "id": "n18",
             "predicate": "lead_to",
             "args": ["ONP", "PEQ"]
         },
         {
+            "id": "n19",
+            "predicate": "bring_about",
+            "args": ["PEQ"]
+        },
+        {
             "id": "n20",
-            "predicate": "acceptable",
-            "args": ["PEQ"]
-        },
-        {
-            "id": "n21",
-            "predicate": "unacceptable",
-            "args": ["PEQ"]
-        },
-        {
-            "id": "n22",
-            "predicate": "is",
-            "args": ["PEQ", "SPR"]
-        },
-        {
-            "id": "n23",
-            "predicate": "negative",
-            "args": ["SPR"]
-        },
-        {
-            "id": "n24",
-            "predicate": "acceptable",
-            "args": ["PIS"]
-        },
-        {
-            "id": "n25",
             "predicate": "acceptable",
             "args": ["CPP"]
         },
         {
-            "id": "n26",
-            "predicate": "reason_enough",
-            "args": ["CPP", "PIS"]
+            "id": "n21",
+            "predicate": "reason_enough_not",
+            "args": ["CPP", "PEQ"]
         },
         {
-            "id": "n27",
+            "id": "n22",
+            "predicate": "bring_about",
+            "args": ["OCP"]
+        },
+        {
+            "id": "n23",
             "predicate": "either",
             "args": ["ONP", "OCP"]
         },
         {
-            "id": "n28",
+            "id": "n24",
             "predicate": "better_than",
             "args": ["ONP", "OCP"]
         },
         {
-            "id": "n29",
+            "id": "n25",
             "predicate": "acceptable",
             "args": ["NBC"]
         },
         {
-            "id": "n30",
+            "id": "n26",
             "predicate": "acceptable",
             "args": ["RNR"]
         },
         {
-            "id": "n31",
+            "id": "n27",
             "predicate": "reason_enough",
             "args": ["RNR", "NBC"]
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         },
         {
             "id": "c2",
-            "predicate": "contradict",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "consistent_link",
             "args": []
         }
     ],
@@ -189,143 +174,133 @@
         },
         {
             "id": "e5",
-            "from": "n8",
-            "to": "n7"
+            "from": "n7",
+            "to": "n6"
         },
         {
             "id": "e6",
-            "from": "n9",
-            "to": "n7"
+            "from": "n8",
+            "to": "n6"
         },
         {
             "id": "e7",
-            "from": "n6",
-            "to": "c1"
+            "from": "n1",
+            "to": "n9"
         },
         {
             "id": "e8",
-            "from": "n7",
-            "to": "c1"
+            "from": "n10",
+            "to": "n9"
         },
         {
             "id": "e9",
-            "from": "n1",
-            "to": "n10"
+            "from": "n9",
+            "to": "n11"
         },
         {
             "id": "e10",
-            "from": "n11",
-            "to": "n10"
+            "from": "n12",
+            "to": "n11"
         },
         {
             "id": "e11",
-            "from": "n10",
-            "to": "n12"
+            "from": "n1",
+            "to": "n13"
         },
         {
             "id": "e12",
-            "from": "n13",
-            "to": "n12"
+            "from": "n14",
+            "to": "n13"
         },
         {
             "id": "e13",
-            "from": "n1",
-            "to": "n14"
+            "from": "n13",
+            "to": "n15"
         },
         {
             "id": "e14",
-            "from": "n15",
-            "to": "n14"
+            "from": "n16",
+            "to": "n15"
         },
         {
             "id": "e15",
-            "from": "n14",
-            "to": "n16"
+            "from": "n1",
+            "to": "n17"
         },
         {
             "id": "e16",
-            "from": "n17",
-            "to": "n16"
+            "from": "n18",
+            "to": "n17"
         },
         {
             "id": "e17",
-            "from": "n1",
-            "to": "n18"
+            "from": "n20",
+            "to": "n19"
         },
         {
             "id": "e18",
-            "from": "n19",
-            "to": "n18"
+            "from": "n21",
+            "to": "n19"
         },
         {
             "id": "e19",
-            "from": "n22",
-            "to": "n21"
+            "from": "n1",
+            "to": "n23"
         },
         {
             "id": "e20",
-            "from": "n23",
-            "to": "n21"
+            "from": "n22",
+            "to": "n23"
         },
         {
             "id": "e21",
-            "from": "n20",
-            "to": "c2"
+            "from": "n1",
+            "to": "n24"
         },
         {
             "id": "e22",
-            "from": "n21",
-            "to": "c2"
+            "from": "n22",
+            "to": "n24"
         },
         {
             "id": "e23",
-            "from": "n25",
-            "to": "n24"
+            "from": "n26",
+            "to": "n25"
         },
         {
             "id": "e24",
-            "from": "n26",
-            "to": "n24"
-        },
-        {
-            "id": "e25",
             "from": "n27",
-            "to": "n1"
+            "to": "n25"
         },
         {
-            "id": "e26",
-            "from": "n28",
-            "to": "n1"
+            "id": "l1",
+            "from": "n5",
+            "to": "c1"
         },
         {
-            "id": "e27",
-            "from": "n30",
-            "to": "n29"
-        },
-        {
-            "id": "e28",
-            "from": "n31",
-            "to": "n29"
-        },
-        {
-            "id": "r1",
+            "id": "l2",
             "from": "n6",
-            "to": "n5"
+            "to": "c1"
         },
         {
-            "id": "r2",
-            "from": "n18",
-            "to": "n20"
+            "id": "l3",
+            "from": "n17",
+            "to": "c2"
         },
         {
-            "id": "r3",
+            "id": "l4",
+            "from": "n19",
+            "to": "c2"
+        },
+        {
+            "id": "l5",
             "from": "n24",
-            "to": "n22"
+            "to": "c3"
         },
         {
-            "id": "r4",
-            "from": "n29",
-            "to": "n28"
+            "id": "l6",
+            "from": "n25",
+            "to": "c3"
         }
     ],
     "variables": {
@@ -369,14 +344,6 @@
             "type": "Case",
             "text": "to produce enormous quantities of radioactive waste"
         },
-        "SPR": {
-            "type": "Concept",
-            "text": "a serious problem"
-        },
-        "PIS": {
-            "type": "Proposition",
-            "text": "To produce enormous quantities of radioactive waste is a serious problem."
-        },
         "CPP": {
             "type": "Proposition",
             "text": "There currently is no permanent repository for the waste."
@@ -397,7 +364,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -406,7 +374,8 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n4",
@@ -415,125 +384,118 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
-                "C": "n7",
-                "P1": "n8",
-                "P2": "n9"
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
             }
         },
         {
             "id": "i4",
-            "idiom_id": "I12c",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "c1",
-                "P1": "n6",
-                "P2": "n7"
+                "C": "n1",
+                "P1": "n9",
+                "P2": "n10"
             }
         },
         {
             "id": "i5",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n1",
-                "P1": "n10",
-                "P2": "n11"
+                "C": "n9",
+                "P1": "n11",
+                "P2": "n12"
             }
         },
         {
             "id": "i6",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n10",
-                "P1": "n12",
-                "P2": "n13"
+                "C": "n1",
+                "P1": "n13",
+                "P2": "n14"
             }
         },
         {
             "id": "i7",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n1",
-                "P1": "n14",
-                "P2": "n15"
+                "C": "n13",
+                "P1": "n15",
+                "P2": "n16"
             }
         },
         {
             "id": "i8",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n14",
-                "P1": "n16",
-                "P2": "n17"
+                "C": "n1",
+                "P1": "n17",
+                "P2": "n18"
             }
         },
         {
             "id": "i9",
-            "idiom_id": "I03",
+            "idiom_id": "I24a",
             "node_map": {
-                "C": "n1",
-                "P1": "n18",
-                "P2": "n19"
-            }
-        },
-        {
-            "id": "i10",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c2",
+                "C": "n19",
                 "P1": "n20",
                 "P2": "n21"
             }
         },
         {
-            "id": "i11",
-            "idiom_id": "I16b",
+            "id": "i10",
+            "idiom_id": "I19a",
             "node_map": {
-                "C": "n21",
-                "P1": "n22",
-                "P2": "n23"
+                "C": "n1",
+                "P1": "n23",
+                "P2": "n22"
+            }
+        },
+        {
+            "id": "i11",
+            "idiom_id": "I22a",
+            "node_map": {
+                "C": "n1",
+                "P1": "n24",
+                "P2": "n22"
             }
         },
         {
             "id": "i12",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
-                "C": "n24",
-                "P1": "n25",
-                "P2": "n26"
-            }
-        },
-        {
-            "id": "i13",
-            "idiom_id": "I14b",
-            "node_map": {
-                "C": "n1",
-                "P1": "n27",
-                "P2": "n28"
-            }
-        },
-        {
-            "id": "i14",
-            "idiom_id": "I18a",
-            "node_map": {
-                "C": "n29",
-                "P1": "n30",
-                "P2": "n31"
+                "C": "n25",
+                "P1": "n26",
+                "P2": "n27"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
         },
-        "r3": {
-            "type": "rephrasing"
+        "l3": {
+            "type": "link"
         },
-        "r4": {
-            "type": "rephrasing"
+        "l4": {
+            "type": "link"
+        },
+        "l5": {
+            "type": "link"
+        },
+        "l6": {
+            "type": "link"
         }
     }
 }

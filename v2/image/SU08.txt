@@ -7,9 +7,7 @@ Case SSB: to stop students from being themselves
 Proposition SSS: Adopting school uniforms stops students from being themselves.
 Proposition SET: Students can express their individuality in school uniforms by introducing variations and adding accessories.
 [instances]
-red: I03 from consequence
-blue: I18b default inference
-green: I12c contradict constraint
-orange: I03 from consequence
-darkgreen: I18b default inference
-purple: I12c contradict constraint
+red: I01 From Consequence
+blue: I24b Attack Default Inference
+green: I01 From Consequence
+orange: I24b Attack Default Inference

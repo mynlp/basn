@@ -3,5 +3,5 @@ Case INP: to introduce nuclear power plants
 Case PCE: to provide carbonless energy
 Case USR: to use safe renewable forms of energy such as wind, solar, and geothermal power
 [instances]
-red: I04 means for goal
-blue: I04 means for goal
+red: I01 From Consequence
+blue: I01 From Consequence

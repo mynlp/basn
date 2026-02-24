@@ -41,7 +41,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",

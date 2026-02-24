@@ -12,36 +12,26 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
+            "predicate": "lead_to",
             "args": ["IMW", "RCR"]
         },
         {
             "id": "n4",
-            "predicate": "lead_to",
-            "args": ["IMW", "RCR"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["IMW", "RCR"]
-        },
-        {
-            "id": "n6",
             "predicate": "bring_about",
             "args": ["RUR"]
         },
         {
-            "id": "n7",
+            "id": "n5",
             "predicate": "lead_to",
             "args": ["IMW", "RUR"]
         },
         {
-            "id": "n8",
+            "id": "n6",
             "predicate": "bring_about",
             "args": ["ICR"]
         },
         {
-            "id": "n9",
+            "id": "n7",
             "predicate": "lead_to",
             "args": ["RUR", "ICR"]
         }
@@ -59,33 +49,23 @@
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "n3"
+            "from": "n1",
+            "to": "n4"
         },
         {
             "id": "e4",
             "from": "n5",
-            "to": "n3"
+            "to": "n4"
         },
         {
             "id": "e5",
-            "from": "n1",
+            "from": "n4",
             "to": "n6"
         },
         {
             "id": "e6",
             "from": "n7",
             "to": "n6"
-        },
-        {
-            "id": "e7",
-            "from": "n6",
-            "to": "n8"
-        },
-        {
-            "id": "e8",
-            "from": "n9",
-            "to": "n8"
         }
     ],
     "variables": {
@@ -109,31 +89,32 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
-                "P1": "n6",
-                "P2": "n7"
+                "P1": "n4",
+                "P2": "n5"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n6",
-                "P1": "n8",
-                "P2": "n9"
+                "C": "n4",
+                "P1": "n6",
+                "P2": "n7"
             }
         }
     ],

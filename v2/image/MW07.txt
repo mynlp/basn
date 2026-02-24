@@ -3,5 +3,5 @@ Case IMW: to increase the minimum wage
 Case RRG: to reduce race and gender inequality
 Case RII: to reduce income inequality
 [instances]
-red: I04 means for goal
-blue: I04 means for goal
+red: I01 From Consequence
+blue: I01 From Consequence

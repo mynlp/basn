@@ -2,4 +2,4 @@
 Case ASU: to adopt school uniforms
 Case MTG: to make transgendered, gender-fluid, and gender-nonconforming students uncomfortable
 [instances]
-red: I03 from consequence
+red: I01 From Consequence

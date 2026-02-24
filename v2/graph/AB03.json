@@ -17,27 +17,22 @@
         },
         {
             "id": "n4",
-            "predicate": "acceptable",
-            "args": ["ACP"]
-        },
-        {
-            "id": "n5",
             "predicate": "unacceptable",
             "args": ["ACP"]
         },
         {
-            "id": "n6",
+            "id": "n5",
             "predicate": "acceptable",
             "args": ["FIF"]
         },
         {
-            "id": "n7",
+            "id": "n6",
             "predicate": "reason_enough_not",
             "args": ["FIF", "ACP"]
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -54,28 +49,23 @@
         },
         {
             "id": "e3",
-            "from": "n6",
-            "to": "n5"
+            "from": "n5",
+            "to": "n4"
         },
         {
             "id": "e4",
-            "from": "n7",
-            "to": "n5"
+            "from": "n6",
+            "to": "n4"
         },
         {
-            "id": "e5",
-            "from": "n4",
+            "id": "l1",
+            "from": "n3",
             "to": "c1"
         },
         {
-            "id": "e6",
-            "from": "n5",
-            "to": "c1"
-        },
-        {
-            "id": "r1",
+            "id": "l2",
             "from": "n4",
-            "to": "n3"
+            "to": "c1"
         }
     ],
     "variables": {
@@ -99,7 +89,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -108,26 +99,20 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
-                "C": "n5",
-                "P1": "n6",
-                "P2": "n7"
-            }
-        },
-        {
-            "id": "i3",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n4",
-                "P2": "n5"
+                "C": "n4",
+                "P1": "n5",
+                "P2": "n6"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
         }
     }
 }

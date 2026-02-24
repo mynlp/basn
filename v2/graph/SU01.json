@@ -12,52 +12,32 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
+            "predicate": "lead_to",
             "args": ["ASU", "DCR"]
         },
         {
             "id": "n4",
-            "predicate": "lead_to",
-            "args": ["ASU", "DCR"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["ASU", "DCR"]
-        },
-        {
-            "id": "n6",
             "predicate": "acceptable",
             "args": ["SDC"]
         },
         {
-            "id": "n7",
+            "id": "n5",
             "predicate": "acceptable",
             "args": ["IER"]
         },
         {
-            "id": "n8",
+            "id": "n6",
             "predicate": "reason_enough",
             "args": ["IER", "SDC"]
         },
         {
-            "id": "n9",
+            "id": "n7",
             "predicate": "bring_about",
             "args": ["INS"]
         },
         {
-            "id": "n10",
-            "predicate": "means_to",
-            "args": ["INS", "DCR"]
-        },
-        {
-            "id": "n11",
+            "id": "n8",
             "predicate": "lead_to",
-            "args": ["INS", "DCR"]
-        },
-        {
-            "id": "n12",
-            "predicate": "higher_priority_for",
             "args": ["INS", "DCR"]
         },
         {
@@ -69,6 +49,11 @@
             "id": "z2",
             "predicate": "bring_about",
             "args": ["DCR"]
+        },
+        {
+            "id": "c1",
+            "predicate": "consistent_link",
+            "args": []
         }
     ],
     "edges": [
@@ -84,43 +69,33 @@
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "n3"
+            "from": "n5",
+            "to": "n4"
         },
         {
             "id": "e4",
-            "from": "n5",
-            "to": "n3"
+            "from": "n6",
+            "to": "n4"
         },
         {
             "id": "e5",
             "from": "n7",
-            "to": "n6"
+            "to": "z2"
         },
         {
             "id": "e6",
             "from": "n8",
-            "to": "n6"
-        },
-        {
-            "id": "e7",
-            "from": "n9",
             "to": "z2"
         },
         {
-            "id": "e8",
-            "from": "n10",
-            "to": "z2"
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
         },
         {
-            "id": "e9",
-            "from": "n11",
-            "to": "n10"
-        },
-        {
-            "id": "e10",
-            "from": "n12",
-            "to": "n10"
+            "id": "l2",
+            "from": "n4",
+            "to": "c1"
         },
         {
             "id": "o1",
@@ -131,11 +106,6 @@
             "id": "o2",
             "from": "z2",
             "to": "n2"
-        },
-        {
-            "id": "r1",
-            "from": "n6",
-            "to": "n4"
         }
     ],
     "variables": {
@@ -163,39 +133,40 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "z1",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
-                "C": "n6",
-                "P1": "n7",
-                "P2": "n8"
+                "C": "n4",
+                "P1": "n5",
+                "P2": "n6"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
-                "C": "n9",
+                "C": "n7",
                 "P1": "z2",
-                "M1": "n10",
-                "P2": "n11",
-                "P3": "n12"
+                "P2": "n8"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
         },
         "o1": {
             "type": "or"

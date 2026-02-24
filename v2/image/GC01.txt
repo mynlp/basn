@@ -5,10 +5,9 @@ Proposition WRM: A well regulated militia, being necessary to the security of a 
 Proposition RIG: The right of individual gun ownership is protected. 
 Proposition RMO: the right of militias to own guns, not the right of individuals, is protected. 
 [instances]
-red: I07b rule-or-principle
-blue: I06 from source authority
-green: I07b rule-or-principle
-orange: I08 interpretation
-darkgreen: I07a rule-or-principle
-purple: I08 interpretation
-lightgreen: I12c contradict constraint
+red: I04 Violating a Rule or Principle
+blue: I07 From Source Authority
+green: I04 Violating a Rule or Principle
+orange: I08 Interpretation
+darkgreen: I03 Following a Rule or Principle
+purple: I08 Interpretation

@@ -6,8 +6,7 @@ Proposition DLA: DNA testing leads to accurate judgment.
 Proposition DRI: DNA is a reliable identifier.
 Proposition DEA: DNA evidence is not available in many cases.
 [instances]
-red: I03 from consequence
-blue: I04 means for goal
-green: I18a default inference
-orange: I18b default inference
-darkgreen: I12c contradict constraint
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I23b Support Default Inference
+orange: I24b Attack Default Inference

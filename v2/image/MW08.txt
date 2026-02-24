@@ -2,4 +2,4 @@
 Case IMW: to increase the minimum wage
 Case IWP: to increase worker productivity and reduce employee turnover
 [instances]
-red: I04 means for goal
+red: I01 From Consequence

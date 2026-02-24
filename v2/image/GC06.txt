@@ -5,7 +5,7 @@ Case PEG: to provide education about guns and gun safety
 Proposition EBG: Providing education about guns and gun safety is better than enacting more gun control laws to prevent an accidental gun death.
 Proposition CTF: Children taught about firearms and their legitimate uses by family members have much lower rates of delinquency than children in households without guns.
 [instances]
-red: I04 means for goal
-blue: I04 means for goal
-green: I14b comparative
-orange: I18a default inference
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I22a Comparative
+orange: I23b Support Default Inference

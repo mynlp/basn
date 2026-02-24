@@ -5,6 +5,6 @@ Case ESD: to emphasize the socio-economic divisions they are supposed to elimina
 Proposition SES: Adopting school uniforms emphasizes the socio-economic divisions they are supposed to eliminate.
 Proposition MPS: Most public schools with uniform policies are in poor neighborhoods.
 [instances]
-red: I04 means for goal
-blue: I03 from consequence
-green: I18a default inference
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I23b Support Default Inference

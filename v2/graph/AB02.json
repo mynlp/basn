@@ -47,7 +47,12 @@
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c2",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -83,19 +88,24 @@
             "to": "n7"
         },
         {
-            "id": "e7",
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
+        },
+        {
+            "id": "l2",
             "from": "n4",
             "to": "c1"
         },
         {
-            "id": "e8",
+            "id": "l3",
+            "from": "n3",
+            "to": "c2"
+        },
+        {
+            "id": "l4",
             "from": "n7",
-            "to": "c1"
-        },
-        {
-            "id": "r1",
-            "from": "n4",
-            "to": "n3"
+            "to": "c2"
         }
     ],
     "variables": {
@@ -123,7 +133,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -132,7 +142,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",
@@ -141,26 +151,26 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
                 "C": "n7",
                 "P1": "n8",
                 "P2": "n9"
             }
-        },
-        {
-            "id": "i4",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n4",
-                "P2": "n7"
-            }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
+        },
+        "l3": {
+            "type": "link"
+        },
+        "l4": {
+            "type": "link"
         }
     }
 }

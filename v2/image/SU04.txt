@@ -4,6 +4,6 @@ Case ESP: to enhance school pride, unity, and community spirit
 Case PCI: to promote conformity over individuality
 Case DTA: to delay the transition into adulthood
 [instances]
-red: I04 means for goal
-blue: I04 means for goal
-green: I03 from consequence
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I01 From Consequence

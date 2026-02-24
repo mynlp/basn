@@ -1,7 +1,9 @@
 [variables]
-Case IDP: to introduce the death penalty
-Concept RJU: retributive justice
+Case TDP: the death penalty
 Property PSC: a punishment in proportion to a serious crime
+Definition PTW: the principle that those who commit certain kinds of wrongful acts, paradigmatically serious crimes, morally deserve to suffer a proportionate punishment
+Concept RJU: retributive justice
 [instances]
-red: I16a verbal evaluation
-blue: I15 verbal classification
+red: I15 Property to Definition
+blue: I14 Definition to Classification
+green: I16 Positive Verbal Evaluation

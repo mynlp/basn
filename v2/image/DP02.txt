@@ -11,14 +11,12 @@ Proposition DVE: To introduce the death penalty violates the idea that excessive
 Proposition DPC: The death penalty is cruel and unusual.
 Proposition MSA: Many states have adopted a method of execution believed to be the most humane available.
 [instances]
-red: I06 from source authority
-blue: I08 interpretation
-green: I07a rule-or-principle
-orange: I07b rule-or-principle
-darkgreen: I18a default inference
-purple: I06 from source authority
-lightgreen: I07b rule-or-principle
-cyan: I18a default inference
-magenta: I18b default inference
-navy: I12c contradict constraint
-red: I12c contradict constraint
+red: I07 From Source Authority
+blue: I08 Interpretation
+green: I03 Following a Rule or Principle
+orange: I04 Violating a Rule or Principle
+darkgreen: I23b Support Default Inference
+purple: I07 From Source Authority
+lightgreen: I04 Violating a Rule or Principle
+cyan: I23b Support Default Inference
+magenta: I24b Attack Default Inference

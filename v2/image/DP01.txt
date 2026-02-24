@@ -7,11 +7,9 @@ Proposition SDL: A society that is not willing to demand a life of somebody who 
 Person(s) IKA: Immanuel Kant
 Case PMH: promoting moral healing for criminals before their death
 [instances]
-red: I07b rule-or-principle
-blue: I12c contradict constraint
-green: I07a rule-or-principle
-orange: I16b verbal evaluation
-darkgreen: I12c contradict constraint
-purple: I07a rule-or-principle
-lightgreen: I05 from source knowledge
-cyan: I04 means for goal
+red: I04 Violating a Rule or Principle
+blue: I03 Following a Rule or Principle
+green: I17 Negative Verbal Evaluation
+orange: I03 Following a Rule or Principle
+darkgreen: I06 From Source Knowledge
+purple: I01 From Consequence

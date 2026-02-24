@@ -12,26 +12,16 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
-            "args": ["BCG", "RGC"]
-        },
-        {
-            "id": "n4",
             "predicate": "lead_to",
             "args": ["BCG", "RGC"]
         },
         {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["BCG", "RGC"]
-        },
-        {
-            "id": "n6",
+            "id": "n4",
             "predicate": "bring_about",
             "args": ["IOP"]
         },
         {
-            "id": "n7",
+            "id": "n5",
             "predicate": "lead_to",
             "args": ["BCG", "IOP"]
         }
@@ -49,23 +39,13 @@
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "n3"
+            "from": "n1",
+            "to": "n4"
         },
         {
             "id": "e4",
             "from": "n5",
-            "to": "n3"
-        },
-        {
-            "id": "e5",
-            "from": "n1",
-            "to": "n6"
-        },
-        {
-            "id": "e6",
-            "from": "n7",
-            "to": "n6"
+            "to": "n4"
         }
     ],
     "variables": {
@@ -85,22 +65,22 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
-                "P1": "n6",
-                "P2": "n7"
+                "P1": "n4",
+                "P2": "n5"
             }
         }
     ],

@@ -9,24 +9,20 @@ Case RSA: to release significant amounts of radiation into the air and water
 Case UMI: uranium mining
 Case SHP: serious health problems to uranium miners
 Case PEQ: to produce enormous quantities of radioactive waste
-Concept SPR: a serious problem
-Proposition PIS: To produce enormous quantities of radioactive waste is a serious problem.
 Proposition CPP: There currently is no permanent repository for the waste.
 Case OCP: to operate a coal-fired power plant
 Proposition NBC: To operate nuclear power plants is better than to operate a coal-fired power plant.
 Proposition RNR: Risks from nuclear reactor accidents are much less than those from air pollution caused by coal burning.
 [instances]
-red: I03 from consequence
-blue: I03 from consequence
-green: I18b default inference
-orange: I12c contradict constraint
-darkgreen: I03 from consequence
-purple: I03 from consequence
-lightgreen: I03 from consequence
-cyan: I03 from consequence
-magenta: I03 from consequence
-navy: I12c contradict constraint
-red: I16b verbal evaluation
-blue: I18a default inference
-green: I14b comparative
-orange: I18a default inference
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I24b Attack Default Inference
+orange: I01 From Consequence
+darkgreen: I01 From Consequence
+purple: I01 From Consequence
+lightgreen: I01 From Consequence
+cyan: I01 From Consequence
+magenta: I24a Attack Default Inference
+navy: I19a Either Constraint
+red: I22a Comparative
+blue: I23b Support Default Inference

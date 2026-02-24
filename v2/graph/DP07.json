@@ -62,7 +62,7 @@
         },
         {
             "id": "n13",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["SDR", "CJS"]
         },
         {
@@ -77,7 +77,7 @@
         },
         {
             "id": "n16",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["SDR", "MAA"]
         },
         {
@@ -92,13 +92,8 @@
         },
         {
             "id": "n19",
-            "predicate": "negative",
+            "predicate": "bad",
             "args": ["IIR"]
-        },
-        {
-            "id": "n20",
-            "predicate": "acceptable",
-            "args": ["KIP"]
         },
         {
             "id": "z1",
@@ -122,12 +117,17 @@
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "consistent_link",
             "args": []
         },
         {
             "id": "c2",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -213,54 +213,54 @@
             "to": "n17"
         },
         {
-            "id": "e17",
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
+        },
+        {
+            "id": "l2",
             "from": "n4",
             "to": "c1"
         },
         {
-            "id": "e18",
+            "id": "l3",
+            "from": "n3",
+            "to": "c2"
+        },
+        {
+            "id": "l4",
             "from": "n7",
-            "to": "c1"
-        },
-        {
-            "id": "e19",
-            "from": "n20",
             "to": "c2"
         },
         {
-            "id": "e20",
+            "id": "l5",
+            "from": "n2",
+            "to": "c3"
+        },
+        {
+            "id": "l6",
             "from": "n17",
-            "to": "c2"
+            "to": "c3"
         },
         {
-            "id": "o1",
+            "id": "m1",
             "from": "z1",
             "to": "n4"
         },
         {
-            "id": "o2",
+            "id": "m2",
             "from": "z2",
             "to": "n4"
         },
         {
-            "id": "o3",
+            "id": "m3",
             "from": "z3",
             "to": "n7"
         },
         {
-            "id": "o4",
+            "id": "m4",
             "from": "z4",
             "to": "n7"
-        },
-        {
-            "id": "r1",
-            "from": "n4",
-            "to": "n3"
-        },
-        {
-            "id": "r2",
-            "from": "n2",
-            "to": "n20"
         }
     ],
     "variables": {
@@ -304,7 +304,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -313,7 +314,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z1",
                 "P1": "n5",
@@ -322,7 +323,7 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
                 "C": "z3",
                 "P1": "n8",
@@ -331,7 +332,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
                 "C": "z2",
                 "P1": "n10",
@@ -349,7 +350,7 @@
         },
         {
             "id": "i6",
-            "idiom_id": "I18b",
+            "idiom_id": "I24b",
             "node_map": {
                 "C": "z4",
                 "P1": "n14",
@@ -367,50 +368,44 @@
         },
         {
             "id": "i8",
-            "idiom_id": "I16b",
+            "idiom_id": "I17",
             "node_map": {
                 "C": "n17",
                 "P1": "n18",
                 "P2": "n19"
             }
-        },
-        {
-            "id": "i9",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n4",
-                "P2": "n7"
-            }
-        },
-        {
-            "id": "i10",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c2",
-                "P1": "n20",
-                "P2": "n17"
-            }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "r2": {
-            "type": "rephrasing"
+        "l2": {
+            "type": "link"
         },
-        "o1": {
-            "type": "or"
+        "l3": {
+            "type": "link"
         },
-        "o2": {
-            "type": "or"
+        "l4": {
+            "type": "link"
         },
-        "o3": {
-            "type": "or"
+        "l5": {
+            "type": "link"
         },
-        "o4": {
-            "type": "or"
+        "l6": {
+            "type": "link"
+        },
+        "m1": {
+            "type": "max"
+        },
+        "m2": {
+            "type": "max"
+        },
+        "m3": {
+            "type": "max"
+        },
+        "m4": {
+            "type": "max"
         }
     }
 }

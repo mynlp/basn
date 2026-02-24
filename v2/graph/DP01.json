@@ -37,7 +37,7 @@
         },
         {
             "id": "n8",
-            "predicate": "negative",
+            "predicate": "bad",
             "args": ["BBR"]
         },
         {
@@ -57,12 +57,12 @@
         },
         {
             "id": "n12",
-            "predicate": "assert",
+            "predicate": "knowledgeable_about",
             "args": ["IKA", "SDL"]
         },
         {
             "id": "n13",
-            "predicate": "knowledgeable_about",
+            "predicate": "believe",
             "args": ["IKA", "SDL"]
         },
         {
@@ -72,18 +72,18 @@
         },
         {
             "id": "n15",
-            "predicate": "bring_about",
-            "args": ["IDP"]
+            "predicate": "assert",
+            "args": ["IKA", "SDL"]
         },
         {
             "id": "n16",
             "predicate": "bring_about",
-            "args": ["PMH"]
+            "args": ["IDP"]
         },
         {
             "id": "n17",
-            "predicate": "means_to",
-            "args": ["IDP", "PMH"]
+            "predicate": "bring_about",
+            "args": ["PMH"]
         },
         {
             "id": "n18",
@@ -91,18 +91,18 @@
             "args": ["IDP", "PMH"]
         },
         {
-            "id": "n19",
-            "predicate": "higher_priority_for",
-            "args": ["IDP", "PMH"]
-        },
-        {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         },
         {
             "id": "c2",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "consistent_link",
             "args": []
         },
         {
@@ -112,6 +112,11 @@
         },
         {
             "id": "z2",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "z3",
             "predicate": "acceptable",
             "args": ["IDP"]
         }
@@ -129,102 +134,107 @@
         },
         {
             "id": "e3",
-            "from": "n1",
-            "to": "c1"
-        },
-        {
-            "id": "e4",
-            "from": "n4",
-            "to": "c1"
-        },
-        {
-            "id": "e5",
             "from": "n5",
             "to": "z1"
         },
         {
-            "id": "e6",
+            "id": "e4",
             "from": "n6",
             "to": "z1"
         },
         {
-            "id": "e7",
+            "id": "e5",
             "from": "n7",
             "to": "n9"
         },
         {
-            "id": "e8",
+            "id": "e6",
             "from": "n8",
             "to": "n9"
         },
         {
-            "id": "e9",
-            "from": "n6",
-            "to": "c2"
-        },
-        {
-            "id": "e10",
-            "from": "n9",
-            "to": "c2"
-        },
-        {
-            "id": "e11",
+            "id": "e7",
             "from": "n10",
             "to": "z2"
         },
         {
-            "id": "e12",
+            "id": "e8",
             "from": "n11",
             "to": "z2"
         },
         {
-            "id": "e13",
+            "id": "e9",
             "from": "n11",
-            "to": "n12"
+            "to": "n13"
+        },
+        {
+            "id": "e10",
+            "from": "n12",
+            "to": "n13"
+        },
+        {
+            "id": "e11",
+            "from": "n13",
+            "to": "n15"
+        },
+        {
+            "id": "e12",
+            "from": "n14",
+            "to": "n15"
+        },
+        {
+            "id": "e13",
+            "from": "n16",
+            "to": "n17"
         },
         {
             "id": "e14",
-            "from": "n13",
-            "to": "n12"
-        },
-        {
-            "id": "e15",
-            "from": "n14",
-            "to": "n12"
-        },
-        {
-            "id": "e16",
-            "from": "n15",
-            "to": "n16"
-        },
-        {
-            "id": "e17",
-            "from": "n17",
-            "to": "n16"
-        },
-        {
-            "id": "e18",
             "from": "n18",
             "to": "n17"
         },
         {
-            "id": "e19",
-            "from": "n19",
-            "to": "n17"
+            "id": "l1",
+            "from": "n1",
+            "to": "c1"
         },
         {
-            "id": "r1",
+            "id": "l2",
             "from": "n4",
-            "to": "n15"
+            "to": "c1"
         },
         {
-            "id": "o1",
+            "id": "l3",
+            "from": "n6",
+            "to": "c2"
+        },
+        {
+            "id": "l4",
+            "from": "n9",
+            "to": "c2"
+        },
+        {
+            "id": "l5",
+            "from": "n16",
+            "to": "c3"
+        },
+        {
+            "id": "l6",
+            "from": "z3",
+            "to": "c3"
+        },
+        {
+            "id": "m1",
             "from": "z1",
             "to": "n4"
         },
         {
-            "id": "o2",
+            "id": "m2",
             "from": "z2",
+            "to": "n4"
+        },
+        {
+            "id": "m3",
+            "from": "z3",
             "to": "n4"
         }
     ],
@@ -261,7 +271,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -270,16 +280,7 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n4",
-                "P2": "n1"
-            }
-        },
-        {
-            "id": "i3",
-            "idiom_id": "I07a",
+            "idiom_id": "I03",
             "node_map": {
                 "C": "z1",
                 "P1": "n6",
@@ -287,8 +288,8 @@
             }
         },
         {
-            "id": "i4",
-            "idiom_id": "I16b",
+            "id": "i3",
+            "idiom_id": "I17",
             "node_map": {
                 "C": "n9",
                 "P1": "n7",
@@ -296,17 +297,8 @@
             }
         },
         {
-            "id": "i5",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c2",
-                "P1": "n6",
-                "P2": "n9"
-            }
-        },
-        {
-            "id": "i6",
-            "idiom_id": "I07a",
+            "id": "i4",
+            "idiom_id": "I03",
             "node_map": {
                 "C": "z2",
                 "P1": "n11",
@@ -314,36 +306,54 @@
             }
         },
         {
-            "id": "i7",
-            "idiom_id": "I05",
+            "id": "i5",
+            "idiom_id": "I06",
             "node_map": {
                 "C": "n11",
-                "P1": "n13",
+                "P1": "n12",
+                "M": "n13",
                 "P2": "n14",
-                "P3": "n12"
+                "P3": "n15"
             }
         },
         {
-            "id": "i8",
-            "idiom_id": "I04",
+            "id": "i6",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
-                "C": "n15",
-                "P1": "n16",
-                "M1": "n17",
-                "P2": "n18",
-                "P3": "n19"
+                "C": "n16",
+                "P1": "n17",
+                "P2": "n18"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "o1": {
-            "type": "or"
+        "l2": {
+            "type": "link"
         },
-        "o2": {
-            "type": "or"
+        "l3": {
+            "type": "link"
+        },
+        "l4": {
+            "type": "link"
+        },
+        "l5": {
+            "type": "link"
+        },
+        "l6": {
+            "type": "link"
+        },
+        "m1": {
+            "type": "max"
+        },
+        "m2": {
+            "type": "max"
+        },
+        "m3": {
+            "type": "max"
         }
     }
 }

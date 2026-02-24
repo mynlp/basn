@@ -17,12 +17,12 @@
         },
         {
             "id": "n4",
-            "predicate": "assert",
+            "predicate": "authority_regard",
             "args": ["SAU", "WRM"]
         },
         {
             "id": "n5",
-            "predicate": "authority_over",
+            "predicate": "assert",
             "args": ["SAU", "WRM"]
         },
         {
@@ -37,7 +37,7 @@
         },
         {
             "id": "n8",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["WRM", "RIG"]
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "id": "n12",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["WRM", "RMO"]
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "id": "c1",
-            "predicate": "contradict",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -138,22 +138,22 @@
             "to": "n10"
         },
         {
-            "id": "e13",
-            "from": "n9",
-            "to": "c1"
-        },
-        {
-            "id": "e14",
+            "id": "l1",
             "from": "n1",
             "to": "c1"
         },
         {
-            "id": "o1",
+            "id": "l2",
+            "from": "n9",
+            "to": "c1"
+        },
+        {
+            "id": "m1",
             "from": "z1",
             "to": "n1"
         },
         {
-            "id": "o2",
+            "id": "m2",
             "from": "z2",
             "to": "n1"
         }
@@ -183,7 +183,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "z1",
                 "P1": "n2",
@@ -192,16 +192,16 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "n2",
-                "P1": "n5",
-                "P2": "n4"
+                "P1": "n4",
+                "P2": "n5"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I07b",
+            "idiom_id": "I04",
             "node_map": {
                 "C": "z2",
                 "P1": "n6",
@@ -219,7 +219,7 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I07a",
+            "idiom_id": "I03",
             "node_map": {
                 "C": "n9",
                 "P1": "n10",
@@ -234,23 +234,20 @@
                 "P1": "n2",
                 "P2": "n12"
             }
-        },
-        {
-            "id": "i7",
-            "idiom_id": "I12c",
-            "node_map": {
-                "C": "c1",
-                "P1": "n9",
-                "P2": "n1"
-            }
         }
     ],
     "non_idiom": {
-        "o1": {
-            "type": "or"
+        "l1": {
+            "type": "link"
         },
-        "o2": {
-            "type": "or"
+        "l2": {
+            "type": "link"
+        },
+        "m1": {
+            "type": "max"
+        },
+        "m2": {
+            "type": "max"
         }
     }
 }

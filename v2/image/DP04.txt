@@ -6,16 +6,13 @@ Proposition DPC: To introduce the death penalty correlates with a murder rate.
 Thing(s) RIN: recent investigations
 Proposition DPD: Introducing the death penalty deters crime.
 Thing(s) RST: recent studies
-Proposition RND: Recent studies are credible in assessing whether introducing the death penalty deters crime.
 Proposition RSC: Recent studies contain numerous technical and conceptual errors.
 Proposition DPN: Introducing the death penalty does not deter crime.
 Person(s) CRM: Criminologists
 [instances]
-red: I04 means for goal
-blue: I18a default inference
-green: I17 correlation to cause
-orange: I05 from source knowledge
-darkgreen: I05 from source knowledge
-purple: I12a contradict constraint
-lightgreen: I12a contradict constraint
-cyan: I05 from source knowledge
+red: I01 From Consequence
+blue: I23b Support Default Inference
+green: I18 Correlation to Cause
+orange: I06 From Source Knowledge
+darkgreen: I06 From Source Knowledge
+purple: I06 From Source Knowledge

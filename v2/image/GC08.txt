@@ -2,4 +2,4 @@
 Case EGC: to enact more gun control laws
 Case RSC: to reduce the societal costs associated with gun violence
 [instances]
-red: I04 means for goal
+red: I01 From Consequence

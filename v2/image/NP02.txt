@@ -10,11 +10,10 @@ Proposition INS: Introducing safety systems makes nuclear power safe.
 Proposition MNT: Modern nuclear technologies have multi-layered safety systems in place that offer a huge improvement on the older power plants.
 Proposition HSM: Hundreds of systems monitor, control, and support the safe operation of the reactor at each power plant.
 [instances]
-red: I02 cause to effect
-blue: I18a default inference
-green: I18a default inference
-orange: I18b default inference
-darkgreen: I12c contradict constraint
-purple: I02 cause to effect
-lightgreen: I18a default inference
-cyan: I18a default inference
+red: I02 Cause to Effect
+blue: I23b Support Default Inference
+green: I23b Support Default Inference
+orange: I24b Attack Default Inference
+darkgreen: I02 Cause to Effect
+purple: I23b Support Default Inference
+lightgreen: I23b Support Default Inference

@@ -12,7 +12,7 @@
         },
         {
             "id": "n3",
-            "predicate": "authority_over",
+            "predicate": "authority_regard",
             "args": ["USC", "AFR"]
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "id": "n5",
-            "predicate": "mean",
+            "predicate": "interpreted_as",
             "args": ["CGG", "AFR"]
         },
         {
@@ -32,23 +32,18 @@
         },
         {
             "id": "n7",
-            "predicate": "authority_over",
+            "predicate": "authority_regard",
             "args": ["DRW", "CGG"]
         },
         {
             "id": "n8",
             "predicate": "acceptable",
-            "args": ["DAG"]
-        },
-        {
-            "id": "n9",
-            "predicate": "acceptable",
             "args": ["RWW"]
         },
         {
-            "id": "n10",
-            "predicate": "contradict",
-            "args": ["DAG", "RWW"]
+            "id": "c1",
+            "predicate": "conflict_link",
+            "args": []
         },
         {
             "id": "z1",
@@ -93,27 +88,22 @@
             "to": "n4"
         },
         {
-            "id": "e7",
+            "id": "l1",
+            "from": "n7",
+            "to": "c1"
+        },
+        {
+            "id": "l2",
             "from": "n8",
-            "to": "n10"
+            "to": "c1"
         },
         {
-            "id": "e8",
-            "from": "n9",
-            "to": "n10"
-        },
-        {
-            "id": "r1",
-            "from": "n8",
-            "to": "n7"
-        },
-        {
-            "id": "o1",
+            "id": "m1",
             "from": "z1",
             "to": "n1"
         },
         {
-            "id": "o2",
+            "id": "m2",
             "from": "z2",
             "to": "n1"
         }
@@ -135,10 +125,6 @@
             "type": "Proposition",
             "text": "The Constitution gives “a guarantee of certain areas or zones of privacy,” and that “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy”."
         },
-        "DAG": {
-            "type": "Proposition",
-            "text": "The decision of the US Supreme Court in Roe v. Wade has authority over whether “This right of privacy… is broad enough to encompass a woman’s decision whether or not to terminate her pregnancy.”"
-        },
         "RWW": {
             "type": "Proposition",
             "text": "The decision of the US Supreme Court in Roe v. Wade is wrong."
@@ -147,7 +133,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "z1",
                 "P1": "n3",
@@ -165,32 +151,26 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "n4",
                 "P1": "n7",
                 "P2": "n6"
             }
-        },
-        {
-            "id": "i4",
-            "idiom_id": "I12a",
-            "node_map": {
-                "C": "n8",
-                "P1": "n9",
-                "P2": "n10"
-            }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
         },
-        "o1": {
-            "type": "or"
+        "l2": {
+            "type": "link"
         },
-        "o2": {
-            "type": "or"
+        "m1": {
+            "type": "max"
+        },
+        "m2": {
+            "type": "max"
         }
     }
 }

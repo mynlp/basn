@@ -6,7 +6,7 @@ Proposition TMW: 24% of minimum wage workers are teenagers.
 Case REL: to reduce the employment of low-skilled workers
 Case DOL: to decrease opportunities for low-skilled workers to learn the skills needed to gain a promotion
 [instances]
-red: I03 from consequence
-blue: I18a default inference
-green: I03 from consequence
-orange: I03 from consequence
+red: I01 From Consequence
+blue: I23b Support Default Inference
+green: I01 From Consequence
+orange: I01 From Consequence

@@ -12,43 +12,38 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
+            "predicate": "lead_to",
             "args": ["ASU", "CLP"]
         },
         {
             "id": "n4",
-            "predicate": "lead_to",
-            "args": ["ASU", "CLP"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["ASU", "CLP"]
-        },
-        {
-            "id": "n6",
             "predicate": "bring_about",
             "args": ["ESD"]
         },
         {
-            "id": "n7",
+            "id": "n5",
             "predicate": "lead_to",
             "args": ["ASU", "ESD"]
         },
         {
-            "id": "n8",
+            "id": "n6",
             "predicate": "acceptable",
             "args": ["SES"]
         },
         {
-            "id": "n9",
+            "id": "n7",
             "predicate": "acceptable",
             "args": ["MPS"]
         },
         {
-            "id": "n10",
+            "id": "n8",
             "predicate": "reason_enough",
             "args": ["MPS", "SES"]
+        },
+        {
+            "id": "c1",
+            "predicate": "consistent_link",
+            "args": []
         }
     ],
     "edges": [
@@ -64,38 +59,33 @@
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "n3"
+            "from": "n1",
+            "to": "n4"
         },
         {
             "id": "e4",
             "from": "n5",
-            "to": "n3"
+            "to": "n4"
         },
         {
             "id": "e5",
-            "from": "n1",
-            "to": "n6"
-        },
-        {
-            "id": "e6",
             "from": "n7",
             "to": "n6"
         },
         {
-            "id": "e7",
-            "from": "n9",
-            "to": "n8"
-        },
-        {
-            "id": "e8",
-            "from": "n10",
-            "to": "n8"
-        },
-        {
-            "id": "r1",
+            "id": "e6",
             "from": "n8",
-            "to": "n7"
+            "to": "n6"
+        },
+        {
+            "id": "l1",
+            "from": "n5",
+            "to": "c1"
+        },
+        {
+            "id": "l2",
+            "from": "n6",
+            "to": "c1"
         }
     ],
     "variables": {
@@ -123,37 +113,40 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
-                "P1": "n6",
-                "P2": "n7"
+                "P1": "n4",
+                "P2": "n5"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I18a",
+            "idiom_id": "I23b",
             "node_map": {
-                "C": "n8",
-                "P1": "n9",
-                "P2": "n10"
+                "C": "n6",
+                "P1": "n7",
+                "P2": "n8"
             }
         }
     ],
     "non_idiom": {
-        "r1": {
-            "type": "rephrasing"
+        "l1": {
+            "type": "link"
+        },
+        "l2": {
+            "type": "link"
         }
     }
 }

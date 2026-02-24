@@ -47,26 +47,16 @@
         },
         {
             "id": "n10",
-            "predicate": "means_to",
-            "args": ["IMW", "SEC"]
-        },
-        {
-            "id": "n11",
             "predicate": "lead_to",
             "args": ["IMW", "SEC"]
         },
         {
-            "id": "n12",
-            "predicate": "higher_priority_for",
-            "args": ["IMW", "SEC"]
-        },
-        {
-            "id": "n13",
+            "id": "n11",
             "predicate": "bring_about",
             "args": ["JGR"]
         },
         {
-            "id": "n14",
+            "id": "n12",
             "predicate": "lead_to",
             "args": ["SEC", "JGR"]
         },
@@ -134,23 +124,13 @@
         },
         {
             "id": "e11",
-            "from": "n11",
-            "to": "n10"
+            "from": "n9",
+            "to": "n11"
         },
         {
             "id": "e12",
             "from": "n12",
-            "to": "n10"
-        },
-        {
-            "id": "e13",
-            "from": "n9",
-            "to": "n13"
-        },
-        {
-            "id": "e14",
-            "from": "n14",
-            "to": "n13"
+            "to": "n11"
         },
         {
             "id": "o1",
@@ -192,7 +172,8 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
@@ -201,7 +182,8 @@
         },
         {
             "id": "i2",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n2",
                 "P1": "z1",
@@ -210,7 +192,8 @@
         },
         {
             "id": "i3",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n1",
                 "P1": "n6",
@@ -219,7 +202,7 @@
         },
         {
             "id": "i4",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
             "node_map": {
                 "C": "n6",
                 "P1": "z2",
@@ -228,22 +211,22 @@
         },
         {
             "id": "i5",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n9",
-                "M1": "n10",
-                "P2": "n11",
-                "P3": "n12"
+                "P2": "n10"
             }
         },
         {
             "id": "i6",
-            "idiom_id": "I02",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
-                "C": "n13",
-                "P1": "n9",
-                "P2": "n14"
+                "C": "n9",
+                "P1": "n11",
+                "P2": "n12"
             }
         }
     ],

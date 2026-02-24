@@ -12,7 +12,7 @@
         },
         {
             "id": "n3",
-            "predicate": "authority_over",
+            "predicate": "authority_regard",
             "args": ["MOA", "CSG"]
         }
     ],
@@ -41,7 +41,7 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I06",
+            "idiom_id": "I07",
             "node_map": {
                 "C": "n1",
                 "P1": "n3",

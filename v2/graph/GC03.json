@@ -12,48 +12,38 @@
         },
         {
             "id": "n3",
-            "predicate": "means_to",
+            "predicate": "lead_to",
             "args": ["EGC", "NPG"]
         },
         {
             "id": "n4",
-            "predicate": "lead_to",
-            "args": ["EGC", "NPG"]
-        },
-        {
-            "id": "n5",
-            "predicate": "higher_priority_for",
-            "args": ["EGC", "NPG"]
-        },
-        {
-            "id": "n6",
             "predicate": "bring_about",
             "args": ["PGU"]
         },
         {
-            "id": "n7",
-            "predicate": "contradict",
-            "args": ["NPG", "PGU"]
-        },
-        {
-            "id": "n8",
+            "id": "n5",
             "predicate": "bring_about",
             "args": ["MCB"]
         },
         {
-            "id": "n9",
+            "id": "n6",
             "predicate": "lead_to",
             "args": ["PGU", "MCB"]
         },
         {
-            "id": "n10",
+            "id": "n7",
             "predicate": "bring_about",
             "args": ["IWR"]
         },
         {
-            "id": "n11",
+            "id": "n8",
             "predicate": "lead_to",
             "args": ["PGU", "IWR"]
+        },
+        {
+            "id": "n9",
+            "predicate": "either",
+            "args": ["NPG", "PGU"]
         }
     ],
     "edges": [
@@ -68,44 +58,34 @@
             "to": "n2"
         },
         {
-            "id": "e3",
-            "from": "n4",
-            "to": "n3"
-        },
-        {
-            "id": "e4",
-            "from": "n5",
-            "to": "n3"
-        },
-        {
-            "id": "e5",
-            "from": "n2",
-            "to": "n7"
-        },
-        {
-            "id": "e6",
-            "from": "n6",
-            "to": "n7"
-        },
-        {
             "id": "e7",
-            "from": "n6",
-            "to": "n8"
+            "from": "n4",
+            "to": "n5"
         },
         {
             "id": "e8",
-            "from": "n9",
-            "to": "n8"
+            "from": "n6",
+            "to": "n5"
         },
         {
             "id": "e9",
-            "from": "n6",
-            "to": "n10"
+            "from": "n4",
+            "to": "n7"
         },
         {
             "id": "e10",
-            "from": "n11",
-            "to": "n10"
+            "from": "n8",
+            "to": "n7"
+        },
+        {
+            "id": "e11",
+            "from": "n2",
+            "to": "n9"
+        },
+        {
+            "id": "l2",
+            "from": "n4",
+            "to": "n9"
         }
     ],
     "variables": {
@@ -133,40 +113,40 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I04",
+            "idiom_id": "I01",
+            "usage": "means to an end",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "M1": "n3",
-                "P2": "n4",
-                "P3": "n5"
+                "P2": "n3"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I12b",
+            "idiom_id": "I01",
             "node_map": {
-                "C": "n2",
-                "P1": "n6",
-                "P2": "n7"
+                "C": "n4",
+                "P1": "n5",
+                "P2": "n6"
             }
         },
         {
             "id": "i3",
-            "idiom_id": "I03",
+            "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
-                "C": "n6",
-                "P1": "n8",
-                "P2": "n9"
+                "C": "n4",
+                "P1": "n7",
+                "P2": "n8"
             }
         },
         {
             "id": "i4",
-            "idiom_id": "I03",
+            "idiom_id": "I19a",
             "node_map": {
-                "C": "n6",
-                "P1": "n10",
-                "P2": "n11"
+                "C": "n2",
+                "P1": "n9",
+                "P2": "n4"
             }
         }
     ],

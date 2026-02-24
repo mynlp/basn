@@ -4,18 +4,17 @@ import json, glob
 from collections import Counter
 
 PREDICATES_ARGNUMS = {
-    "bring_about": 1,# "not_bring_about": 1,
-    "acceptable": 1, "unacceptable": 1,
-    "lead_to": 2, "means_to": 2, "higher_priority_for": 2,
-    "honest": 1, "assert": 2, "knowledgeable_about": 2, "authority_over": 2,
-    "follow": 2, "violate": 2,
-    "mean": 2, "reason_enough": 2, "reason_enough_not": 2,
-    "fact": 1, "evidence": 2, "example": 2,
-    "either": 2, "contradict": 2, "consistent": 2, "better_than": 2,
-    "is": 2, "have": 2, "key_property_of": 2, "positive": 1, "negative": 1,
-    "correlate": 2, "equivalent": 0
+    "bring_about": 1, "acceptable": 1, "unacceptable": 1,
+    "lead_to": 2, "follow": 2, "violate": 2,
+    "knowledgeable_about": 2, "believe": 2, "honest": 1, "assert": 2, "authority_regard": 2,
+    "correlate": 2, "no_confounders_between": 2, "occur_after": 2, "interpreted_as": 2,
+    "observed": 1, "if_then": 2, "if_then_not": 2, "example_of": 2,
+    "is": 2, "have": 2, "fit": 2, "defined_as": 2, "good": 1, "bad": 1,
+    "either": 2, "accept_or_unaccept": 1, "conflict": 2, "contradict": 0, "consistent": 2, "better_than": 2,
+    "reason_enough": 2, "reason_enough_not": 2,
+    "conflict_link": 0, "consistent_link": 0
 }
-VARIABLE_TYPES = ["Person(s)", "Thing(s)", "Action", "Case", "Proposition", "Concept", "Property"]
+#VARIABLE_TYPES = ["Person(s)", "Thing(s)", "Action", "Case", "Proposition", "Concept", "Property"]
 
 def read_idioms(idioms_dir: str):
     idioms = {}
@@ -37,10 +36,6 @@ def should_predicate_be_reserved(data):
 
 def check_num_of_predicate_args(data):
     for n in data["nodes"]:
-        if n["predicate"] in ["contradict", "consistent"] and len(n.get("args", [])) == 0:
-            continue
-        elif n["predicate"] in ["either"] and len(n.get("args", [])) == 1:
-            continue
         assert len(n.get("args", [])) == PREDICATES_ARGNUMS[n["predicate"]],\
             "[%s] invalid num of args %d, expexted to %d" % (n["id"], len(n["args"]), PREDICATES_ARGNUMS[n["predicate"]])
 
@@ -66,9 +61,9 @@ def should_edge_not_be_bidirected(data):
     for e in edges:
         assert (e[1], e[0]) not in edges, "bidirected edge %s to %s" % (e[0], e[1])
 
-def should_variable_type_be_reserved(data):
-    for k, v in data["variables"].items():
-        assert v["type"] in VARIABLE_TYPES, "undefined variable type %s for %s" % (v["type"], k)
+#def should_variable_type_be_reserved(data):
+#    for k, v in data["variables"].items():
+#        assert v["type"] in VARIABLE_TYPES, "undefined variable type %s for %s" % (v["type"], k)
 
 def check_idiom_exist(data, idioms):
     for i in data["instances"]:
@@ -126,7 +121,6 @@ if __name__ == "__main__":
     should_edge_connect_existing_nodes(data)
     should_edge_be_unique(data)
     should_edge_not_be_bidirected(data)
-    should_variable_type_be_reserved(data)
 
     idioms = read_idioms("./idiom")
     should_id_be_unique(data["instances"])

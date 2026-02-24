@@ -2,83 +2,116 @@
     "nodes": [
         {
             "id": "n1",
-            "predicate": "acceptable",
-            "args": ["IDP"]
+            "predicate": "have",
+            "args": ["TDP", "PSC"]
         },
         {
             "id": "n2",
-            "predicate": "is",
-            "args": ["IDP", "RJU"]
+            "predicate": "fit",
+            "args": ["PSC", "PTW"]
         },
         {
             "id": "n3",
-            "predicate": "positive",
-            "args": ["RJU"]
+            "predicate": "fit",
+            "args": ["TDP", "PTW"]
         },
         {
             "id": "n4",
-            "predicate": "have",
-            "args": ["IDP", "PSC"]
+            "predicate": "defined_as",
+            "args": ["RJU", "PTW"]
         },
         {
             "id": "n5",
-            "predicate": "key_property_of",
-            "args": ["PSC", "RJU"]
+            "predicate": "is",
+            "args": ["TDP", "RJU"]
+        },
+        {
+            "id": "n6",
+            "predicate": "good",
+            "args": ["RJU"]
+        },
+        {
+            "id": "n7",
+            "predicate": "acceptable",
+            "args": ["TDP"]
         }
     ],
     "edges": [
         {
             "id": "e1",
-            "from": "n2",
-            "to": "n1"
+            "from": "n1",
+            "to": "n3"
         },
         {
             "id": "e2",
-            "from": "n3",
-            "to": "n1"
+            "from": "n2",
+            "to": "n3"
         },
         {
             "id": "e3",
-            "from": "n2",
-            "to": "n4"
+            "from": "n3",
+            "to": "n5"
         },
         {
             "id": "e4",
+            "from": "n4",
+            "to": "n5"
+        },
+        {
+            "id": "e5",
             "from": "n5",
-            "to": "n4"
+            "to": "n7"
+        },
+        {
+            "id": "e6",
+            "from": "n6",
+            "to": "n7"
         }
     ],
     "variables": {
-        "IDP": {
+        "TDP": {
             "type": "Case",
-            "text": "to introduce the death penalty"
-        },
-        "RJU": {
-            "type": "Concept",
-            "text": "retributive justice"
+            "text": "the death penalty"
         },
         "PSC": {
             "type": "Property",
             "text": "a punishment in proportion to a serious crime"
+        },
+        "PTW": {
+            "type": "Definition",
+            "text": "the principle that those who commit certain kinds of wrongful acts, paradigmatically serious crimes, morally deserve to suffer a proportionate punishment"
+        },
+        "RJU": {
+            "type": "Concept",
+            "text": "retributive justice"
         }
     },
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I16a",
+            "idiom_id": "I15",
             "node_map": {
-                "C": "n1",
-                "P1": "n2",
-                "P2": "n3"
+                "C": "n3",
+                "P1": "n1",
+                "P2": "n2"
             }
         },
         {
             "id": "i2",
-            "idiom_id": "I15",
+            "idiom_id": "I14",
             "node_map": {
-                "C": "n2",
-                "P1": "n4",
-                "P2": "n5"
+                "C": "n5",
+                "P1": "n3",
+                "P2": "n4"
+            }
+        },
+        {
+            "id": "i3",
+            "idiom_id": "I16",
+            "node_map": {
+                "C": "n7",
+                "P1": "n5",
+                "P2": "n6"
             }
         }
     ],

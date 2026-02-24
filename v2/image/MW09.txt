@@ -2,4 +2,4 @@
 Case IMW: to increase the minimum wage
 Case DEB: to decrease employee benefits
 [instances]
-red: I03 from consequence
+red: I01 From Consequence

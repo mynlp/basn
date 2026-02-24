@@ -7,9 +7,9 @@ Case SAE: to solve the problem of the current minimum wage not being high enough
 Case HPO: a healthier population
 Case RPO: to reduce poverty
 [instances]
-red: I03 from consequence
-blue: I03 from consequence
-green: I04 means for goal
-orange: I04 means for goal
-darkgreen: I04 means for goal
-purple: I04 means for goal
+red: I01 From Consequence
+blue: I01 From Consequence
+green: I01 From Consequence
+orange: I01 From Consequence
+darkgreen: I01 From Consequence
+purple: I01 From Consequence

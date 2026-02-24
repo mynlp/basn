@@ -4,5 +4,5 @@ Case IPU: to improve punctuality
 Proposition SIP: Adopting school uniforms improves punctuality.
 Proposition MGR: School uniforms make getting ready for school easier.
 [instances]
-red: I04 means for goal
-blue: I18a default inference
+red: I01 From Consequence
+blue: I23b Support Default Inference

@@ -2,4 +2,4 @@
 Case HAB: to have an abortion
 Case EPS: to eliminate the potential societal contributions of a future human being
 [instances]
-red: I03 from consequence
+red: I01 From Consequence

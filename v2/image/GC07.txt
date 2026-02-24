@@ -3,5 +3,5 @@ Case BCG: background checks for guns
 Case RGC: to reduce gun crime
 Case IOP: to invade our privacy
 [instances]
-red: I04 means for goal
-blue: I03 from consequence
+red: I01 From Consequence
+blue: I01 From Consequence
