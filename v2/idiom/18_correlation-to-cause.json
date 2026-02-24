@@ -1,36 +1,35 @@
 {
-    "id": "I04",
-    "name": "means for goal",
+    "id": "I18",
+    "name": "Correlation to Cause",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "bring_about",
-            "args": ["X"]
+            "proposition": "$X leads to $Y.",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
         },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "bring_about",
-            "args": ["Y"]
-        },
-        {
-            "id": "M1",
-            "type": "intermediate",
-            "predicate": "means_to",
+            "proposition": "$X is correlated with $Y.",
+            "predicate": "correlate",
             "args": ["X", "Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "lead_to",
+            "proposition": "There are no confounders affecting the relationship between $X and $Y.",
+            "predicate": "no_confounders_between",
             "args": ["X", "Y"]
         },
         {
             "id": "P3",
             "type": "premise",
-            "predicate": "higher_priority_for",
-            "args": ["X", "Y"]
+            "proposition": "$Y occurs after $X.",
+            "predicate": "occur_after",
+            "args": ["Y", "X"]
         }
     ],
     "edges": [
@@ -41,18 +40,13 @@
         },
         {
             "id": "E2",
-            "from": "M1",
+            "from": "P2",
             "to": "P1"
         },
         {
             "id": "E3",
-            "from": "P2",
-            "to": "M1"
-        },
-        {
-            "id": "E4",
-            "from": "P3",
-            "to": "M1"
+            "from": "C",
+            "to": "P3"
         }
     ]
 }

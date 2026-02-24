@@ -1,6 +1,6 @@
 {
-    "id": "I08",
-    "name": "Interpretation",
+    "id": "I24a",
+    "name": "Attack Default Inference",
     "variables": ["X", "Y"],
     "nodes": [
         {
@@ -13,15 +13,15 @@
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is interpreted as $Y.",
-            "predicate": "interpreted_as",
+            "proposition": "$X is a reason enough to avoid $Y.",
+            "predicate": "reason_enough_not",
             "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$Y is acceptable.",
-            "predicate": "acceptable",
+            "proposition": "$Y should be brought about (to be false).",
+            "predicate": "bring_about",
             "args": ["Y"]
         }
     ],

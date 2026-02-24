@@ -1,24 +1,28 @@
 {
-    "id": "I15",
-    "name": "verbal classification",
+    "id": "I20b",
+    "name": "Conflict Constraint",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "have",
-            "args": ["X", "F"]
+            "proposition": "$X conflicts with $Y.",
+            "predicate": "conflict",
+            "args": ["X", "Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "key_property_of",
-            "args": ["F", "V"]
+            "proposition": "$Y is acceptable.",
+            "predicate": "acceptable",
+            "args": ["Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "is",
-            "args": ["X", "V"]
+            "proposition": "$X is acceptable (to be false).",
+            "predicate": "acceptable",
+            "args": ["X"]
         }
     ],
     "edges": [

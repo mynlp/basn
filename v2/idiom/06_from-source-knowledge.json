@@ -1,28 +1,40 @@
 {
-    "id": "I05",
-    "name": "from source knowledge",
+    "id": "I06",
+    "name": "From Source Knowledge",
+    "variables": ["X", "S"],
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
             "args": ["X"]
         },
         {
             "id": "P1",
             "type": "premise",
+            "proposition": "$S is knowledgeable about $X.",
             "predicate": "knowledgeable_about",
+            "args": ["S", "X"]
+        },
+        {
+            "id": "M",
+            "type": "intermediate",
+            "proposition": "$S believes $X.",
+            "predicate": "believe",
             "args": ["S", "X"]
         },
         {
             "id": "P2",
             "type": "premise",
+            "proposition": "$S is honest.",
             "predicate": "honest",
             "args": ["S"]
         },
         {
             "id": "P3",
             "type": "premise",
+            "proposition": "$S asserts $X.",
             "predicate": "assert",
             "args": ["S", "X"]
         }
@@ -31,11 +43,16 @@
         {
             "id": "E1",
             "from": "C",
-            "to": "P3"
+            "to": "M"
         },
         {
             "id": "E2",
             "from": "P1",
+            "to": "M"
+        },
+        {
+            "id": "E3",
+            "from": "M",
             "to": "P3"
         },
         {

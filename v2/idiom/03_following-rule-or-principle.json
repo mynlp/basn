@@ -1,24 +1,28 @@
 {
-    "id": "I18a",
-    "name": "default inference",
+    "id": "I03",
+    "name": "Following a Rule or Principle",
+    "variables": ["X", "R"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
+            "proposition": "$R is acceptable.",
             "predicate": "acceptable",
-            "args": ["X"]
+            "args": ["R"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "reason_enough",
-            "args": ["X", "Y"]
+            "proposition": "$X follows $R.",
+            "predicate": "follow",
+            "args": ["X", "R"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
-            "args": ["Y"]
+            "args": ["X"]
         }
     ],
     "edges": [

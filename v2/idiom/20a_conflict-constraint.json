@@ -1,0 +1,40 @@
+{
+    "id": "I20a",
+    "name": "Conflict Constraint",
+    "variables": ["X", "Y"],
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "proposition": "$X conflicts with $Y.",
+            "predicate": "conflict",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "proposition": "$Y should be brought about.",
+            "predicate": "bring_about",
+            "args": ["Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "proposition": "$X should be brought about (to be false).",
+            "predicate": "bring_about",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P2",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "C",
+            "to": "P1"
+        }
+    ]
+}

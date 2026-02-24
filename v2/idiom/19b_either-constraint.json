@@ -1,0 +1,40 @@
+{
+    "id": "I19b",
+    "name": "Either Constraint",
+    "variables": ["X", "Y"],
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "proposition": "Either $X or $Y is acceptable.",
+            "predicate": "either",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "proposition": "$Y is acceptable.",
+            "predicate": "acceptable",
+            "args": ["Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "proposition": "$X is acceptable.",
+            "predicate": "acceptable",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P2",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "C",
+            "to": "P1"
+        }
+    ]
+}

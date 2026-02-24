@@ -1,22 +1,26 @@
 {
     "id": "I02",
-    "name": "cause to effect",
+    "name": "Cause to Effect",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
+            "proposition": "$X is (has been) brought about.",
             "predicate": "bring_about",
             "args": ["X"]
         },
         {
             "id": "P2",
             "type": "premise",
+            "proposition": "$X leads to $Y.",
             "predicate": "lead_to",
             "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$Y is (has been) brought about.",
             "predicate": "bring_about",
             "args": ["Y"]
         }

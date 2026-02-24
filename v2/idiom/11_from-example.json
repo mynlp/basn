@@ -1,24 +1,28 @@
 {
-    "id": "I12a",
-    "name": "contradict constraint",
+    "id": "I11",
+    "name": "From Example",
+    "variables": ["X", "E"],
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "acceptable",
-            "args": ["X"]
-        },
-        {
-            "id": "P1",
-            "type": "premise",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
             "args": ["Y"]
         },
         {
+            "id": "P1",
+            "type": "premise",
+            "proposition": "$E is a representative example of $X.",
+            "predicate": "example_of",
+            "args": ["E", "X"]
+        },
+        {
             "id": "P2",
             "type": "premise",
-            "predicate": "contradict",
-            "args": ["X", "Y"]
+            "proposition": "$E is observed.",
+            "predicate": "observed",
+            "args": ["E"]
         }
     ],
     "edges": [

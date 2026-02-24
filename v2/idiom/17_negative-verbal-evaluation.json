@@ -1,22 +1,26 @@
 {
-    "id": "I07b",
-    "name": "rule-or-principle",
+    "id": "I17",
+    "name": "Negative Verbal Evaluation",
+    "variables": ["X", "C"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "acceptable",
-            "args": ["R"]
+            "proposition": "$X is $C.",
+            "predicate": "is",
+            "args": ["X", "C"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "violate",
-            "args": ["X", "R"]
+            "proposition": "Being $C is bad.",
+            "predicate": "bad",
+            "args": ["C"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X is unacceptable.",
             "predicate": "unacceptable",
             "args": ["X"]
         }

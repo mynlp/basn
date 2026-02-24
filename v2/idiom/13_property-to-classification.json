@@ -1,0 +1,40 @@
+{
+    "id": "I13",
+    "name": "Property to Classification",
+    "variables": ["X", "C", "F"],
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "proposition": "$X has $F.",
+            "predicate": "have",
+            "args": ["X", "F"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "proposition": "$C has $F.",
+            "predicate": "have",
+            "args": ["C", "F"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "proposition": "$X is $C.",
+            "predicate": "is",
+            "args": ["X", "C"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "C",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "P2",
+            "to": "P1"
+        }
+    ]
+}

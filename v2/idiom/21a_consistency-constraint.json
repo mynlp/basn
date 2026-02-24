@@ -1,22 +1,26 @@
 {
-    "id": "I01",
-    "name": "effect to cause",
+    "id": "I21a",
+    "name": "Consistency Constraint",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "bring_about",
-            "args": ["Y"]
+            "proposition": "$X is consistent with $Y.",
+            "predicate": "consistent",
+            "args": ["X", "Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "lead_to",
-            "args": ["X", "Y"]
+            "proposition": "$Y should be brought about.",
+            "predicate": "bring_about",
+            "args": ["Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X should be brought about.",
             "predicate": "bring_about",
             "args": ["X"]
         }
@@ -24,12 +28,12 @@
     "edges": [
         {
             "id": "E1",
-            "from": "C",
+            "from": "P2",
             "to": "P1"
         },
         {
             "id": "E2",
-            "from": "P2",
+            "from": "C",
             "to": "P1"
         }
     ]

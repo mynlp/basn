@@ -1,21 +1,21 @@
 {
-    "id": "I08",
-    "name": "Interpretation",
+    "id": "I22b",
+    "name": "Comparative",
     "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "proposition": "$X is acceptable.",
-            "predicate": "acceptable",
-            "args": ["X"]
+            "proposition": "$X is better than $Y.",
+            "predicate": "better_than",
+            "args": ["X", "Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is interpreted as $Y.",
-            "predicate": "interpreted_as",
-            "args": ["X", "Y"]
+            "proposition": "$X is acceptable.",
+            "predicate": "acceptable",
+            "args": ["X"]
         },
         {
             "id": "C",
@@ -28,13 +28,13 @@
     "edges": [
         {
             "id": "E1",
-            "from": "P1",
-            "to": "C"
+            "from": "P2",
+            "to": "P1"
         },
         {
             "id": "E2",
-            "from": "P2",
-            "to": "C"
+            "from": "C",
+            "to": "P1"
         }
     ]
 }

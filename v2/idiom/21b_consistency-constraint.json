@@ -1,22 +1,26 @@
 {
-    "id": "I16a",
-    "name": "verbal evaluation",
+    "id": "I21b",
+    "name": "Consistency Constraint",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "is",
+            "proposition": "$X is consistent with $Y.",
+            "predicate": "consistent",
             "args": ["X", "Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "positive",
-            "args": ["V"]
+            "proposition": "$Y is acceptable.",
+            "predicate": "acceptable",
+            "args": ["Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
             "args": ["X"]
         }
@@ -24,13 +28,13 @@
     "edges": [
         {
             "id": "E1",
-            "from": "P1",
-            "to": "C"
+            "from": "P2",
+            "to": "P1"
         },
         {
             "id": "E2",
-            "from": "P2",
-            "to": "C"
+            "from": "C",
+            "to": "P1"
         }
     ]
 }

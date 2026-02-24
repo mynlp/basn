@@ -1,28 +1,28 @@
 {
-    "id": "I08",
-    "name": "Interpretation",
-    "variables": ["X", "Y"],
+    "id": "I12",
+    "name": "Classification to Property",
+    "variables": ["X", "C", "F"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "proposition": "$X is acceptable.",
-            "predicate": "acceptable",
-            "args": ["X"]
+            "proposition": "$X is $C.",
+            "predicate": "is",
+            "args": ["X", "C"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is interpreted as $Y.",
-            "predicate": "interpreted_as",
-            "args": ["X", "Y"]
+            "proposition": "$C has $F.",
+            "predicate": "have",
+            "args": ["C", "F"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$Y is acceptable.",
-            "predicate": "acceptable",
-            "args": ["Y"]
+            "proposition": "$X has $F.",
+            "predicate": "have",
+            "args": ["X", "F"]
         }
     ],
     "edges": [

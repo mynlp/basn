@@ -1,24 +1,28 @@
 {
-    "id": "I11c",
-    "name": "either constraint",
+    "id": "I10",
+    "name": "Evidence against Hypothesis",
+    "variables": ["X", "E"],
     "nodes": [
         {
             "id": "C",
+            "proposition": "$X is acceptable (to be false).",
             "type": "conclusion",
-            "predicate": "bring_about",
+            "predicate": "acceptable",
             "args": ["X"]
         },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "bring_about",
-            "args": ["X"]
+            "proposition": "If $X is true, then $E should not be observed.",
+            "predicate": "if_then_not",
+            "args": ["X", "E"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "either",
-            "args": ["X"]
+            "proposition": "$E is observed.",
+            "predicate": "observed",
+            "args": ["E"]
         }
     ],
     "edges": [

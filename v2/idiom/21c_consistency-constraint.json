@@ -1,0 +1,40 @@
+{
+    "id": "I21c",
+    "name": "Consistency Constraint",
+    "variables": ["X", "Y"],
+    "nodes": [
+        {
+            "id": "P1",
+            "type": "premise",
+            "proposition": "$X is consistent with $Y.",
+            "predicate": "consistent",
+            "args": ["X", "Y"]
+        },
+        {
+            "id": "P2",
+            "type": "premise",
+            "proposition": "$Y is unacceptable.",
+            "predicate": "unacceptable",
+            "args": ["Y"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "proposition": "$X is unacceptable.",
+            "predicate": "unacceptable",
+            "args": ["X"]
+        }
+    ],
+    "edges": [
+        {
+            "id": "E1",
+            "from": "P2",
+            "to": "P1"
+        },
+        {
+            "id": "E2",
+            "from": "C",
+            "to": "P1"
+        }
+    ]
+}

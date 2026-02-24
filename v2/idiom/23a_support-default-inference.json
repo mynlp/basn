@@ -1,24 +1,28 @@
 {
-    "id": "I16b",
-    "name": "verbal evaluation",
+    "id": "I23a",
+    "name": "Support Default Inference",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "is",
-            "args": ["X", "Y"]
+            "proposition": "$X is acceptable.",
+            "predicate": "acceptable",
+            "args": ["X"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "predicate": "negative",
-            "args": ["V"]
+            "proposition": "$X is a reason enough to bring about $Y.",
+            "predicate": "reason_enough",
+            "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "predicate": "unacceptable",
-            "args": ["X"]
+            "proposition": "$Y should be brought about.",
+            "predicate": "bring_about",
+            "args": ["Y"]
         }
     ],
     "edges": [

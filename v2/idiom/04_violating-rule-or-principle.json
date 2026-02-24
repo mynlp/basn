@@ -1,28 +1,28 @@
 {
-    "id": "I08",
-    "name": "Interpretation",
-    "variables": ["X", "Y"],
+    "id": "I04",
+    "name": "Violating a Rule or Principle",
+    "variables": ["X", "R"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
-            "proposition": "$X is acceptable.",
+            "proposition": "$R is acceptable.",
             "predicate": "acceptable",
-            "args": ["X"]
+            "args": ["Y"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is interpreted as $Y.",
-            "predicate": "interpreted_as",
+            "proposition": "$X violates $R.",
+            "predicate": "violate",
             "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$Y is acceptable.",
-            "predicate": "acceptable",
-            "args": ["Y"]
+            "proposition": "$X is unacceptable.",
+            "predicate": "unacceptable",
+            "args": ["X"]
         }
     ],
     "edges": [

@@ -1,6 +1,6 @@
 {
-    "id": "I08",
-    "name": "Interpretation",
+    "id": "I23b",
+    "name": "Support Default Inference",
     "variables": ["X", "Y"],
     "nodes": [
         {
@@ -13,8 +13,8 @@
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is interpreted as $Y.",
-            "predicate": "interpreted_as",
+            "proposition": "$X is a reason enough to accept $Y.",
+            "predicate": "reason_enough",
             "args": ["X", "Y"]
         },
         {

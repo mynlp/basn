@@ -1,22 +1,26 @@
 {
-    "id": "I18b",
-    "name": "default inference",
+    "id": "I24b",
+    "name": "Attack Default Inference",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "P1",
             "type": "premise",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
             "args": ["X"]
         },
         {
             "id": "P2",
             "type": "premise",
+            "proposition": "$X is a reason enough to deny $Y.",
             "predicate": "reason_enough_not",
             "args": ["X", "Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$Y is unacceptable.",
             "predicate": "unacceptable",
             "args": ["Y"]
         }

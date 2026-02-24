@@ -1,24 +1,28 @@
 {
-    "id": "I06",
-    "name": "from source authority",
+    "id": "I07",
+    "name": "From Source Authority",
+    "variables": ["X", "S"],
     "nodes": [
-        {
-            "id": "C",
-            "type": "conclusion",
-            "predicate": "acceptable",
-            "args": ["X"]
-        },
         {
             "id": "P1",
             "type": "premise",
-            "predicate": "authority_over",
+            "proposition": "$S has authority regarding $X.",
+            "predicate": "authority_regard",
             "args": ["S", "X"]
         },
         {
             "id": "P2",
             "type": "premise",
+            "proposition": "$S asserts $X.",
             "predicate": "assert",
             "args": ["S", "X"]
+        },
+        {
+            "id": "C",
+            "type": "conclusion",
+            "proposition": "$X is acceptable.",
+            "predicate": "acceptable",
+            "args": ["X"]
         }
     ],
     "edges": [

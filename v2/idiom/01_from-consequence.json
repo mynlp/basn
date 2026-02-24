@@ -1,36 +1,40 @@
 {
-    "id": "I13d",
-    "name": "consistent constraint",
+    "id": "I01",
+    "name": "From Consequence",
+    "variables": ["X", "Y"],
     "nodes": [
         {
             "id": "C",
             "type": "conclusion",
+            "proposition": "$X should be brought about.",
             "predicate": "bring_about",
             "args": ["X"]
         },
         {
             "id": "P1",
             "type": "premise",
+            "proposition": "$Y should be brought about.",
             "predicate": "bring_about",
-            "args": ["X"]
+            "args": ["Y"]
         },
         {
             "id": "P2",
-            "type": "constraint",
-            "predicate": "consistent",
-            "args": []
+            "type": "premise",
+            "proposition": "$X leads to $Y.",
+            "predicate": "lead_to",
+            "args": ["X", "Y"]
         }
     ],
     "edges": [
         {
             "id": "E1",
             "from": "C",
-            "to": "P2"
+            "to": "P1"
         },
         {
             "id": "E2",
-            "from": "P1",
-            "to": "P2"
+            "from": "P2",
+            "to": "P1"
         }
     ]
 }
