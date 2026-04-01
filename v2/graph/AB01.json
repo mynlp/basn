@@ -7,36 +7,56 @@
         },
         {
             "id": "n2",
-            "predicate": "assert",
+            "predicate": "authority_to",
             "args": ["USC", "AFR"]
         },
         {
             "id": "n3",
-            "predicate": "authority_regard",
+            "predicate": "determine",
             "args": ["USC", "AFR"]
         },
         {
             "id": "n4",
+            "predicate": "determined_by_authority",
+            "args": ["AFR"]
+        },
+        {
+            "id": "n5",
+            "predicate": "determined_by_procedure",
+            "args": ["AFR"]
+        },
+        {
+            "id": "n6",
             "predicate": "acceptable",
             "args": ["CGG"]
         },
         {
-            "id": "n5",
+            "id": "n7",
             "predicate": "interpreted_as",
             "args": ["CGG", "AFR"]
         },
         {
-            "id": "n6",
-            "predicate": "assert",
-            "args": ["DRW", "CGG"]
-        },
-        {
-            "id": "n7",
-            "predicate": "authority_regard",
-            "args": ["DRW", "CGG"]
-        },
-        {
             "id": "n8",
+            "predicate": "authority_to",
+            "args": ["DRW", "CGG"]
+        },
+        {
+            "id": "n9",
+            "predicate": "determine",
+            "args": ["DRW", "CGG"]
+        },
+        {
+            "id": "n10",
+            "predicate": "determined_by_authority",
+            "args": ["CGG"]
+        },
+        {
+            "id": "n11",
+            "predicate": "determined_by_procedure",
+            "args": ["CGG"]
+        },
+        {
+            "id": "n12",
             "predicate": "acceptable",
             "args": ["RWW"]
         },
@@ -60,41 +80,61 @@
         {
             "id": "e1",
             "from": "n2",
-            "to": "z1"
+            "to": "n4"
         },
         {
             "id": "e2",
             "from": "n3",
-            "to": "z1"
+            "to": "n4"
         },
         {
             "id": "e3",
-            "from": "n4",
-            "to": "z2"
+            "from": "n5",
+            "to": "z1"
         },
         {
             "id": "e4",
-            "from": "n5",
-            "to": "z2"
+            "from": "n4",
+            "to": "z1"
         },
         {
             "id": "e5",
             "from": "n6",
-            "to": "n4"
+            "to": "z2"
         },
         {
             "id": "e6",
             "from": "n7",
-            "to": "n4"
+            "to": "z2"
+        },
+        {
+            "id": "e7",
+            "from": "n8",
+            "to": "n10"
+        },
+        {
+            "id": "e8",
+            "from": "n9",
+            "to": "n10"
+        },
+        {
+            "id": "e9",
+            "from": "n11",
+            "to": "n6"
+        },
+        {
+            "id": "e10",
+            "from": "n10",
+            "to": "n6"
         },
         {
             "id": "l1",
-            "from": "n7",
+            "from": "n11",
             "to": "c1"
         },
         {
             "id": "l2",
-            "from": "n8",
+            "from": "n12",
             "to": "c1"
         },
         {
@@ -136,8 +176,10 @@
             "idiom_id": "I07",
             "node_map": {
                 "C": "z1",
-                "P1": "n3",
-                "P2": "n2"
+                "P1": "n2",
+                "P2": "n3",
+                "M": "n4",
+                "P3": "n5"
             }
         },
         {
@@ -145,17 +187,19 @@
             "idiom_id": "I08",
             "node_map": {
                 "C": "z2",
-                "P1": "n4",
-                "P2": "n5"
+                "P1": "n6",
+                "P2": "n7"
             }
         },
         {
             "id": "i3",
             "idiom_id": "I07",
             "node_map": {
-                "C": "n4",
-                "P1": "n7",
-                "P2": "n6"
+                "C": "n6",
+                "P1": "n8",
+                "P2": "n9",
+                "M": "n10",
+                "P3": "n11"
             }
         }
     ],

@@ -7,66 +7,46 @@
         },
         {
             "id": "n2",
-            "predicate": "authority_regard",
+            "predicate": "knowledgeable_about",
             "args": ["MPE", "SUN"]
         },
         {
             "id": "n3",
-            "predicate": "assert",
+            "predicate": "believe",
             "args": ["MPE", "SUN"]
         },
         {
             "id": "n4",
-            "predicate": "knowledgeable_about",
-            "args": ["MPE", "SUN"]
-        },
-        {
-            "id": "n5",
-            "predicate": "believe",
-            "args": ["MPE", "SUN"]
-        },
-        {
-            "id": "n6",
             "predicate": "honest",
             "args": ["MPE"]
         },
         {
-            "id": "n7",
+            "id": "n5",
             "predicate": "assert",
             "args": ["MPE", "SUN"]
         },
         {
-            "id": "n8",
+            "id": "n6",
             "predicate": "acceptable",
             "args": ["NSU"]
         },
         {
-            "id": "n9",
-            "predicate": "authority_regard",
-            "args": ["MST", "NSU"]
-        },
-        {
-            "id": "n10",
-            "predicate": "assert",
-            "args": ["MST", "NSU"]
-        },
-        {
-            "id": "n11",
+            "id": "n7",
             "predicate": "knowledgeable_about",
             "args": ["MST", "NSU"]
         },
         {
-            "id": "n12",
+            "id": "n8",
             "predicate": "believe",
             "args": ["MST", "NSU"]
         },
         {
-            "id": "n13",
+            "id": "n9",
             "predicate": "honest",
             "args": ["MST"]
         },
         {
-            "id": "n14",
+            "id": "n10",
             "predicate": "assert",
             "args": ["MST", "NSU"]
         },
@@ -79,17 +59,17 @@
     "edges": [
         {
             "id": "e1",
-            "from": "n2",
-            "to": "n1"
+            "from": "n1",
+            "to": "n3"
         },
         {
             "id": "e2",
-            "from": "n3",
-            "to": "n1"
+            "from": "n2",
+            "to": "n3"
         },
         {
             "id": "e3",
-            "from": "n1",
+            "from": "n3",
             "to": "n5"
         },
         {
@@ -99,43 +79,23 @@
         },
         {
             "id": "e5",
-            "from": "n5",
-            "to": "n7"
+            "from": "n6",
+            "to": "n8"
         },
         {
             "id": "e6",
-            "from": "n6",
-            "to": "n7"
+            "from": "n7",
+            "to": "n8"
         },
         {
             "id": "e7",
-            "from": "n9",
-            "to": "n8"
+            "from": "n8",
+            "to": "n10"
         },
         {
             "id": "e8",
-            "from": "n10",
-            "to": "n8"
-        },
-        {
-            "id": "e9",
-            "from": "n8",
-            "to": "n12"
-        },
-        {
-            "id": "e10",
-            "from": "n11",
-            "to": "n12"
-        },
-        {
-            "id": "e11",
-            "from": "n12",
-            "to": "n14"
-        },
-        {
-            "id": "e12",
-            "from": "n13",
-            "to": "n14"
+            "from": "n9",
+            "to": "n10"
         },
         {
             "id": "l1",
@@ -144,7 +104,7 @@
         },
         {
             "id": "l2",
-            "from": "n8",
+            "from": "n6",
             "to": "c1"
         }
     ],
@@ -169,42 +129,24 @@
     "instances": [
         {
             "id": "i1",
-            "idiom_id": "I07",
+            "idiom_id": "I06",
             "node_map": {
                 "C": "n1",
                 "P1": "n2",
-                "P2": "n3"
+                "M": "n3",
+                "P2": "n4",
+                "P3": "n5"
             }
         },
         {
             "id": "i2",
             "idiom_id": "I06",
             "node_map": {
-                "C": "n1",
-                "P1": "n4",
-                "M": "n5",
-                "P2": "n6",
-                "P3": "n7"
-            }
-        },
-        {
-            "id": "i3",
-            "idiom_id": "I07",
-            "node_map": {
-                "C": "n8",
-                "P1": "n9",
-                "P2": "n10"
-            }
-        },
-        {
-            "id": "i4",
-            "idiom_id": "I06",
-            "node_map": {
-                "C": "n8",
-                "P1": "n11",
-                "M": "n12",
-                "P2": "n13",
-                "P3": "n14"
+                "C": "n6",
+                "P1": "n7",
+                "M": "n8",
+                "P2": "n9",
+                "P3": "n10"
             }
         }
     ],

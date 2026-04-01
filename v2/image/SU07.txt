@@ -4,7 +4,5 @@ Proposition NSU: School uniforms are not necessary.
 Person(s) MPE: most parents and educators
 Person(s) MST: most students
 [instances]
-red: I07 From Source Authority
+red: I06 From Source Knowledge
 blue: I06 From Source Knowledge
-green: I07 From Source Authority
-orange: I06 From Source Knowledge

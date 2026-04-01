@@ -17,46 +17,56 @@
         },
         {
             "id": "n4",
-            "predicate": "authority_regard",
+            "predicate": "authority_to",
             "args": ["SAU", "WRM"]
         },
         {
             "id": "n5",
-            "predicate": "assert",
+            "predicate": "determine",
             "args": ["SAU", "WRM"]
         },
         {
             "id": "n6",
+            "predicate": "determined_by_authority",
+            "args": ["WRM"]
+        },
+        {
+            "id": "n7",
+            "predicate": "determined_by_procedure",
+            "args": ["WRM"]
+        },
+        {
+            "id": "n8",
             "predicate": "acceptable",
             "args": ["RIG"]
         },
         {
-            "id": "n7",
+            "id": "n9",
             "predicate": "violate",
             "args": ["EGC", "RIG"]
         },
         {
-            "id": "n8",
+            "id": "n10",
             "predicate": "interpreted_as",
             "args": ["WRM", "RIG"]
         },
         {
-            "id": "n9",
+            "id": "n11",
             "predicate": "acceptable",
             "args": ["EGC"]
         },
         {
-            "id": "n10",
+            "id": "n12",
             "predicate": "acceptable",
             "args": ["RMO"]
         },
         {
-            "id": "n11",
+            "id": "n13",
             "predicate": "follow",
             "args": ["EGC", "RMO"]
         },
         {
-            "id": "n12",
+            "id": "n14",
             "predicate": "interpreted_as",
             "args": ["WRM", "RMO"]
         },
@@ -90,52 +100,62 @@
         {
             "id": "e3",
             "from": "n4",
-            "to": "n2"
+            "to": "n6"
         },
         {
             "id": "e4",
             "from": "n5",
-            "to": "n2"
+            "to": "n6"
         },
         {
             "id": "e5",
-            "from": "n6",
-            "to": "z2"
+            "from": "n7",
+            "to": "n2"
         },
         {
             "id": "e6",
-            "from": "n7",
-            "to": "z2"
+            "from": "n6",
+            "to": "n2"
         },
         {
             "id": "e7",
-            "from": "n2",
-            "to": "n6"
+            "from": "n8",
+            "to": "z2"
         },
         {
             "id": "e8",
-            "from": "n8",
-            "to": "n6"
+            "from": "n9",
+            "to": "z2"
         },
         {
             "id": "e9",
-            "from": "n10",
-            "to": "n9"
+            "from": "n2",
+            "to": "n8"
         },
         {
             "id": "e10",
-            "from": "n11",
-            "to": "n9"
+            "from": "n10",
+            "to": "n8"
         },
         {
             "id": "e11",
-            "from": "n2",
-            "to": "n10"
+            "from": "n12",
+            "to": "n11"
         },
         {
             "id": "e12",
-            "from": "n12",
-            "to": "n10"
+            "from": "n13",
+            "to": "n11"
+        },
+        {
+            "id": "e13",
+            "from": "n2",
+            "to": "n12"
+        },
+        {
+            "id": "e14",
+            "from": "n14",
+            "to": "n12"
         },
         {
             "id": "l1",
@@ -144,7 +164,7 @@
         },
         {
             "id": "l2",
-            "from": "n9",
+            "from": "n11",
             "to": "c1"
         },
         {
@@ -196,7 +216,9 @@
             "node_map": {
                 "C": "n2",
                 "P1": "n4",
-                "P2": "n5"
+                "P2": "n5",
+                "M": "n6",
+                "P3": "n7"
             }
         },
         {
@@ -204,35 +226,35 @@
             "idiom_id": "I04",
             "node_map": {
                 "C": "z2",
-                "P1": "n6",
-                "P2": "n7"
+                "P1": "n8",
+                "P2": "n9"
             }
         },
         {
             "id": "i4",
             "idiom_id": "I08",
             "node_map": {
-                "C": "n6",
+                "C": "n8",
                 "P1": "n2",
-                "P2": "n8"
+                "P2": "n10"
             }
         },
         {
             "id": "i5",
             "idiom_id": "I03",
             "node_map": {
-                "C": "n9",
-                "P1": "n10",
-                "P2": "n11"
+                "C": "n11",
+                "P1": "n12",
+                "P2": "n13"
             }
         },
         {
             "id": "i6",
             "idiom_id": "I08",
             "node_map": {
-                "C": "n10",
+                "C": "n12",
                 "P1": "n2",
-                "P2": "n12"
+                "P2": "n14"
             }
         }
     ],

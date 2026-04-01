@@ -12,101 +12,121 @@
         },
         {
             "id": "n3",
-            "predicate": "authority_regard",
+            "predicate": "authority_to",
             "args": ["FAU", "NDL"]
         },
         {
             "id": "n4",
-            "predicate": "assert",
+            "predicate": "determine",
             "args": ["FAU", "NDL"]
         },
         {
             "id": "n5",
-            "predicate": "acceptable",
-            "args": ["CDL"]
+            "predicate": "determined_by_authority",
+            "args": ["NDL"]
         },
         {
             "id": "n6",
-            "predicate": "interpreted_as",
-            "args": ["NDL", "CDL"]
+            "predicate": "determined_by_procedure",
+            "args": ["NDL"]
         },
         {
             "id": "n7",
             "predicate": "acceptable",
-            "args": ["IDP"]
+            "args": ["CDL"]
         },
         {
             "id": "n8",
+            "predicate": "interpreted_as",
+            "args": ["NDL", "CDL"]
+        },
+        {
+            "id": "n9",
+            "predicate": "acceptable",
+            "args": ["IDP"]
+        },
+        {
+            "id": "n10",
             "predicate": "follow",
             "args": ["IDP", "CDL"]
         },
         {
-            "id": "n9",
+            "id": "n11",
             "predicate": "violate",
             "args": ["IDP", "NDL"]
         },
         {
-            "id": "n10",
+            "id": "n12",
             "predicate": "acceptable",
             "args": ["DVN"]
         },
         {
-            "id": "n11",
+            "id": "n13",
             "predicate": "acceptable",
             "args": ["EFD"]
         },
         {
-            "id": "n12",
+            "id": "n14",
             "predicate": "reason_enough",
             "args": ["EFD", "DVN"]
         },
         {
-            "id": "n13",
+            "id": "n15",
             "predicate": "acceptable",
             "args": ["EBR"]
         },
         {
-            "id": "n14",
-            "predicate": "authority_regard",
-            "args": ["EAU", "EBR"]
-        },
-        {
-            "id": "n15",
-            "predicate": "assert",
-            "args": ["EAU", "EBR"]
-        },
-        {
             "id": "n16",
+            "predicate": "authority_to",
+            "args": ["EAU", "EBR"]
+        },
+        {
+            "id": "n17",
+            "predicate": "determine",
+            "args": ["EAU", "EBR"]
+        },
+        {
+            "id": "n18",
+            "predicate": "determined_by_authority",
+            "args": ["EBR"]
+        },
+        {
+            "id": "n19",
+            "predicate": "determined_by_procedure",
+            "args": ["EBR"]
+        },
+        {
+            "id": "n20",
             "predicate": "violate",
             "args": ["IDP", "EBR"]
         },
         {
-            "id": "n17",
+            "id": "n21",
             "predicate": "acceptable",
             "args": ["DVE"]
         },
         {
-            "id": "n18",
+            "id": "n22",
             "predicate": "acceptable",
             "args": ["DPC"]
         },
         {
-            "id": "n19",
+            "id": "n23",
             "predicate": "reason_enough",
             "args": ["DPC", "DVE"]
         },
         {
-            "id": "n20",
+            "id": "n24",
             "predicate": "unacceptable",
             "args": ["DVE"]
         },
         {
-            "id": "n21",
+            "id": "n25",
             "predicate": "acceptable",
             "args": ["MSA"]
         },
         {
-            "id": "n22",
+            "id": "n26",
             "predicate": "reason_enough_not",
             "args": ["MSA", "DVE"]
         },
@@ -145,26 +165,26 @@
         {
             "id": "e1",
             "from": "n3",
-            "to": "n2"
+            "to": "n5"
         },
         {
             "id": "e2",
             "from": "n4",
-            "to": "n2"
+            "to": "n5"
         },
         {
             "id": "e3",
-            "from": "n2",
-            "to": "n5"
+            "from": "n6",
+            "to": "n2"
         },
         {
             "id": "e4",
-            "from": "n6",
-            "to": "n5"
+            "from": "n5",
+            "to": "n2"
         },
         {
             "id": "e5",
-            "from": "n5",
+            "from": "n2",
             "to": "n7"
         },
         {
@@ -174,63 +194,83 @@
         },
         {
             "id": "e7",
+            "from": "n7",
+            "to": "n9"
+        },
+        {
+            "id": "e8",
+            "from": "n10",
+            "to": "n9"
+        },
+        {
+            "id": "e9",
             "from": "n2",
             "to": "z1"
         },
         {
-            "id": "e8",
-            "from": "n9",
+            "id": "e10",
+            "from": "n11",
             "to": "z1"
         },
         {
-            "id": "e9",
-            "from": "n11",
-            "to": "n10"
-        },
-        {
-            "id": "e10",
-            "from": "n12",
-            "to": "n10"
-        },
-        {
             "id": "e11",
-            "from": "n14",
-            "to": "n13"
+            "from": "n13",
+            "to": "n12"
         },
         {
             "id": "e12",
-            "from": "n15",
-            "to": "n13"
+            "from": "n14",
+            "to": "n12"
         },
         {
             "id": "e13",
-            "from": "n13",
-            "to": "z2"
+            "from": "n16",
+            "to": "n18"
         },
         {
             "id": "e14",
-            "from": "n16",
-            "to": "z2"
+            "from": "n17",
+            "to": "n18"
         },
         {
             "id": "e15",
-            "from": "n18",
-            "to": "n17"
+            "from": "n19",
+            "to": "n15"
         },
         {
             "id": "e16",
-            "from": "n19",
-            "to": "n17"
+            "from": "n18",
+            "to": "n15"
         },
         {
             "id": "e17",
-            "from": "n21",
-            "to": "n20"
+            "from": "n15",
+            "to": "z2"
         },
         {
             "id": "e18",
+            "from": "n20",
+            "to": "z2"
+        },
+        {
+            "id": "e19",
             "from": "n22",
-            "to": "n20"
+            "to": "n21"
+        },
+        {
+            "id": "e20",
+            "from": "n23",
+            "to": "n21"
+        },
+        {
+            "id": "e21",
+            "from": "n25",
+            "to": "n24"
+        },
+        {
+            "id": "e22",
+            "from": "n26",
+            "to": "n24"
         },
         {
             "id": "l1",
@@ -239,37 +279,37 @@
         },
         {
             "id": "l2",
-            "from": "n7",
+            "from": "n9",
             "to": "c1"
         },
         {
             "id": "l3",
-            "from": "n9",
+            "from": "n11",
             "to": "c2"
         },
         {
             "id": "l4",
-            "from": "n10",
+            "from": "n12",
             "to": "c2"
         },
         {
             "id": "l5",
-            "from": "n16",
+            "from": "n20",
             "to": "c3"
         },
         {
             "id": "l6",
-            "from": "n17",
+            "from": "n21",
             "to": "c3"
         },
         {
             "id": "l7",
-            "from": "n16",
+            "from": "n20",
             "to": "c4"
         },
         {
             "id": "l8",
-            "from": "n20",
+            "from": "n24",
             "to": "c4"
         },
         {
@@ -336,25 +376,27 @@
             "node_map": {
                 "C": "n2",
                 "P1": "n3",
-                "P2": "n4"
+                "P2": "n4",
+                "M": "n5",
+                "P3": "n6"
             }
         },
         {
             "id": "i2",
             "idiom_id": "I08",
             "node_map": {
-                "C": "n5",
+                "C": "n7",
                 "P1": "n2",
-                "P2": "n6"
+                "P2": "n8"
             }
         },
         {
             "id": "i3",
             "idiom_id": "I03",
             "node_map": {
-                "C": "n7",
-                "P1": "n5",
-                "P2": "n8"
+                "C": "n9",
+                "P1": "n7",
+                "P2": "n10"
             }
         },
         {
@@ -363,25 +405,27 @@
             "node_map": {
                 "C": "z1",
                 "P1": "n2",
-                "P2": "n9"
+                "P2": "n11"
             }
         },
         {
             "id": "i5",
             "idiom_id": "I23b",
             "node_map": {
-                "C": "n10",
-                "P1": "n11",
-                "P2": "n12"
+                "C": "n12",
+                "P1": "n13",
+                "P2": "n14"
             }
         },
         {
             "id": "i6",
             "idiom_id": "I07",
             "node_map": {
-                "C": "n13",
-                "P1": "n14",
-                "P2": "n15"
+                "C": "n15",
+                "P1": "n16",
+                "P2": "n17",
+                "M": "n18",
+                "P3": "n19"
             }
         },
         {
@@ -389,26 +433,26 @@
             "idiom_id": "I04",
             "node_map": {
                 "C": "z2",
-                "P1": "n13",
-                "P2": "n16"
+                "P1": "n15",
+                "P2": "n20"
             }
         },
         {
             "id": "i8",
             "idiom_id": "I23b",
             "node_map": {
-                "C": "n17",
-                "P1": "n18",
-                "P2": "n19"
+                "C": "n21",
+                "P1": "n22",
+                "P2": "n23"
             }
         },
         {
             "id": "i9",
             "idiom_id": "I24b",
             "node_map": {
-                "C": "n20",
-                "P1": "n21",
-                "P2": "n22"
+                "C": "n24",
+                "P1": "n25",
+                "P2": "n26"
             }
         }
     ],

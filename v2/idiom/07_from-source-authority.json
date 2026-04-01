@@ -6,16 +6,30 @@
         {
             "id": "P1",
             "type": "premise",
-            "proposition": "$S has authority regarding $X.",
-            "predicate": "authority_regard",
+            "proposition": "$S has the authority to determine $X.",
+            "predicate": "authority_to",
             "args": ["S", "X"]
         },
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$S asserts $X.",
-            "predicate": "assert",
+            "proposition": "$S determined $X.",
+            "predicate": "determine",
             "args": ["S", "X"]
+        },
+        {
+            "id": "M",
+            "type": "intermediate",
+            "proposition": "$X was determined by a competent authority.",
+            "predicate": "determined_by_authority",
+            "args": ["X"]
+        },
+        {
+            "id": "P3",
+            "type": "premise",
+            "proposition": "$X was determined through the correct procedure.",
+            "predicate": "determined_by_procedure",
+            "args": ["X"]
         },
         {
             "id": "C",
@@ -29,11 +43,21 @@
         {
             "id": "E1",
             "from": "P1",
-            "to": "C"
+            "to": "M"
         },
         {
             "id": "E2",
             "from": "P2",
+            "to": "M"
+        },
+        {
+            "id": "E2",
+            "from": "P3",
+            "to": "C"
+        },
+        {
+            "id": "E2",
+            "from": "M",
             "to": "C"
         }
     ]
