@@ -8,7 +8,7 @@ Proposition DPD: Introducing the death penalty deters crime.
 Thing(s) RST: recent studies
 Proposition RSC: Recent studies contain numerous technical and conceptual errors.
 Proposition DPN: Introducing the death penalty does not deter crime.
-Person(s) CRM: Criminologists
+Person(s) CRM: criminologists
 [instances]
 red: I01 From Consequence
 blue: I23b Support Default Inference
