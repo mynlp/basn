@@ -143,6 +143,7 @@
         {
             "id": "i4",
             "idiom_id": "I19a",
+            "usage": "selection by elimination",
             "node_map": {
                 "C": "n2",
                 "P1": "n9",

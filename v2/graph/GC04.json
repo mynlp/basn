@@ -280,6 +280,7 @@
         {
             "id": "i4",
             "idiom_id": "I19a",
+            "usage": "elimination by selection",
             "node_map": {
                 "C": "n4",
                 "P1": "n9",
