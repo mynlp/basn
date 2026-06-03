@@ -5,9 +5,9 @@
     "nodes": [
         {
             "id": "C",
-            "proposition": "$X is acceptable.",
+            "proposition": "$X is true.",
             "type": "conclusion",
-            "predicate": "acceptable",
+            "predicate": "true",
             "args": ["X"]
         },
         {

@@ -32,7 +32,7 @@
         },
         {
             "id": "n7",
-            "predicate": "acceptable",
+            "predicate": "true",
             "args": ["SGL"]
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "id": "n15",
-            "predicate": "acceptable",
+            "predicate": "true",
             "args": ["GLR"]
         },
         {

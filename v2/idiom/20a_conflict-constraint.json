@@ -20,7 +20,7 @@
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$X should be brought about (to be false).",
+            "proposition": "$X should not be brought about.",
             "predicate": "bring_about",
             "args": ["X"]
         }

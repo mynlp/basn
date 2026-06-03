@@ -13,16 +13,16 @@
         {
             "id": "P2",
             "type": "premise",
-            "proposition": "$X is acceptable.",
+            "proposition": "$Y is acceptable.",
             "predicate": "acceptable",
-            "args": ["X"]
+            "args": ["Y"]
         },
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$Y is acceptable.",
+            "proposition": "$X is acceptable.",
             "predicate": "acceptable",
-            "args": ["Y"]
+            "args": ["X"]
         }
     ],
     "edges": [

@@ -2,7 +2,7 @@
     "nodes": [
         {
             "id": "n1",
-            "predicate": "acceptable",
+            "predicate": "true",
             "args": ["NPS"]
         },
         {

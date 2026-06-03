@@ -9,7 +9,7 @@ PREDICATES_ARGNUMS = {
     "knowledgeable_about": 2, "believe": 2, "honest": 1, "assert": 2,
     "authority_to": 2, "determine": 2, "determined_by_authority": 1, "determined_by_procedure": 1,
     "correlate": 2, "no_confounders_between": 2, "occur_after": 2, "interpreted_as": 2,
-    "observed": 1, "if_then": 2, "if_then_not": 2, "example_of": 2,
+    "true": 1, "observed": 1, "if_then": 2, "if_then_not": 2, "example_of": 2,
     "is": 2, "have": 2, "fit": 2, "defined_as": 2, "good": 1, "bad": 1,
     "either": 2, "accept_or_unaccept": 1, "conflict": 2, "contradict": 0, "consistent": 2, "better_than": 2,
     "reason_enough": 2, "reason_enough_not": 2,

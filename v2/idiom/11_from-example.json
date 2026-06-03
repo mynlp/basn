@@ -6,8 +6,8 @@
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$X is acceptable.",
-            "predicate": "acceptable",
+            "proposition": "$X is true.",
+            "predicate": "true",
             "args": ["Y"]
         },
         {

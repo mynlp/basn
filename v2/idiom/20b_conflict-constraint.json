@@ -20,8 +20,8 @@
         {
             "id": "C",
             "type": "conclusion",
-            "proposition": "$X is acceptable (to be false).",
-            "predicate": "acceptable",
+            "proposition": "$X is unacceptable.",
+            "predicate": "unacceptable",
             "args": ["X"]
         }
     ],
