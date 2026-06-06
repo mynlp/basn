@@ -12,4 +12,3 @@ blue: I23b Support Default Inference
 green: I01 From Consequence
 orange: I02 Cause to Effect
 darkgreen: I02 Cause to Effect
-purple: I20a Conflict Constraint

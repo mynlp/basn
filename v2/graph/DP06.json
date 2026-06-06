@@ -76,11 +76,6 @@
             "args": ["HPR", "HCR"]
         },
         {
-            "id": "n14",
-            "predicate": "conflict",
-            "args": ["DSR", "DSR"]
-        },
-        {
             "id": "c1",
             "predicate": "consistent_link",
             "args": []
@@ -88,6 +83,11 @@
         {
             "id": "c2",
             "predicate": "consistent_link",
+            "args": []
+        },
+        {
+            "id": "c3",
+            "predicate": "conflict_link",
             "args": []
         }
     ],
@@ -143,19 +143,9 @@
             "to": "n10"
         },
         {
-            "id": "e11",
-            "from": "z1",
-            "to": "n14"
-        },
-        {
-            "id": "e12",
-            "from": "z2",
-            "to": "n14"
-        },
-        {
-            "id": "o1",
-            "from": "z1",
-            "to": "n8"
+            "id": "l1",
+            "from": "n3",
+            "to": "c1"
         },
         {
             "id": "l2",
@@ -173,14 +163,24 @@
             "to": "c2"
         },
         {
-            "id": "o2",
+            "id": "l5",
+            "from": "z1",
+            "to": "c3"
+        },
+        {
+            "id": "l6",
             "from": "z2",
+            "to": "c3"
+        },
+        {
+            "id": "o1",
+            "from": "z1",
             "to": "n8"
         },
         {
-            "id": "l1",
-            "from": "n3",
-            "to": "c1"
+            "id": "o2",
+            "from": "z2",
+            "to": "n8"
         }
     ],
     "variables": {
@@ -259,15 +259,6 @@
                 "P1": "n12",
                 "P2": "n13"
             }
-        },
-        {
-            "id": "i6",
-            "idiom_id": "I20a",
-            "node_map": {
-                "C": "z1",
-                "P1": "n14",
-                "P2": "z2"
-            }
         }
     ],
     "non_idiom": {
@@ -281,6 +272,12 @@
             "type": "link"
         },
         "l4": {
+            "type": "link"
+        },
+        "l5": {
+            "type": "link"
+        },
+        "l6": {
             "type": "link"
         },
         "o1": {
