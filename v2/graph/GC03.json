@@ -124,6 +124,7 @@
         {
             "id": "i2",
             "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n4",
                 "P1": "n5",

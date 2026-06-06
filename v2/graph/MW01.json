@@ -203,6 +203,7 @@
         {
             "id": "i4",
             "idiom_id": "I01",
+            "usage": "negative consequence",
             "node_map": {
                 "C": "n6",
                 "P1": "z2",
