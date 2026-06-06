@@ -8,7 +8,7 @@
             "type": "conclusion",
             "proposition": "$X is true.",
             "predicate": "true",
-            "args": ["Y"]
+            "args": ["X"]
         },
         {
             "id": "P1",

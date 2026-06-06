@@ -8,14 +8,14 @@
             "type": "premise",
             "proposition": "$R is acceptable.",
             "predicate": "acceptable",
-            "args": ["Y"]
+            "args": ["R"]
         },
         {
             "id": "P2",
             "type": "premise",
             "proposition": "$X violates $R.",
             "predicate": "violate",
-            "args": ["X", "Y"]
+            "args": ["X", "R"]
         },
         {
             "id": "C",
